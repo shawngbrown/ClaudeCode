@@ -63,11 +63,11 @@
         "Sales Tax Permit / Sales Tax Filings (if selling taxable goods or services)": [
           "Tex. Tax Code Chapter 151 (Limited Sales, Excise, and Use Tax) -- applies to any seller of taxable goods or services regardless of entity type, including a sole proprietorship."
         ],
-        "Workers' Compensation Policy (elective in Texas for most private employers -- see document_citations)": [
-          "Tex. Labor Code Section 406.002 -- Texas is the only state in the country where workers' compensation coverage is elective, not mandatory, for most private employers. CONFIRMED 2026-08-30 across multiple independent sources. An employer who opts out ('non-subscriber') must notify the Texas Division of Workers' Compensation (Section 406.004) and notify employees (Section 406.005), and forfeits certain common-law defenses in the event of a workplace injury lawsuit. EXCEPTION: coverage is mandatory for government building/construction contracts under Section 406.096. This same elective-not-mandatory status applies to every other entity-type file already built in this dataset (corporation, llc, nonprofit, pllc, pa, pc) -- none of those files currently carry this citation/caveat and are candidates for a follow-up correction."
-        ],
         "Texas Business & Commerce Code Chapter 71 Compliance (Assumed Name filing, if applicable)": [
           "Same Chapter 71 basis as the Assumed Name Certificate entry above -- listed again under statutory for visibility in that category's context."
+        ],
+        "Workers' Compensation Policy": [
+          "ref:tex-labor-code-406-002-workers-comp-elective"
         ]
       }
     }

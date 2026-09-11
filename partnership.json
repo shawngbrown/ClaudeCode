@@ -93,7 +93,7 @@
           "Tex. Bus. Orgs. Code Section 152.801 (election to register) and Section 152.802 (registration filing with the Secretary of State, including a required brief statement of the partnership's business and partner count). If this election is made, the partnership becomes subject to llp.json's requirements instead of this file's, including a registered agent requirement that a plain general partnership does not have."
         ],
         "Workers' Compensation Policy": [
-          "Tex. Labor Code Section 406.002 -- Texas is the only state in the country where workers' compensation coverage is elective, not mandatory, for most private employers. An employer who opts out ('non-subscriber') must notify the Texas Division of Workers' Compensation (Section 406.004) and notify employees (Section 406.005), and forfeits certain common-law defenses in the event of a workplace injury lawsuit. EXCEPTION: coverage is mandatory for government building/construction contracts under Section 406.096."
+          "ref:tex-labor-code-406-002-workers-comp-elective"
         ]
       }
     }

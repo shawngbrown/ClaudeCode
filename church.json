@@ -148,7 +148,7 @@
           "IRC Section 107 -- the parsonage/housing allowance exclusion for ministers, a well-established and longstanding provision. Note (not independently re-verified in this specific research pass, based on well-established general knowledge): clergy are commonly treated as employees for federal income tax withholding purposes but as self-employed for Social Security/Medicare (SECA) tax purposes -- a dual-status arrangement genuinely unique to clergy compensation. Flag for a dedicated verification pass if this needs the same primary-source confirmation standard as the rest of this file."
         ],
         "Workers' Compensation Policy": [
-          "Tex. Labor Code Section 406.002 -- Texas is the only state in the country where workers' compensation coverage is elective, not mandatory, for most private employers. An employer who opts out ('non-subscriber') must notify the Texas Division of Workers' Compensation (Section 406.004) and notify employees (Section 406.005), and forfeits certain common-law defenses in the event of a workplace injury lawsuit. EXCEPTION: coverage is mandatory for government building/construction contracts under Section 406.096. Same citation already confirmed across every other entity file in this dataset."
+          "ref:tex-labor-code-406-002-workers-comp-elective"
         ]
       }
     }

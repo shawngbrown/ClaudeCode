@@ -138,7 +138,7 @@
           "Tex. Bus. Orgs. Code Section 301.001(a) confirms Title 7 (including Chapter 301's ownership/licensing restrictions) applies to professional corporations, professional associations, and PLLCs alike -- explicitly excluding partnerships and LLPs (Section 301.001(c)). Section 301.007's individual-licensing requirement for owners/officers, already used in pllc.json, applies here the same way."
         ],
         "Workers' Compensation Policy": [
-          "Tex. Labor Code Section 406.002 -- Texas is the only state in the country where workers' compensation coverage is elective, not mandatory, for most private employers. An employer who opts out ('non-subscriber') must notify the Texas Division of Workers' Compensation (Section 406.004) and notify employees (Section 406.005), and forfeits certain common-law defenses in the event of a workplace injury lawsuit. EXCEPTION: coverage is mandatory for government building/construction contracts under Section 406.096. CONFIRMED 2026-08-30 across multiple independent sources; added retroactively as a batch correction across all deployed entity-type files that list this document type."
+          "ref:tex-labor-code-406-002-workers-comp-elective"
         ]
       }
     }

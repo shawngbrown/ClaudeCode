@@ -98,7 +98,7 @@
           "Tex. Tax Code Section 171.0002(b)(2) explicitly excludes limited liability partnerships from the general-partnership natural-person-ownership exemption. Unlike partnership.json's conditional treatment, an LLP is always a taxable entity regardless of partner composition. CONFIRMED 2026-08-30 via the Texas Comptroller's own franchise tax publications."
         ],
         "Workers' Compensation Policy": [
-          "Tex. Labor Code Section 406.002 -- Texas is the only state in the country where workers' compensation coverage is elective, not mandatory, for most private employers. An employer who opts out ('non-subscriber') must notify the Texas Division of Workers' Compensation (Section 406.004) and notify employees (Section 406.005), and forfeits certain common-law defenses in the event of a workplace injury lawsuit. EXCEPTION: coverage is mandatory for government building/construction contracts under Section 406.096."
+          "ref:tex-labor-code-406-002-workers-comp-elective"
         ]
       }
     }
