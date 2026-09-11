@@ -46,6 +46,50 @@ add_action( 'init', 'ddv_register_reference_fact_cpt' );
 // ─────────────────────────────────────────────
 // REGISTER META FIELDS (each exposed via REST automatically)
 // ─────────────────────────────────────────────
+// ─────────────────────────────────────────────
+// CITATION REFERENCE RESOLVER
+//
+// document_citations arrays (in the entity/industry JSON data files)
+// can now contain either:
+//   - a raw citation string (legacy shape, unchanged) -- returned as-is
+//   - a reference marker "ref:{fact-slug}" -- resolved here by looking
+//     up the matching ddv_reference_fact post and returning its
+//     'citation' meta value, so the display text is never just a bare
+//     slug string.
+//
+// Backward-compatible by design: nothing that already works needs to
+// change until a given citation entry is deliberately migrated to the
+// ref: form.
+// ─────────────────────────────────────────────
+function ddv_resolve_citation_ref( $citation ) {
+    if ( ! is_string( $citation ) || strpos( $citation, 'ref:' ) !== 0 ) {
+        return $citation; // not a reference marker -- return unchanged
+    }
+
+    $slug = substr( $citation, 4 );
+    $post = get_page_by_path( $slug, OBJECT, 'ddv_reference_fact' );
+
+    if ( ! $post ) {
+        // Fact not found (bad slug, or fact deleted) -- fail loud in the
+        // display rather than silently, so a broken reference gets caught.
+        return '[unresolved reference: ' . esc_html( $slug ) . ']';
+    }
+
+    return get_post_meta( $post->ID, 'citation', true );
+}
+
+/**
+ * Resolve every entry in a document_citations[$document_type] array,
+ * so calling code never has to know whether an entry is legacy raw
+ * text or a ref: pointer.
+ */
+function ddv_resolve_citations_array( $citations ) {
+    if ( ! is_array( $citations ) ) {
+        return $citations;
+    }
+    return array_map( 'ddv_resolve_citation_ref', $citations );
+}
+
 function ddv_register_reference_fact_meta() {
     $fields = [
         'citation'       => 'string',  // e.g. "Tex. Prop. Code Sec. 209.006"
