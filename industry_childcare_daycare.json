@@ -1,0 +1,54 @@
+{
+  "industries": {
+    "childcare_daycare": {
+      "structure_note": "CONFIRMED 2026-08-30, a citation-currency note worth flagging (not a substantive risk -- clarified after review): child-care regulatory authority transferred from the Texas Department of Family and Protective Services (DFPS) to the Texas Health and Human Services Commission (HHSC) effective September 1, 2017, per Tex. Gov't Code Chapter 531. Tex. Hum. Res. Code Chapter 42 now designates HHSC as the regulating agency. As part of that reorganization, the Minimum Standards rules RELOCATED from Title 40 of the Texas Administrative Code to Title 26 -- this is a straightforward administrative relocation, not a substantive legal difference; the rule numbers and content are identical across both titles, and a Title 40 citation points to the exact same rule content, just under its retired location. The current, active citation is 26 TAC (Chapter 745 for general licensing rules, Chapter 746 for Child-Care Centers, Chapter 747 for Registered/Licensed Child-Care Homes, Chapter 744 for School-Age/Before-or-After-School Programs). Some still-circulating sources cite the older Title 40 numbering out of habit -- treat this as a stale-citation issue to clean up, not evidence of a rule conflict, and always cite Title 26 going forward for currency. Which specific Minimum Standards chapter applies depends on the operation TYPE (Center, Home, Registered Home, Listed Family Home, School-Age Program) -- this file focuses primarily on the Chapter 746 (Child-Care Center) shape, the most common commercial operation type, while the underlying licensing statute (Chapter 42) and background-check requirements apply across all types.",
+      "categories": {
+        "licensing_operation_type": [
+          "Child Care License (HHSC Child Care Regulation)",
+          "Pre-Licensing Application & Disclosure Forms",
+          "Local Fire Clearance",
+          "Local Health Department Inspection (facility)",
+          "HHSC Pre-Licensing Site Visit Record"
+        ],
+        "background_checks_staff_qualifications": [
+          "Background Check / Fingerprinting Records (Owner, Director, All Staff with Child Contact)",
+          "Director Qualification Verification (education/experience/background clearance)",
+          "Caregiver/Staff Training Records",
+          "CPR/First Aid Certification Records"
+        ],
+        "ratios_facility_compliance": [
+          "Staff-to-Child Ratio Compliance Log",
+          "Group Size Compliance Records",
+          "Indoor/Outdoor Space Compliance Documentation",
+          "Water Safety Plan (if applicable)"
+        ],
+        "child_records_parent_communication": [
+          "Child Immunization Records",
+          "Child Enrollment/Attendance Records (date-stamped, if receiving CCDF subsidy)",
+          "Parent Rights Notification Records",
+          "Parent Communication Policy"
+        ]
+      },
+      "document_citations": {
+        "Child Care License (HHSC Child Care Regulation)": [
+          "Tex. Hum. Res. Code Chapter 42 (Regulation of Certain Facilities, Homes, and Agencies That Provide Child-Care Services), administered by HHSC's Child Care Regulation division since the September 1, 2017 transfer from DFPS. 26 TAC Chapter 745 sets general licensing rules; the applicable Minimum Standards chapter depends on operation type (746 for Centers, 747 for Homes, 744 for School-Age Programs). CONFIRMED 2026-08-30 directly against HHSC's own Child Care Regulation Handbook -- see structure_note: the Title 26 citation is current following an administrative relocation from the retired Title 40 numbering; the underlying rule content is identical across both, so this is a citation-currency matter, not a substantive difference."
+        ],
+        "Background Check / Fingerprinting Records (Owner, Director, All Staff with Child Contact)": [
+          "Tex. Hum. Res. Code Chapter 42 -- lists specific criminal offenses that result in automatic disqualification from child-care licensing, and a broader category of offenses subject to HHSC risk evaluation. Fingerprint-based background checks are required for the owner, director, and all staff who have contact with children, as part of the licensing application process."
+        ],
+        "Staff-to-Child Ratio Compliance Log": [
+          "26 TAC Chapter 746 (Minimum Standards for Child-Care Centers) -- confirmed ratios: infants under 18 months, 1:4; toddlers 18-36 months, 1:11; preschool age 3-5 years, 1:12; school-age, 1:15. The same ratio applies both indoors and outdoors -- Texas does not use a separate, more lenient outdoor multiplier the way some other states do. CONFIRMED 2026-08-30 across multiple independent sources."
+        ],
+        "Group Size Compliance Records": [
+          "26 TAC Section 746.1607 -- group size is capped at up to 35 children, as a hard ceiling independent of staffing level. Adding a second caregiver to a room does NOT raise this cap -- ratio compliance and group-size compliance are two separate, independently-enforced requirements."
+        ],
+        "Indoor/Outdoor Space Compliance Documentation": [
+          "26 TAC Sections 746.4203 and 746.4305 -- minimum 30 square feet of usable indoor space per child, and minimum 80 square feet of outdoor space per child using the outdoor area at any one time, with total outdoor space equal to at least 25% of the center's total indoor licensed capacity."
+        ],
+        "Child Enrollment/Attendance Records (date-stamped, if receiving CCDF subsidy)": [
+          "A federal CCDBG (Child Care and Development Block Grant) final rule requires verifiable, date-stamped attendance records for each subsidized child. In Texas, CCDF subsidy allocation and administration runs through the Texas Workforce Commission's local Workforce Development Boards, a separate track from HHSC's licensing function -- this requirement applies only to operations actually receiving CCDF subsidy payments, not to every licensed child-care operation."
+        ]
+      }
+    }
+  }
+}

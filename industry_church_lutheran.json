@@ -1,0 +1,43 @@
+{
+  "industries": {
+    "church_lutheran": {
+      "structure_note": "CONFIRMED 2026-09-04: US Lutheranism is NOT one uniform polity -- the two largest bodies differ significantly, and this file is deliberately structured around BOTH variants rather than assuming one. (1) LCMS (Lutheran Church-Missouri Synod) and WELS (Wisconsin Evangelical Lutheran Synod) are explicitly CONGREGATIONAL in polity -- confirmed directly: 'the LCMS has traditionally been congregational, as opposed to hierarchical, in its extra-congregational structure.' Elected regional (district) and national leaders are deliberately titled 'President,' never 'Bishop,' specifically to avoid any suggestion of hierarchical authority. A district president may suggest pastoral candidates but 'does not assign pastors' -- the congregation itself extends the call directly, much closer to church_baptist.json's model than to industry_church_catholic.json's. (2) ELCA (Evangelical Lutheran Church in America) is genuinely different: it describes its own polity as 'modified episcopal... with some powers reserved to the congregation as in congregationalism.' Real Bishops exist at both the Synod (regional) and Churchwide (national) levels. HOWEVER, confirmed directly via the ELCA Presiding Bishop's own official public statement: 'Congregations are where most of our power -- and notably for these purposes property -- is held. Synods play an administrative and frequently pastoral role over the congregations and Churchwide plays an administrative role over all of this... [Churchwide] doesn't actually own any churches.' This means NEITHER major US Lutheran body follows TEC's Dennis-Canon-style national/diocesan property trust claim (see industry_church_episcopal.json) -- Lutheran congregations in both major bodies own their own property directly. Do not assume a Lutheran tenant's polity without first confirming which body it belongs to (ELCA, LCMS, WELS, or a smaller independent body such as LCMC or NALC, both of which split from ELCA over polity and theological disagreements and lean even more congregational than LCMS). Lutheran sacramental theology recognizes Baptism and the Lord's Supper/Eucharist as the two primary Sacraments (holding to a 'Real Presence' view of the Eucharist, distinct from both Catholic transubstantiation and the more memorial/symbolic view common in Baptist tradition) -- this specific doctrinal framing is based on well-established general knowledge, not independently re-verified with a fresh primary-source search in this pass, unlike the polity citations above.",
+      "categories": {
+        "lutheran_polity_variant_determination": [
+          "Denominational Body Determination (ELCA vs. LCMS/WELS vs. independent Lutheran body -- polity differs significantly)"
+        ],
+        "congregational_synodical_governance": [
+          "Congregation Constitution/Bylaws",
+          "Pastor Call Letter (Direct Congregational Call)",
+          "District/Synod Affiliation Records",
+          "District President or Synod Bishop Relationship Documentation",
+          "Congregation Council / Church Council Roster"
+        ],
+        "lutheran_property_governance": [
+          "Congregation Property Ownership Documentation"
+        ],
+        "lutheran_sacramental_records": [
+          "Baptism Register",
+          "Confirmation Register",
+          "Marriage Register",
+          "Funeral/Burial Register",
+          "Certificate Issuance Log (Baptism/Confirmation/Marriage Certificates)"
+        ]
+      },
+      "document_citations": {
+        "Congregation Constitution/Bylaws": [
+          "CONFIRMED 2026-09-04: LCMS and WELS are explicitly congregational in polity, with elected leaders titled 'President' (never 'Bishop') specifically to avoid hierarchical implication. ELCA instead describes its own polity as 'modified episcopal... with some powers reserved to the congregation.' Confirm which specific body a Lutheran tenant belongs to before assuming either variant's specifics apply -- do not treat 'Lutheran' as a single uniform polity."
+        ],
+        "Pastor Call Letter (Direct Congregational Call)": [
+          "CONFIRMED 2026-09-04: unlike industry_church_catholic.json's bishop-directed clergy assignment, both major US Lutheran bodies have the congregation itself directly extend a 'call' to its own pastor. In LCMS specifically, a district president may suggest candidates from among seminary graduates but 'does not assign pastors' -- the congregation extends the call directly."
+        ],
+        "District President or Synod Bishop Relationship Documentation": [
+          "CONFIRMED 2026-09-04: LCMS/WELS district presidents function as peer advisors with no binding authority to assign pastors or control congregation decisions -- the 'President' title is a deliberate choice to avoid hierarchical/episcopal connotation. ELCA Synod Bishops hold a more administrative and pastoral oversight role under the 'modified episcopal' structure, though still without unilateral authority to assign clergy to a congregation against its will."
+        ],
+        "Congregation Property Ownership Documentation": [
+          "CONFIRMED 2026-09-04 directly via the ELCA Presiding Bishop's own official public statement: in ELCA, congregations hold 'most of our power -- and notably for these purposes property'; Synods and the Churchwide Organization play administrative/pastoral roles but 'don't actually own any churches.' LCMS and WELS congregations, consistent with their more fully congregational polity, likewise own their own property directly. Neither major US Lutheran body follows TEC's Dennis-Canon-style national/diocesan property trust claim confirmed in industry_church_episcopal.json."
+        ]
+      }
+    }
+  }
+}

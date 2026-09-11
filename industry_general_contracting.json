@@ -1,0 +1,63 @@
+{
+  "industries": {
+    "general_contracting": {
+      "structure_note": "CONFIRMED 2026-08-30: Texas has NO statewide general contractor license -- a general contractor operating in Texas is not required to hold any state-issued 'contractor' license, unlike many other states. This is a genuine structural fact, not a gap in this file. Specific TRADES are separately licensed: electrical and HVAC through the Texas Department of Licensing and Regulation (TDLR), plumbing through the Texas State Board of Plumbing Examiners (TSBPE). A general contractor who personally performs licensed-trade work, or whose entity holds itself out as performing it, needs the applicable trade license -- but 'general contracting' itself is unlicensed at the state level. Some municipalities impose their own local contractor registration requirements, which vary by city and are not captured here as a general rule. What this industry's regulatory weight actually concentrates on instead is payment protection (mechanic's liens, the Construction Trust Fund Act) and defect liability procedure (the RCLA) -- these carry real civil and, in the trust fund case, criminal exposure, and are the areas where a contractor's compliance actually matters most in Texas.",
+      "categories": {
+        "licensing_trade_compliance": [
+          "TDLR Trade License (Electrical/HVAC, if applicable)",
+          "TSBPE License (Plumbing, if applicable)",
+          "Local Municipal Contractor Registration (if required by the specific city or county)"
+        ],
+        "contract_disclosure_compliance": [
+          "Residential Construction Contract (with RCLA Notice)",
+          "Commercial Construction Contract",
+          "Change Order Documentation",
+          "Warranty Documentation"
+        ],
+        "lien_payment_protection": [
+          "Mechanic's/Materialman's Lien Affidavit",
+          "Notice of Claim for Unpaid Labor/Materials",
+          "Lien Waiver and Release",
+          "Retainage Records",
+          "Prompt Payment Act Compliance Records (private commercial projects)",
+          "Public Project Payment Bond Records (if applicable)"
+        ],
+        "construction_trust_fund_compliance": [
+          "Construction Trust Fund Account Records",
+          "Trust Fund Disbursement Records (subcontractor/supplier/laborer payments)"
+        ],
+        "defect_claims_liability": [
+          "RCLA Pre-Suit Notice Records (upon receipt of a defect claim)",
+          "RCLA Inspection and Settlement Offer Records",
+          "Certificate of Insurance (General Liability / Builder's Risk)"
+        ]
+      },
+      "document_citations": {
+        "Mechanic's/Materialman's Lien Affidavit": [
+          "Tex. Prop. Code Section 53.021 -- persons entitled to a lien include those who labor or furnish labor/materials for construction or repair, specially fabricate materials, are licensed architects/engineers/surveyors providing design services, provide landscaping labor/materials, or perform demolition labor. CONFIRMED 2026-08-30 via Texas Legislature statute text."
+        ],
+        "Notice of Claim for Unpaid Labor/Materials": [
+          "Tex. Prop. Code Section 53.056 -- a claimant other than the original contractor must send notice by a specific deadline, and that deadline genuinely differs by project type: the 15th day of the SECOND month after the month labor/materials were provided for residential construction projects, versus the 15th day of the THIRD month for non-residential projects. Getting this deadline wrong can void an otherwise valid lien claim."
+        ],
+        "Lien Waiver and Release": [
+          "Tex. Prop. Code Section 53.284 -- for contracts entered into after January 1, 2012, a lien waiver is unenforceable unless it substantially complies with the statutory form, is signed by the claimant or an authorized agent, is notarized, and (for a conditional release) is supported by evidence of actual payment. A lien foreclosure suit generally must be filed within 1 year (or 2 years if extended by agreement) after the date the lien affidavit could have been filed, or 1 year after project completion, whichever is later (Section 53.158)."
+        ],
+        "Prompt Payment Act Compliance Records (private commercial projects)": [
+          "Tex. Prop. Code Chapter 28 (Texas Prompt Payment Act) -- sets payment deadlines and interest penalties on private commercial construction projects."
+        ],
+        "Public Project Payment Bond Records (if applicable)": [
+          "Tex. Prop. Code Section 53.231, the McGregor Act (Tex. Gov't Code Chapter 2253), and the Construction Trust Fund Act (Tex. Prop. Code Chapter 162) together substitute for lien rights on public construction projects, since a lien cannot attach to public property itself. Project categories and bond requirements differ by contract value and the type of governmental entity involved."
+        ],
+        "Construction Trust Fund Account Records": [
+          "Tex. Prop. Code Chapter 162 (Construction Trust Fund Act) -- construction payments received by a contractor are trust funds held for the benefit of artisans, laborers, mechanics, subcontractors, and materialmen who furnished labor or material for the project (Section 162.003). Misapplication or misappropriation of these funds exposes the contractor to civil liability AND criminal penalties -- this is a materially higher-stakes compliance area than most document types in this dataset. A 2025 legislative change (S.B. 1612, 89th Legislature) extended trust fund protection to the 10% retainage portion of project funds, which had previously been unprotected (only the other 90% was covered)."
+        ],
+        "Residential Construction Contract (with RCLA Notice)": [
+          "Tex. Prop. Code Chapter 27 (Residential Construction Liability Act, RCLA) -- applies to new home construction and residential remodel projects (remodels under $10,000 are exempt from RCLA's pre-litigation notice requirement, though lien law protections still apply). The contract itself must contain a specific statutory notice in at least 10-point bold font. CONFIRMED 2026-08-30, most recent amendments effective September 1, 2023."
+        ],
+        "RCLA Pre-Suit Notice Records (upon receipt of a defect claim)": [
+          "Tex. Prop. Code Section 27.004 -- a homeowner must give the contractor written notice describing the defect in reasonable detail at least 60 days before filing suit, and the contractor has the right to inspect the property and offer to repair or settle. Compliance with this pre-suit process is mandatory; failure by the homeowner to follow it can limit damages or lead to abatement/dismissal of the suit. The RCLA does NOT apply to claims under Bus. & Com. Code Section 27.01 (real estate fraud), wrongful abandonment of a project before completion, or Construction Trust Fund Act violations (Chapter 162) -- those claims proceed outside the RCLA process."
+        ]
+      }
+    }
+  }
+}

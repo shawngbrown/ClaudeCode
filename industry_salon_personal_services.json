@@ -1,0 +1,55 @@
+{
+  "industries": {
+    "salon_personal_services": {
+      "structure_note": "This file covers the traditional beauty-service cluster (cosmetology/beauty parlors, nail care including pedicure/foot care, esthetics/skin care, barbering) plus a genuinely separate regulatory track for tanning facilities. CONFIRMED 2026-08-30: all traditional beauty services are licensed through TDLR under Tex. Occ. Code Title 9 -- Chapter 1601 (Barbers), Chapter 1602 (Cosmetologists), and Chapter 1603 (the newer, consolidating Regulation of Barbering and Cosmetology chapter). TDLR licenses BOTH the individual practitioner (Operator, Instructor, Manicurist Specialty, Esthetician Specialty, Class A Barber, Barber Technician) AND the establishment itself separately -- a person may only perform licensed cosmetology/esthetics services at a TDLR-licensed establishment, per Section 1602.251(c), which applies even when the practitioner works inside a medical office: that specific practice location still needs its own TDLR salon license, entirely separate from whatever medical licensure the office holds. TANNING IS GENUINELY DIFFERENT and NOT part of TDLR's jurisdiction at all (confirmed directly against TDLR's own FAQ, which explicitly excludes it). More importantly: Texas ELIMINATED tanning facility LICENSING entirely via S.B. 202 (2015), and DSHS formally repealed the last remaining licensing rules (25 TAC Sections 229.341-229.357) effective November 10, 2025 -- no state license is required to operate a tanning facility in Texas today. Deregulation of the LICENSE does NOT mean deregulation of the underlying law, though -- the substantive consumer-protection requirements of Health & Safety Code Chapter 145 (the Tanning Facility Regulation Act) remain fully in force and enforceable regardless of the license repeal. If a salon offers tanning alongside traditional services, treat the tanning_facility_compliance category as required by Chapter 145 even though no license underlies it.",
+      "categories": {
+        "licensing_establishment_compliance": [
+          "TDLR Individual Practitioner License (Operator/Cosmetologist, Manicurist Specialty, Esthetician Specialty, Barber, as applicable)",
+          "TDLR Establishment License (Cosmetology Salon, Specialty Salon, Barber Shop, as applicable)",
+          "Instructor License (if operating a school)",
+          "Continuing Education Records"
+        ],
+        "sanitation_safety_compliance": [
+          "Instrument Sterilization Log (autoclave/dry heat/UV sanitizer)",
+          "Facility Sanitation Compliance Records",
+          "TDLR Inspection Reports",
+          "Facility Separation Compliance (if operating multiple shop types on one premises)"
+        ],
+        "tanning_facility_compliance": [
+          "Minor-Use Prohibition Compliance Log (absolute under-18 ban, no parental consent exception)",
+          "Tanning Customer Consent & Photo ID Records",
+          "Tanning Customer Use Record Retention (3-year)",
+          "Required Warning Signage Documentation"
+        ],
+        "client_records_operations": [
+          "Client Service/Treatment Records",
+          "Booth Rental / Independent Contractor Agreements",
+          "Professional / General Liability Insurance"
+        ]
+      },
+      "document_citations": {
+        "TDLR Individual Practitioner License (Operator/Cosmetologist, Manicurist Specialty, Esthetician Specialty, Barber, as applicable)": [
+          "Tex. Occ. Code Title 9: Chapter 1601 (Barbers), Chapter 1602 (Cosmetologists), Chapter 1603 (Regulation of Barbering and Cosmetology). Individual license types include the Operator license (full cosmetology practice), Instructor license, Manicurist Specialty license (covers manicure and pedicure/foot-care services), and Esthetician Specialty license (facials, masks, general skin care); barbering separately licenses Class A Barber and Barber Technician. CONFIRMED 2026-08-30 via Texas Legislature statute text and TDLR's own published FAQ."
+        ],
+        "TDLR Establishment License (Cosmetology Salon, Specialty Salon, Barber Shop, as applicable)": [
+          "Tex. Occ. Code Section 1602.251(c) -- a person may perform licensed cosmetology services only at a facility licensed by TDLR as a cosmetology establishment or specialty establishment. This applies even to an esthetician working inside a medical office: TDLR's own FAQ confirms that specific practice location still requires its own TDLR salon license, entirely separate from the medical office's own licensure under the Texas Medical Board's jurisdiction."
+        ],
+        "Instrument Sterilization Log (autoclave/dry heat/UV sanitizer)": [
+          "Tex. Occ. Code Section 1603.352 -- before performing specified barbering or cosmetology services, each metal instrument (including metal nail clippers, cuticle pushers, and cuticle nippers) must be cleaned, disinfected, and sterilized with an autoclave or dry heat sterilizer, or sanitized with an ultraviolet sanitizer, per the equipment manufacturer's instructions. The facility owner or manager is responsible for providing the required sterilization/sanitizing equipment. CONFIRMED 2026-08-30 via Texas Legislature statute text."
+        ],
+        "Facility Separation Compliance (if operating multiple shop types on one premises)": [
+          "Tex. Occ. Code Section 1602.404 -- a beauty shop, specialty shop, and private beauty culture school may not operate on the same premises as one another unless separated by permanent walls with no opening between the facilities. Section 1602.405 separately confirms a facility MAY hold dual licensure under both the cosmetology and barbering chapters, and TDLR may not require separate treatment or facilities for barbers versus cosmetologists practicing at a dual-licensed facility."
+        ],
+        "Minor-Use Prohibition Compliance Log (absolute under-18 ban, no parental consent exception)": [
+          "Tex. Health & Safety Code Section 145.008(f) -- a tanning facility may not allow a person younger than 18 to use a tanning device, with NO exception for parental consent. This is stricter than the law in many other states that allow minors to tan with a parent's written permission. CONFIRMED 2026-08-30 directly against current statute text -- violating this provision violates state law regardless of the 2015/2025 licensing repeal discussed in structure_note."
+        ],
+        "Tanning Customer Consent & Photo ID Records": [
+          "Tex. Health & Safety Code Section 145.008(e) -- before a customer 18 or older uses a tanning device for the first time, and each time a use contract is executed or renewed, the customer must provide photo identification and sign a written statement acknowledging the required warnings and agreeing to use protective eyewear."
+        ],
+        "Tanning Customer Use Record Retention (3-year)": [
+          "Tex. Health & Safety Code Section 145.008(i) -- a record of each customer's tanning device use must be maintained at the facility until at least the third anniversary of that customer's last use."
+        ]
+      }
+    }
+  }
+}

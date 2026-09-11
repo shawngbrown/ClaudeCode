@@ -1,0 +1,133 @@
+{
+  "entities": {
+    "lp": {
+      "structure_note": "Unlike a general partnership (partnership.json), an LP IS a filed entity: it requires a Certificate of Formation with the Secretary of State (Form 207, governed by Tex. Bus. Orgs. Code Title 1 Ch. 3 Subchapter A and Title 4 Chapters 151/153) and a registered agent, and it IS subject to Texas franchise tax regardless of partner composition (Tex. Tax Code Section 171.0002(a) lists 'limited partnership' directly -- there is no natural-person-ownership exception here the way there is for general partnerships under Section 171.0002(b)(2)). CONFIRMED 2026-08-30: an LP has two genuinely different partner classes with different liability exposure. General partners have the same unlimited, joint-and-several liability as in a plain general partnership. Limited partners are NOT liable for LP obligations (Section 153.102) UNLESS they either also serve as a general partner, or participate in control of the business beyond simply exercising their rights as a limited partner -- Section 153.103 provides a long statutory safe-harbor list of activities (being an employee/agent/contractor, consulting/advising, voting on specified fundamental matters, guaranteeing obligations, and others) that do NOT count as 'participating in control.' An LP may also elect to register as an LLP on top of its LP status (an 'LLLP') -- this is an optional upgrade, not this file's default state, and triggers an additional annual report to the Secretary of State by June 1 each year (Section 152.806) on top of the standard PIR.",
+      "categories": {
+        "identity": [
+          "Certificate of Formation (Limited Partnership)",
+          "Limited Partnership Agreement",
+          "EIN Confirmation Letter (IRS)",
+          "Certificate of Good Standing / Certificate of Status",
+          "Amendments to Certificate of Formation",
+          "Amendments to Limited Partnership Agreement",
+          "DBA / Assumed Name Filings",
+          "Initial General and Limited Partners List",
+          "Statement Required for Liability Protection (if applicable -- good-faith erroneous limited-partner-status cure)"
+        ],
+        "governance": [
+          "Partnership Policies & Procedures",
+          "General Partner Resolution Log",
+          "General Partners Roster",
+          "Limited Partners Roster",
+          "Committee Charters",
+          "Conflict of Interest Policy",
+          "Document Retention Policy",
+          "Partnership Interest Ledger",
+          "Limited Partner Voting Records (per Partnership Agreement)",
+          "Limited Partner Safe-Harbor Activity Log (documents which activities a limited partner has undertaken, to preserve liability protection)"
+        ],
+        "financial": [
+          "Annual Budget",
+          "Annual Financial Statements",
+          "CPA Review / Audit Reports",
+          "Bank Account Verification",
+          "Federal Partnership Tax Return (Form 1065) and Partner K-1s",
+          "Franchise Tax Filings",
+          "1099 Vendor Filings",
+          "W-2 / Payroll Tax Filings",
+          "Partner Capital Account Records",
+          "Partner Distribution Records"
+        ],
+        "insurance": [
+          "General Liability Policy",
+          "Professional Liability / Errors & Omissions Policy",
+          "Property Insurance",
+          "Workers' Compensation Policy",
+          "Umbrella Policy",
+          "Certificate of Insurance",
+          "Insurance Renewal Notices",
+          "Insurance Claims Log"
+        ],
+        "operations": [
+          "Employee Handbook",
+          "Standard Operating Procedures",
+          "Safety Policies",
+          "Vendor Contracts",
+          "Maintenance Logs",
+          "Emergency Response Plan",
+          "Data Privacy / Information Security Policy",
+          "Business Continuity Plan"
+        ],
+        "statutory": [
+          "Texas Business Organizations Code Chapters 151 and 153 Compliance",
+          "Texas Franchise Tax Public Information Report (PIR) Filing",
+          "Registered Agent Designation",
+          "Foreign Qualification Filings (if operating in other states)",
+          "Industry-Specific Licensing Compliance",
+          "LLLP Election Consideration (optional LLP registration stacked on top of the LP -- triggers an additional June 1 annual report to the Secretary of State)"
+        ],
+        "meetings_notices": [
+          "Annual Partner Meeting Notice",
+          "Annual Partner Meeting Agenda",
+          "Annual Partner Meeting Minutes",
+          "General Partner Meeting Notices",
+          "General Partner Meeting Agendas",
+          "General Partner Meeting Minutes",
+          "Special Meeting Notices",
+          "Special Meeting Minutes",
+          "Quorum Verification Documents"
+        ],
+        "records_transparency": [
+          "Partnership Interest Ledger",
+          "Partner Contact List",
+          "Partnership Interest Transfer Documents",
+          "Disclosure Statements",
+          "Record Request Log",
+          "Record Request Responses",
+          "Document Retention Schedule"
+        ],
+        "vendor_contractual": [
+          "Vendor Master Service Agreements",
+          "Lease Agreements",
+          "Legal Services Agreement",
+          "Insurance Broker Agreement",
+          "Independent Contractor Agreements",
+          "Non-Disclosure Agreements",
+          "Licensing Agreements"
+        ],
+        "property_asset_management": [
+          "Facility Inspection Reports",
+          "Maintenance Schedules",
+          "Repair Work Orders",
+          "Asset Inventory List",
+          "Equipment Manuals",
+          "Safety Compliance Documents",
+          "Key / Access Control Logs"
+        ]
+      },
+      "document_citations": {
+        "Certificate of Formation (Limited Partnership)": [
+          "Tex. Bus. Orgs. Code Title 1, Chapter 3, Subchapter A (general formation) and Title 4, Chapters 151 (general partnership provisions applicable by reference) and 153 (LP-specific provisions) -- filed via Secretary of State Form 207. CONFIRMED 2026-08-30 directly against the Texas Secretary of State's own Form 207 instructions."
+        ],
+        "Statement Required for Liability Protection (if applicable -- good-faith erroneous limited-partner-status cure)": [
+          "Tex. Bus. Orgs. Code Section 153.106 (protection for a person who erroneously but in good faith believed they had become a limited partner) and Section 153.107 (the statement that must be filed with the Secretary of State to preserve that protection, within a defined time limit after discovering the mistake)."
+        ],
+        "Limited Partner Safe-Harbor Activity Log (documents which activities a limited partner has undertaken, to preserve liability protection)": [
+          "Tex. Bus. Orgs. Code Section 153.102 (a limited partner is not liable for LP obligations unless also a general partner or participating in control of the business) and Section 153.103 (a lengthy, non-exclusive statutory list of activities -- including serving as an employee, agent, or contractor of the LP or a general partner; consulting/advising; voting on specified fundamental matters; guaranteeing obligations; and others -- that do NOT count as 'participating in control')."
+        ],
+        "Franchise Tax Filings": [
+          "Tex. Tax Code Section 171.0002(a) explicitly lists 'limited partnership' as a taxable entity. Unlike a general partnership (which is exempt if owned entirely by natural persons, per Section 171.0002(b)(2)), an LP has no such exception -- franchise tax and PIR filings apply regardless of partner composition. CONFIRMED 2026-08-30 via the Texas Comptroller's own franchise tax publications."
+        ],
+        "LLLP Election Consideration (optional LLP registration stacked on top of the LP -- triggers an additional June 1 annual report to the Secretary of State)": [
+          "Tex. Bus. Orgs. Code Section 152.801/152.802 (LLP registration, applied to an LP by reference) and Section 152.806 (a Texas LP that also registers as an LLP must file an additional annual report with the Secretary of State no later than June 1 each year -- on top of, not instead of, the standard PIR filed with the Comptroller). CONFIRMED 2026-08-30 directly against the Texas Secretary of State's own Form 207 instructions."
+        ],
+        "Registered Agent Designation": [
+          "Standard Texas registered-agent requirement -- an LP cannot act as its own registered agent, and the registered agent must have affirmatively consented to serve, per the Texas Secretary of State's own Form 207 instructions."
+        ],
+        "Workers' Compensation Policy": [
+          "Tex. Labor Code Section 406.002 -- Texas is the only state in the country where workers' compensation coverage is elective, not mandatory, for most private employers. An employer who opts out ('non-subscriber') must notify the Texas Division of Workers' Compensation (Section 406.004) and notify employees (Section 406.005), and forfeits certain common-law defenses in the event of a workplace injury lawsuit. EXCEPTION: coverage is mandatory for government building/construction contracts under Section 406.096."
+        ]
+      }
+    }
+  }
+}

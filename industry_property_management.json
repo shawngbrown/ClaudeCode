@@ -1,0 +1,69 @@
+{
+  "industries": {
+    "property_management": {
+      "structure_note": "Property management shares its licensing foundation with real_estate_brokerage.json -- both are regulated as brokerage activity under Tex. Occ. Code Section 1101.002 (TRELA), and a property management company controlling rent collection or leasing for a third-party owner generally must hold or operate under a TREC broker license, same as a sales brokerage. CONFIRMED 2026-08-30: the narrow exemptions (on-site apartment managers with an office at the property, employees of an owner managing only that owner's property) do NOT cover third-party professional property management companies collecting management fees -- do not assume a property management client is exempt without checking which category they actually fall into. What genuinely distinguishes this industry from real_estate_brokerage is the ONGOING landlord-tenant relationship layer under Tex. Prop. Code Chapter 92 (security deposits, habitability, eviction procedure) -- a pure sales-focused brokerage never touches this; a property manager deals with it on every tenancy.",
+      "categories": {
+        "licensing_entity_registration": [
+          "Business Entity Broker License (TREC)",
+          "Individual Broker License (TREC)",
+          "Designated Broker Designation",
+          "Property Manager/Leasing Agent Sponsorship Agreements"
+        ],
+        "owner_client_agreements": [
+          "Property Management Agreement (Owner)",
+          "Leasing Agreement / Lease Template",
+          "Owner Disclosure of Ownership and Management",
+          "Fee Schedule / Management Fee Disclosure"
+        ],
+        "tenant_compliance_landlord_duties": [
+          "Notice of Landlord/Property Manager Identity",
+          "Habitability / Repair Request Log",
+          "Repair-and-Deduct Compliance Records",
+          "Smoke Alarm Compliance Records",
+          "Security Device Compliance Records (locks, peepholes, rekeying)"
+        ],
+        "security_deposit_trust_accounting": [
+          "Security Deposit Trust Account Records",
+          "Security Deposit Itemized Deduction Statements",
+          "Move-In / Move-Out Inspection Reports",
+          "Trust Account Reconciliation Records"
+        ],
+        "eviction_lease_enforcement": [
+          "Notice to Vacate",
+          "Forcible Detainer (Eviction) Filing Records",
+          "Anti-Retaliation Compliance Checklist",
+          "Lockout Compliance Documentation"
+        ]
+      },
+      "document_citations": {
+        "Business Entity Broker License (TREC)": [
+          "Tex. Occ. Code Section 1101.002 (TRELA) -- controlling the acceptance or deposit of rent, leasing units, negotiating lease terms, or marketing vacancies for another for compensation constitutes real estate brokerage activity requiring licensure. CONFIRMED 2026-08-30 across multiple sources. Exemptions are narrow: on-site apartment managers with an office at the property, and employees of an owner managing only that owner's property. Neither exemption covers a third-party professional property management company."
+        ],
+        "Notice of Landlord/Property Manager Identity": [
+          "Tex. Prop. Code Sections 92.201-92.205 (Subchapter E, Disclosure of Ownership and Management) -- requires disclosure of BOTH the landlord's identity and the property manager's identity, a property-management-specific obligation with no direct equivalent in real_estate_brokerage.json."
+        ],
+        "Security Deposit Itemized Deduction Statements": [
+          "Tex. Prop. Code Section 92.103 (30-day return of deposit, clock starts when the tenant surrenders the property AND provides a written forwarding address) and Section 92.104 (a written, itemized description of deductions is required -- receipts alone do not satisfy the statute). Section 92.109 creates a bad-faith presumption if the landlord misses the 30-day deadline or fails to provide the written accounting, exposing the landlord/manager to a statutory penalty plus attorney's fees. CONFIRMED 2026-08-30 across multiple independent sources."
+        ],
+        "Habitability / Repair Request Log": [
+          "Tex. Prop. Code Sections 92.051-92.062 (Subchapter B) -- the landlord's duty to repair conditions materially affecting a tenant's health or safety, tenant notice requirements, and tenant remedies including repair-and-deduct (Section 92.0561) and judicial remedies (Section 92.0563)."
+        ],
+        "Smoke Alarm Compliance Records": [
+          "Tex. Prop. Code Sections 92.251-92.262 (Subchapter F) -- required smoke detectors, replacement batteries, and tenant remedies for landlord noncompliance."
+        ],
+        "Security Device Compliance Records (locks, peepholes, rekeying)": [
+          "Tex. Prop. Code Sections 92.151-92.170 (Subchapter D) -- required locks, peepholes, latches, door viewers, window security, and tenant rekeying rights."
+        ],
+        "Lockout Compliance Documentation": [
+          "Tex. Prop. Code Section 92.0081 -- prohibits a landlord from removing doors, windows, hardware, or furniture, or excluding a tenant from the premises, except by judicial process. Narrow carveouts exist for bona fide repair/replacement, tenant abandonment, and a specifically-defined rent-delinquency lockout procedure with strict written notice and locksmith-coordination requirements. 'Self-help' eviction outside these carveouts is one of the most expensive mistakes a Texas landlord or property manager can make."
+        ],
+        "Notice to Vacate": [
+          "Tex. Prop. Code Chapter 24 (forcible detainer) -- the judicial eviction process. A notice to vacate (commonly a minimum of 3 days unless the lease states otherwise) must precede filing, followed by a Justice of the Peace court filing, hearing, and writ of possession. No self-help eviction is permitted."
+        ],
+        "Anti-Retaliation Compliance Checklist": [
+          "Tex. Prop. Code Sections 92.331-92.335 -- creates a 6-month window after a tenant's protected action (such as requesting a repair) during which specified landlord actions (filing eviction, decreasing services, certain rent increases) are presumed retaliatory."
+        ]
+      }
+    }
+  }
+}

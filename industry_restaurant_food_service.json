@@ -1,0 +1,52 @@
+{
+  "industries": {
+    "restaurant_food_service": {
+      "structure_note": "CONFIRMED 2026-08-30: unlike every licensed-profession industry built so far, Texas restaurant/food-service permitting is PRIMARILY LOCAL, not a single statewide license. Tex. Health & Safety Code Chapter 437 allows counties and cities that maintain health departments to issue permits, inspect, and enforce -- most urban food establishments are permitted and inspected locally. Where no county or public health district regulates an area under this chapter, the Texas Department of State Health Services (DSHS) serves as the fallback state-level permitting authority. The actual operational rules -- temperature control, hygiene, sanitation, allergen management -- come from the Texas Food Establishment Rules (TFER), 25 TAC Chapter 228, based on the FDA Food Code, and apply uniformly regardless of which authority issued the permit. A SEPARATE, GENUINELY DISTINCT REGULATORY TRACK applies if the establishment serves alcohol: TABC (Texas Alcoholic Beverage Commission) permitting, plus Comptroller-administered mixed beverage taxes -- a restaurant with no bar program needs none of the alcohol_tax_compliance category's contents at all. CONFIRMED: a valid Sales Tax Permit at the exact same name/location is a PREREQUISITE the Comptroller checks before TABC will complete a mixed beverage permit application -- these two state agencies' processes are cross-linked, not independent.",
+      "categories": {
+        "licensing_permitting": [
+          "Food Establishment Permit (Local Health Department or DSHS)",
+          "Certified Food Manager (CFM) Certificate",
+          "Food Handler Certifications (all food employees)",
+          "Sales Tax Permit (Texas Comptroller)",
+          "TABC Alcohol Permit (if serving alcohol)"
+        ],
+        "food_safety_compliance": [
+          "TFER (Texas Food Establishment Rules) Compliance Log",
+          "Health Inspection Reports",
+          "Temperature/Sanitation Log"
+        ],
+        "alcohol_tax_compliance": [
+          "Mixed Beverage Gross Receipts Tax Filings",
+          "Mixed Beverage Sales Tax Filings",
+          "TABC Surety Bond Records (if applicable, first 3 years)",
+          "Seller-Server (TABC) Certification Records"
+        ],
+        "employment_insurance": [
+          "Employee Training Records (Food Handler + Seller-Server)",
+          "General Liability Insurance",
+          "Workers' Compensation Policy"
+        ]
+      },
+      "document_citations": {
+        "Food Establishment Permit (Local Health Department or DSHS)": [
+          "Tex. Health & Safety Code Chapter 437 -- counties and cities with health departments may issue permits, inspect, and take enforcement action; DSHS serves as the fallback permitting authority for areas without local health-department jurisdiction. CONFIRMED 2026-08-30 directly against Texas Legislature statute text and DSHS's own guidance."
+        ],
+        "Certified Food Manager (CFM) Certificate": [
+          "25 TAC Chapter 229, Subchapter K, Rule 229.176 -- most food service establishments (with some exemptions) must employ a Certified Food Manager. CONFIRMED 2026-08-30 directly against DSHS's own published guidance, which also notes the ORIGINAL certificate must be posted conspicuous to customers -- a copy is not sufficient."
+        ],
+        "Food Handler Certifications (all food employees)": [
+          "Tex. Health & Safety Code Chapter 438 (standards) and 25 TAC Section 228.2(56) (definition of covered food employee) -- a statewide mandate effective September 1, 2016: all food employees involved in preparing, storing, or handling food must complete an accredited food handler training course within 60 days of hire. Establishments handling only prepackaged food (no on-site preparation or repackaging) are exempt (Section 437.0057(c)). A county, public health district, or DSHS may impose its own certification requirement on top of this floor (Section 437.0057(a)), but it cannot be more stringent than Chapter 438 Subchapter D, and the local authority may also exempt a specific establishment if certification isn't necessary to protect public health and safety (Section 437.0057(d))."
+        ],
+        "TABC Alcohol Permit (if serving alcohol)": [
+          "Texas Alcoholic Beverage Code, administered by TABC. The Mixed Beverage Permit (most common for restaurants with a bar program) authorizes on-premises sale of distilled spirits, wine, and beer; a Beer/Wine Permit covers beer and wine only. Both run on a 2-year term. CONFIRMED 2026-08-30: state-level Mixed Beverage Permit fees are approximately $5,300 for the initial 2-year term and $2,650 for renewal (local city/county fees apply on top). A surety bond is required for the first 3 years of a new mixed beverage permit to guarantee tax compliance. CRITICALLY: TABC will not complete the application unless the applicant holds a valid Sales Tax Permit at the exact same name and location -- this is a genuine cross-agency prerequisite, not two independent processes."
+        ],
+        "Mixed Beverage Gross Receipts Tax Filings": [
+          "Tex. Tax Code Chapter 183 -- a 6.7% tax on gross receipts from mixed beverage sales, imposed on and paid by the permittee. Unlike the sales tax below, this cannot be passed on to the customer as a separate line item. CONFIRMED 2026-08-30 directly against the Texas Comptroller's own site."
+        ],
+        "Mixed Beverage Sales Tax Filings": [
+          "Tex. Tax Code Chapter 183, permittee defined at Section 183.001(b) -- an 8.25% tax on mixed beverage sales (and on nonalcoholic mixers/ice served with alcohol), which CAN be passed to the customer, either as a separate line item or built into the listed price. Due the 20th day of the month following the reporting period. Late filing penalties: a flat $50, plus 5% if paid 1-30 days late, escalating to 10% if paid more than 30 days late, plus interest starting 61 days after the due date."
+        ]
+      }
+    }
+  }
+}

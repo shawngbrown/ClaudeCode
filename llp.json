@@ -1,0 +1,106 @@
+{
+  "entities": {
+    "llp": {
+      "structure_note": "An LLP is NOT a separately-formed legal entity like an LLC, LP, or corporation -- it is the registration of an already-existing general partnership (see partnership.json) in which the partners want liability protection, filed via Secretary of State Form 701 (Tex. Bus. Orgs. Code Chapter 152, Subchapter J). This file assumes the registration HAS been made -- it is the 'after' state that partnership.json's structure_note points to. CORRECTED 2026-08-30: Texas is a FULL SHIELD LLP state, not a partial one. Current Tex. Bus. Orgs. Code Section 152.801(a) provides broad protection -- a partner is not personally liable, directly or indirectly, for ANY obligation of the partnership incurred while it is an LLP, except as the partnership agreement otherwise provides. This covers co-partner malpractice/negligence, commercial contract debts, and general tort claims (e.g. a slip-and-fall at the office) alike -- it is not limited to malpractice-type claims. S.B. 748 (82nd Legislature, effective September 1, 2011) removed the older 'had notice or knowledge but failed to act' liability exception that used to let a partner's shield be pierced merely for knowing about another partner's problem without personally correcting it -- that exposure no longer exists. A partner remains personally liable only for their own wrongful acts, professional malpractice, or intentional torts, and for anything they personally guaranteed. ALSO CORRECTED: the $100,000 minimum-insurance/financial-responsibility requirement that Texas LLPs used to carry was REPEALED by that same S.B. 748, effective September 1, 2011 (it struck Section 152.804 entirely) -- there is no state-level insurance minimum required to maintain LLP status today. Individual licensing boards or specific industries may still mandate coverage independently (e.g. the State Bar of Texas doesn't require malpractice insurance for attorneys but does require written client disclosure if a firm doesn't carry it) -- that's a profession-specific fact to track per industry file, not a general LLP requirement. FRANCHISE TAX IS NOT CONDITIONAL: unlike a plain general partnership, an LLP does NOT get the natural-person-ownership exemption under Tax Code Section 171.0002(b)(2) -- LLPs are taxable entities regardless of partner composition. ASSUMED NAME FILING SHIFTS TO THE SECRETARY OF STATE: a plain general partnership files its DBA at the county level, but a registered LLP files with the Secretary of State instead, the same as LLCs and corporations.",
+      "categories": {
+        "identity_registration": [
+          "Partnership Agreement",
+          "Limited Liability Partnership Registration (Application for Registration, Secretary of State Form 701)",
+          "Assumed Name Certificate / DBA (Secretary of State -- not county-level, unlike a plain general partnership)",
+          "EIN Confirmation Letter (IRS)",
+          "Initial Partners List",
+          "Amendments to Partnership Agreement",
+          "LLP Annual Report (Secretary of State, due June 1 each year)",
+          "Certificate of Withdrawal (if LLP registration is voluntarily terminated, reverting to a plain general partnership)"
+        ],
+        "governance": [
+          "Partner Meeting Minutes / Records of Partner Decisions",
+          "Partner Voting Records",
+          "Partner Admission Records",
+          "Partner Withdrawal Records",
+          "Conflict of Interest Policy",
+          "Document Retention Policy",
+          "Partnership Interest Ledger (capital accounts / ownership percentages)"
+        ],
+        "financial": [
+          "Annual Budget",
+          "Annual Financial Statements",
+          "CPA Review / Audit Reports",
+          "Bank Account Verification",
+          "Federal Partnership Tax Return (Form 1065) and Partner K-1s",
+          "Franchise Tax Filings",
+          "1099 Vendor Filings",
+          "W-2 / Payroll Tax Filings",
+          "Partner Capital Account Records",
+          "Partner Distribution Records"
+        ],
+        "insurance": [
+          "General Liability Policy",
+          "Professional Liability / Errors & Omissions Policy",
+          "Property Insurance",
+          "Workers' Compensation Policy",
+          "Umbrella Policy",
+          "Certificate of Insurance",
+          "Insurance Renewal Notices",
+          "Insurance Claims Log"
+        ],
+        "operations": [
+          "Employee Handbook",
+          "Standard Operating Procedures",
+          "Safety Policies",
+          "Vendor Contracts",
+          "Maintenance Logs",
+          "Emergency Response Plan",
+          "Data Privacy / Information Security Policy",
+          "Business Continuity Plan"
+        ],
+        "statutory": [
+          "Texas Business Organizations Code Chapter 152, Subchapter J Compliance (LLP-specific)",
+          "Texas Business Organizations Code Chapter 152 Compliance (base general-partnership provisions, still apply)",
+          "Texas Franchise Tax Public Information Report (PIR) Filing",
+          "Registered Agent Designation",
+          "Foreign Qualification Filings (if operating in other states)",
+          "Industry-Specific Licensing Compliance"
+        ],
+        "vendor_contractual": [
+          "Vendor Agreements",
+          "Lease Agreements",
+          "Legal Services Agreement",
+          "Insurance Broker Agreement",
+          "Independent Contractor Agreements",
+          "Non-Disclosure Agreements"
+        ],
+        "property_asset_management": [
+          "Equipment / Asset Inventory List",
+          "Equipment Manuals",
+          "Maintenance Logs",
+          "Safety Compliance Documents",
+          "Facility Inspection Reports"
+        ]
+      },
+      "document_citations": {
+        "Limited Liability Partnership Registration (Application for Registration, Secretary of State Form 701)": [
+          "Tex. Bus. Orgs. Code Chapter 152, Subchapter J (Sections 152.801-152.813), filed via Secretary of State Form 701. Registration must be signed by at least one general partner and requires compliance with Chapter 5's general filing-entity provisions (including registered agent requirements). CONFIRMED 2026-08-30 via Texas Legislature statute text and Texas Bar Books' own practice guide."
+        ],
+        "Assumed Name Certificate / DBA (Secretary of State -- not county-level, unlike a plain general partnership)": [
+          "Tex. Bus. & Com. Code Section 71.103, as amended by 2019's HB 3609 -- registered entities including limited liability partnerships file their assumed name certificate with the Secretary of State, not the county clerk. This is a real procedural shift from partnership.json's county-level filing, not a cosmetic difference."
+        ],
+        "LLP Annual Report (Secretary of State, due June 1 each year)": [
+          "Tex. Bus. Orgs. Code Section 152.806 -- an LLP must file an annual report with the Secretary of State no later than June 1 of each year to maintain its registration. This is separate from, and in addition to, the franchise tax PIR filed with the Comptroller."
+        ],
+        "Partnership Agreement": [
+          "Tex. Bus. Orgs. Code Section 152.801(a) allows the partnership agreement to modify the default LLP liability shield -- meaning the agreement's exact terms matter more for an LLP than for a plain general partnership, since it can narrow the statutory protection that would otherwise apply."
+        ],
+        "General Liability Policy": [
+          "CORRECTED 2026-08-30: no state-level insurance minimum applies to LLP status in Texas. S.B. 748 (82nd Legislature, effective September 1, 2011) repealed Section 152.804 (Insurance or Financial Responsibility), which used to require at least $100,000 in liability insurance or an equivalent segregated fund. That requirement no longer exists. General/professional liability coverage remains good practice and may be independently required by a specific licensing board or industry, but it is not a generic LLP-status requirement the way it was before 2011."
+        ],
+        "Franchise Tax Filings": [
+          "Tex. Tax Code Section 171.0002(b)(2) explicitly excludes limited liability partnerships from the general-partnership natural-person-ownership exemption. Unlike partnership.json's conditional treatment, an LLP is always a taxable entity regardless of partner composition. CONFIRMED 2026-08-30 via the Texas Comptroller's own franchise tax publications."
+        ],
+        "Workers' Compensation Policy": [
+          "Tex. Labor Code Section 406.002 -- Texas is the only state in the country where workers' compensation coverage is elective, not mandatory, for most private employers. An employer who opts out ('non-subscriber') must notify the Texas Division of Workers' Compensation (Section 406.004) and notify employees (Section 406.005), and forfeits certain common-law defenses in the event of a workplace injury lawsuit. EXCEPTION: coverage is mandatory for government building/construction contracts under Section 406.096."
+        ]
+      }
+    }
+  }
+}

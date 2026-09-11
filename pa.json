@@ -1,0 +1,146 @@
+{
+  "entities": {
+    "pa": {
+      "structure_note": "A Professional Association (PA) is a genuinely distinct Texas entity type, not a synonym for Professional Corporation (PC). CONFIRMED 2026-08-30 directly against Texas Business Organizations Code Chapter 302, the Texas Legislature's own statute text, and the Secretary of State's own Form 204 instructions: (1) A PA is restricted to a specific, narrow list of professions -- Texas law limits PA formation to the professional service rendered by a doctor of medicine, doctor of osteopathy, doctor of podiatry, dentist, chiropractor, optometrist, therapeutic optometrist, veterinarian, or licensed mental health professional. This is NOT a general-purpose vehicle the way PLLC or PC are for any licensed profession -- a DDV tenant should only be classified as 'pa' if their profession is actually on this list. (2) A PA can issue stock, but the stockholders are called 'members,' not 'shareholders,' and a PA is explicitly NOT a true corporation despite operating under corporate-law provisions (Tex. Bus. Orgs. Code Section 302.001 applies Chapters 20/21 for-profit corporation provisions unless they conflict with Title 7). (3) Only a member of the association is eligible to serve as an officer or governing person (Section 302.008(a)) -- a stricter, PA-specific rule with no direct equivalent in the PC file.",
+      "categories": {
+        "identity": [
+          "Certificate of Formation (Professional Association)",
+          "Bylaws / Governing Rules",
+          "EIN Confirmation Letter (IRS)",
+          "Certificate of Good Standing / Certificate of Status",
+          "Amendments to Certificate of Formation",
+          "Amendments to Bylaws",
+          "DBA / Assumed Name Filings",
+          "Member Stock Certificates",
+          "Initial Members List"
+        ],
+        "governance": [
+          "Association Policies & Procedures",
+          "Code of Ethics",
+          "Governing Authority Resolution Log",
+          "Members Roster",
+          "Officer Appointments (members only, per Section 302.008(a))",
+          "Committee Charters",
+          "Conflict of Interest Policy",
+          "Document Retention Policy",
+          "Member Stock Ledger",
+          "Member Voting Records (per Certificate of Formation, Section 302.006)"
+        ],
+        "financial": [
+          "Annual Budget",
+          "Annual Financial Statements",
+          "CPA Review / Audit Reports",
+          "Bank Account Verification",
+          "Investment Policy",
+          "Accounts Receivable / Collections Policy",
+          "Tax Filings (Federal + State)",
+          "Franchise Tax Filings",
+          "1099 Vendor Filings",
+          "W-2 / Payroll Tax Filings",
+          "Member Distribution Records",
+          "Capital Contribution Records"
+        ],
+        "insurance": [
+          "General Liability Policy",
+          "Professional Liability / Malpractice Insurance",
+          "Directors & Officers (D&O)-Equivalent Policy",
+          "Property Insurance",
+          "Workers' Compensation Policy",
+          "Umbrella Policy",
+          "Certificate of Insurance",
+          "Insurance Renewal Notices",
+          "Insurance Claims Log"
+        ],
+        "operations": [
+          "Employee Handbook",
+          "Standard Operating Procedures",
+          "Safety Policies",
+          "Vendor Contracts",
+          "Maintenance Logs",
+          "Emergency Response Plan",
+          "Security Policies",
+          "Data Privacy / Information Security Policy",
+          "Business Continuity Plan"
+        ],
+        "statutory": [
+          "Texas Business Organizations Code Chapter 302 Compliance",
+          "Texas Business Organizations Code Chapter 301 Compliance (professional-entity ownership/licensing restrictions)",
+          "Texas Franchise Tax Public Information Report (PIR) Filing",
+          "Registered Agent Designation",
+          "Foreign Qualification Filings (if operating in other states)",
+          "Statutory Policy Updates"
+        ],
+        "meetings_notices": [
+          "Annual Member Meeting Notice",
+          "Annual Member Meeting Agenda",
+          "Annual Member Meeting Minutes",
+          "Governing Authority Meeting Notices",
+          "Governing Authority Meeting Agendas",
+          "Governing Authority Meeting Minutes",
+          "Special Meeting Notices",
+          "Special Meeting Minutes",
+          "Election/Appointment Notices",
+          "Quorum Verification Documents"
+        ],
+        "records_transparency": [
+          "Member Stock Ledger",
+          "Member Contact List",
+          "Stock Transfer Documents",
+          "Disclosure Statements",
+          "Record Request Log",
+          "Record Request Responses",
+          "Document Retention Schedule"
+        ],
+        "vendor_contractual": [
+          "Vendor Master Service Agreements",
+          "Lease Agreements",
+          "Legal Services Agreement",
+          "Insurance Broker Agreement",
+          "Independent Contractor Agreements",
+          "Non-Disclosure Agreements",
+          "Licensing Agreements"
+        ],
+        "property_asset_management": [
+          "Facility Inspection Reports",
+          "Maintenance Schedules",
+          "Repair Work Orders",
+          "Asset Inventory List",
+          "Equipment Manuals",
+          "Safety Compliance Documents",
+          "Key / Access Control Logs"
+        ],
+        "professional_licensing_compliance": [
+          "Profession Eligibility Confirmation (PA restricted to the professions listed in Section 302.001 et seq. -- see structure_note)",
+          "Individual Professional License Verification (Members)",
+          "Individual Professional License Verification (Officers -- must also be members, per Section 302.008(a))",
+          "Entity Name Compliance Certification (professional designator and governing-profession ethics-rule check)",
+          "State Licensing Board Registration (e.g. Texas Medical Board, State Board of Dental Examiners, Texas Board of Veterinary Medical Examiners, depending on the specific profession)",
+          "Single-Profession-Type Confirmation (Section 2.004 -- a professional entity may generally engage in only one type of professional service, with limited statutory exceptions)"
+        ]
+      },
+      "document_citations": {
+        "Certificate of Formation (Professional Association)": [
+          "Tex. Bus. Orgs. Code Title 1, Chapter 3, Subchapter A (general formation) and Title 7, Chapter 302 (PA-specific provisions) -- filed via Secretary of State Form 204, distinct from the PC Form 203 and PLLC Form 206. CONFIRMED 2026-08-30 directly against the Texas Secretary of State's own Form 204 instructions."
+        ],
+        "Profession Eligibility Confirmation (PA restricted to the professions listed in Section 302.001 et seq. -- see structure_note)": [
+          "Tex. Bus. Orgs. Code Section 302.001 read with the Form 204 instructions' own enumerated list: a professional association may only be formed for the professional service rendered by a doctor of medicine, doctor of osteopathy, doctor of podiatry, dentist, chiropractor, optometrist, therapeutic optometrist, veterinarian, or licensed mental health professional. CONFIRMED 2026-08-30 directly against the Texas Secretary of State's own Form 204 instructions -- this is the single most important gating fact for whether the 'pa' entity type applies to a given tenant at all."
+        ],
+        "Officer Appointments (members only, per Section 302.008(a))": [
+          "Tex. Bus. Orgs. Code Section 302.008(a): only a member of the professional association is eligible to serve as an officer or governing person. CONFIRMED 2026-08-30 directly against Texas Legislature statute text (statutes.capitol.texas.gov)."
+        ],
+        "Member Voting Records (per Certificate of Formation, Section 302.006)": [
+          "Tex. Bus. Orgs. Code Section 302.006: a member's voting rights are governed by the association's own Certificate of Formation, not a fixed statutory default the way corporate shareholder voting often is."
+        ],
+        "Texas Business Organizations Code Chapter 302 Compliance": [
+          "Tex. Bus. Orgs. Code Title 7, Chapter 302, applying Chapters 20 and 21 (for-profit corporation provisions) except where they conflict with Title 7 (Section 302.001). CONFIRMED 2026-08-30 directly against Texas Legislature statute text."
+        ],
+        "Texas Business Organizations Code Chapter 301 Compliance (professional-entity ownership/licensing restrictions)": [
+          "Tex. Bus. Orgs. Code Section 301.001(a) confirms Title 7 (including Chapter 301's ownership/licensing restrictions) applies to professional associations, professional corporations, and PLLCs alike -- explicitly excluding partnerships and LLPs (Section 301.001(c))."
+        ],
+        "Workers' Compensation Policy": [
+          "Tex. Labor Code Section 406.002 -- Texas is the only state in the country where workers' compensation coverage is elective, not mandatory, for most private employers. An employer who opts out ('non-subscriber') must notify the Texas Division of Workers' Compensation (Section 406.004) and notify employees (Section 406.005), and forfeits certain common-law defenses in the event of a workplace injury lawsuit. EXCEPTION: coverage is mandatory for government building/construction contracts under Section 406.096. CONFIRMED 2026-08-30 across multiple independent sources; added retroactively as a batch correction across all deployed entity-type files that list this document type."
+        ]
+      }
+    }
+  }
+}

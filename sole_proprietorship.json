@@ -1,0 +1,75 @@
+{
+  "entities": {
+    "sole_proprietorship": {
+      "structure_note": "A sole proprietorship is NOT a separately-formed legal entity in Texas -- there is no Certificate of Formation, no filing with the Secretary of State, and no board/shareholder/member governance structure, because the business and the owner are legally the same person. This file is deliberately leaner than every other entity-type file built so far (no identity/governance/meetings_notices/records_transparency categories in the corporate sense) because those categories genuinely don't apply, not because content was omitted by oversight. The single most important fact this file exists to carry: the owner has NO liability shield -- personal assets are fully exposed to business debts and claims, which is the defining legal difference between a sole proprietorship and every other entity type in this dataset. CONFIRMED 2026-08-30: (1) the only state-level filing that can apply is a county-level Assumed Name Certificate (DBA), and only if operating under a name other than the owner's own true legal name (Tex. Bus. & Com. Code Chapter 71) -- this is a county filing, not a Secretary of State filing, distinct from every other entity type in this dataset. (2) A true sole proprietorship is NOT subject to Texas franchise tax at all (Tex. Tax Code Section 171.0002(b)(1) and (d)), confirmed directly against the Texas Comptroller's own franchise tax overview publication -- this is a real structural difference from every other entity file, all of which include franchise tax/PIR filings. IMPORTANT DISTINCTION: a single-member LLC that elects sole-proprietor tax treatment for federal purposes is NOT a sole proprietorship under Texas law and remains a taxable entity subject to franchise tax (Section 171.0002(d)) -- Texas looks at legal formation, not federal tax election. That case belongs in llc.json, not this file.",
+      "categories": {
+        "identity_registration": [
+          "Assumed Name Certificate / DBA (County Clerk -- only if operating under a name other than the owner's true legal name)",
+          "EIN Confirmation Letter (IRS) -- if applicable (employees, banking, or certain business types)",
+          "Trade/Occupational License(s) (if the specific business or profession requires one)",
+          "Assumed Name Certificate Renewal (before the certificate's 10-year term expires)",
+          "Certificate of Abandonment (if the assumed name is discontinued)"
+        ],
+        "financial": [
+          "Annual Business Income & Expense Records (federal Schedule C)",
+          "Bank Account Verification (business account, if maintained separately from personal)",
+          "Estimated Quarterly Tax Payment Records (federal self-employment tax)",
+          "1099 Vendor Filings (if hiring contractors)",
+          "W-2 / Payroll Tax Filings (if hiring employees)",
+          "Sales Tax Permit / Sales Tax Filings (if selling taxable goods or services)"
+        ],
+        "insurance": [
+          "General Liability Policy",
+          "Professional Liability / Errors & Omissions Policy (if applicable to the trade)",
+          "Property Insurance",
+          "Workers' Compensation Policy (elective in Texas for most private employers -- see document_citations)",
+          "Certificate of Insurance",
+          "Insurance Renewal Notices",
+          "Insurance Claims Log"
+        ],
+        "operations": [
+          "Standard Operating Procedures",
+          "Safety Policies",
+          "Vendor Contracts",
+          "Client/Customer Service Agreements",
+          "Emergency Response Plan",
+          "Data Privacy / Information Security Policy (if handling client data)",
+          "Business Continuity Plan"
+        ],
+        "statutory": [
+          "Texas Business & Commerce Code Chapter 71 Compliance (Assumed Name filing, if applicable)",
+          "Local/County Business Permits (if required by the specific municipality or county)",
+          "Industry-Specific Licensing Compliance",
+          "Sales Tax Permit (Texas Comptroller, if selling taxable goods or services)"
+        ],
+        "vendor_contractual": [
+          "Vendor Agreements",
+          "Lease Agreements (if leasing business space)",
+          "Independent Contractor Agreements",
+          "Non-Disclosure Agreements",
+          "Insurance Broker Agreement"
+        ],
+        "property_asset_management": [
+          "Equipment / Asset Inventory List",
+          "Equipment Manuals",
+          "Maintenance Logs",
+          "Safety Compliance Documents"
+        ]
+      },
+      "document_citations": {
+        "Assumed Name Certificate / DBA (County Clerk -- only if operating under a name other than the owner's true legal name)": [
+          "Tex. Bus. & Com. Code Chapter 71 -- filed with the county clerk in each county where the business maintains an office or conducts business (not the Secretary of State, which is the filing point only for registered entities like LLCs and corporations). Effective for a term not to exceed 10 years, renewable. A new certificate must generally be filed for changes in ownership, name, entity form, or location. Sections 71.202/71.203 provide criminal penalties for violations and fraudulent filing. CONFIRMED 2026-08-30 via multiple cross-checked sources including county-clerk filing offices and the 2019 HB 3609 amendment history."
+        ],
+        "Sales Tax Permit / Sales Tax Filings (if selling taxable goods or services)": [
+          "Tex. Tax Code Chapter 151 (Limited Sales, Excise, and Use Tax) -- applies to any seller of taxable goods or services regardless of entity type, including a sole proprietorship."
+        ],
+        "Workers' Compensation Policy (elective in Texas for most private employers -- see document_citations)": [
+          "Tex. Labor Code Section 406.002 -- Texas is the only state in the country where workers' compensation coverage is elective, not mandatory, for most private employers. CONFIRMED 2026-08-30 across multiple independent sources. An employer who opts out ('non-subscriber') must notify the Texas Division of Workers' Compensation (Section 406.004) and notify employees (Section 406.005), and forfeits certain common-law defenses in the event of a workplace injury lawsuit. EXCEPTION: coverage is mandatory for government building/construction contracts under Section 406.096. This same elective-not-mandatory status applies to every other entity-type file already built in this dataset (corporation, llc, nonprofit, pllc, pa, pc) -- none of those files currently carry this citation/caveat and are candidates for a follow-up correction."
+        ],
+        "Texas Business & Commerce Code Chapter 71 Compliance (Assumed Name filing, if applicable)": [
+          "Same Chapter 71 basis as the Assumed Name Certificate entry above -- listed again under statutory for visibility in that category's context."
+        ]
+      }
+    }
+  }
+}

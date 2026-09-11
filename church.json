@@ -1,0 +1,156 @@
+{
+  "entities": {
+    "church": {
+      "structure_note": "A church is architecturally parallel to hoa_poa.json and condo_association.json -- it typically incorporates as a Texas nonprofit corporation (Tex. Bus. Orgs. Code Chapter 22, same baseline as nonprofit.json) but has genuinely distinct content dense enough to warrant its own entity_type file rather than being folded into nonprofit.json as another industry layer. CONFIRMED 2026-09-04 (multiple independent sources): churches receive materially different, MORE FAVORABLE federal tax treatment than an ordinary 501(c)(3) nonprofit -- (1) IRC Section 508(c)(1)(A) makes a qualifying church automatically tax-exempt from the moment it is organized, with NO Form 1023/1023-EZ application required at all, unlike every other nonprofit in this dataset; (2) IRC Section 6033(a)(3)(A)(i) exempts churches, integrated auxiliaries, and conventions/associations of churches from the Form 990 annual filing requirement entirely -- critically, this means the automatic-revocation risk built into nonprofit.json's federal_tax_exemption_conditional category does NOT apply to a genuine church, since there is no required return to fail to file; (3) IRC Section 7611 imposes special procedural safeguards (higher-level IRS authorization, specific notice requirements) before the IRS may even examine a church's records -- no equivalent protection exists for an ordinary nonprofit. Two things still apply with NO exception: UBIT/Form 990-T if unrelated business income reaches $1,000 (churches get an ADDITIONAL $1,000 deduction per local unit within a convention or association of churches -- a genuine, distinctive wrinkle), and IRC Section 4958 excess benefit transaction/intermediate sanctions rules for insider dealings -- churches are NOT exempt from either. A REAL TRAP: this automatic exemption belongs to the church itself and does NOT extend to affiliated organizations operating as separate entities alongside it (thrift stores, schools, camps, outreach ministries) -- each of those needs its own recognition if it wants exemption. The IRS applies a multi-factor test (Publication 1828, no single factor determinative) to confirm an organization genuinely functions as a church before this special treatment applies -- self-designation alone is not sufficient. This file holds the GENERIC, denomination-agnostic baseline (formation, general clergy/governance structure, generic sacramental-recordkeeping categories); genuinely distinct polity and sacramental content by denomination (Catholic, Baptist, Episcopal, etc.) belongs in separate industry_church_{denomination}.json files layered on top, not duplicated here.",
+      "categories": {
+        "identity": [
+          "Certificate of Formation (Nonprofit Corporation)",
+          "Bylaws / Church Constitution",
+          "EIN Confirmation Letter (IRS)",
+          "Certificate of Good Standing / Certificate of Status",
+          "Amendments to Certificate of Formation",
+          "Amendments to Bylaws / Constitution",
+          "DBA / Assumed Name Filings",
+          "Initial Governing Body Roster (Board/Elders/Deacons/Vestry, denomination-specific naming)"
+        ],
+        "governance": [
+          "Governing Body Policies & Procedures",
+          "Clergy/Pastor Appointment Records",
+          "Governing Body Resolution Log",
+          "Governing Body Roster",
+          "Committee Charters",
+          "Conflict of Interest Policy",
+          "Document Retention Policy",
+          "Membership Roster"
+        ],
+        "financial": [
+          "Annual Budget",
+          "Annual Financial Statements",
+          "CPA Review / Audit Reports (voluntary, not required)",
+          "Bank Account Verification",
+          "Offering/Tithe Collection & Counting Procedures",
+          "Noncash Donation Appraisal Records (property gifts over $5,000)",
+          "Donor Contribution Records",
+          "1099 Vendor Filings",
+          "W-2 / Payroll Tax Filings",
+          "Clergy Housing Allowance Documentation"
+        ],
+        "insurance": [
+          "General Liability Policy",
+          "Directors & Officers (D&O) Policy",
+          "Property Insurance",
+          "Abuse/Molestation Liability Coverage",
+          "Workers' Compensation Policy",
+          "Umbrella Policy",
+          "Certificate of Insurance",
+          "Insurance Renewal Notices",
+          "Insurance Claims Log"
+        ],
+        "operations": [
+          "Employee Handbook",
+          "Volunteer Policies & Procedures",
+          "Safeguarding / Child Protection Policy",
+          "Standard Operating Procedures",
+          "Safety Policies",
+          "Vendor Contracts",
+          "Facility Use / Rental Agreements",
+          "Emergency Response Plan",
+          "Data Privacy / Information Security Policy",
+          "Business Continuity Plan"
+        ],
+        "statutory": [
+          "Texas Business Organizations Code Chapter 22 Compliance",
+          "Periodic Report (Form 802)",
+          "Registered Agent Designation",
+          "Foreign Qualification Filings (if operating in other states)",
+          "Statutory Policy Updates"
+        ],
+        "federal_tax_exempt_status": [
+          "Church Tax Status Determination (Multi-Factor Test Documentation)",
+          "IRS Determination Letter (voluntary -- not required to be tax-exempt)",
+          "Unrelated Business Income Tax Records (Form 990-T, if applicable)",
+          "Excess Benefit Transaction / Intermediate Sanctions Compliance Records",
+          "Noncash Donation Appraisal & Form 8283/8282 Records",
+          "Donor Acknowledgment Letters",
+          "Affiliated Organization Exemption Tracking (schools, thrift stores, camps operating as separate entities)"
+        ],
+        "sacramental_records_baseline": [
+          "Baptism/Dedication Register",
+          "Marriage Register",
+          "Funeral/Burial Register",
+          "Membership Register",
+          "Certificate Issuance Log (Baptism/Marriage/Membership Certificates)"
+        ],
+        "clergy_credentialing": [
+          "Ordination/Licensing Records",
+          "Background Check Records (Clergy & Staff)",
+          "Safeguarding/Child Protection Training Records"
+        ],
+        "meetings_notices": [
+          "Annual Congregational Meeting Notice",
+          "Annual Congregational Meeting Agenda",
+          "Annual Congregational Meeting Minutes",
+          "Governing Body Meeting Notices",
+          "Governing Body Meeting Agendas",
+          "Governing Body Meeting Minutes",
+          "Special Meeting Notices",
+          "Special Meeting Minutes",
+          "Quorum Verification Documents"
+        ],
+        "records_transparency": [
+          "Member Contact List",
+          "Disclosure Statements",
+          "Record Request Log",
+          "Record Request Responses",
+          "Document Retention Schedule (sacramental records commonly retained permanently in several traditions -- see denomination-specific industry file)"
+        ],
+        "vendor_contractual": [
+          "Vendor Master Service Agreements",
+          "Lease Agreements",
+          "Legal Services Agreement",
+          "Insurance Broker Agreement",
+          "Independent Contractor Agreements",
+          "Non-Disclosure Agreements"
+        ],
+        "property_asset_management": [
+          "Facility Inspection Reports",
+          "Maintenance Schedules",
+          "Repair Work Orders",
+          "Asset Inventory List",
+          "Equipment Manuals",
+          "Safety Compliance Documents",
+          "Key / Access Control Logs"
+        ]
+      },
+      "document_citations": {
+        "Certificate of Formation (Nonprofit Corporation)": [
+          "Tex. Bus. Orgs. Code Section 22.001(5) -- same nonprofit-corporation formation basis as nonprofit.json. Most Texas churches incorporate this way, though a church is not legally required to incorporate to exist or to receive the federal tax treatment described in this file's structure_note."
+        ],
+        "Church Tax Status Determination (Multi-Factor Test Documentation)": [
+          "IRS Publication 1828 (Tax Guide for Churches and Religious Organizations) -- the IRS applies a multi-factor test to confirm an organization genuinely functions as a church (no single factor is determinative). CONFIRMED 2026-09-04 that such a test exists and governs eligibility for the special church tax rules; the specific enumerated factors were not independently verified in this research pass -- do not assert a specific list of factors as confirmed until a dedicated verification pass is done."
+        ],
+        "IRS Determination Letter (voluntary -- not required to be tax-exempt)": [
+          "IRC Section 508(c)(1)(A) -- CONFIRMED 2026-09-04 across multiple independent sources: a qualifying church is automatically tax-exempt from the moment it is organized, with no Form 1023/1023-EZ filing required. Many churches still voluntarily seek a determination letter for donor confidence and banking purposes, but per IRS Publication 1828, donors may deduct contributions to a church even without one."
+        ],
+        "Unrelated Business Income Tax Records (Form 990-T, if applicable)": [
+          "IRC Sections 511-514, same $1,000 gross-income threshold and 21% flat rate as nonprofit.json's version of this citation. CONFIRMED 2026-09-04: churches receive an ADDITIONAL $1,000 deduction per local unit within a convention or association of churches -- a genuine wrinkle not present for an ordinary nonprofit."
+        ],
+        "Excess Benefit Transaction / Intermediate Sanctions Compliance Records": [
+          "IRC Section 4958 -- CONFIRMED 2026-09-04: churches are NOT exempt from these rules despite the broader Form 990/Form 1023 exemptions. Same disqualified-person and organization-manager penalty structure as nonprofit.json's version of this citation applies here without modification."
+        ],
+        "Noncash Donation Appraisal & Form 8283/8282 Records": [
+          "CONFIRMED 2026-09-04: property donations (other than cash or publicly traded securities) worth more than $5,000 require a qualified independent appraisal and Form 8283 -- the church cannot serve as its own appraiser, and an authorized church official must sign Part V acknowledging receipt. If the church disposes of the property within 3 years, it must file Form 8282 within 125 days and send a copy to the donor."
+        ],
+        "Affiliated Organization Exemption Tracking (schools, thrift stores, camps operating as separate entities)": [
+          "CONFIRMED 2026-09-04: the church's own automatic Section 508(c)(1)(A)/Section 6033(a)(3) exemption does NOT automatically extend to affiliated ministries, thrift stores, schools, or camps operating as legally separate organizations -- each must obtain its own recognition if exemption is desired. A real, commonly-missed compliance gap."
+        ],
+        "Clergy Housing Allowance Documentation": [
+          "IRC Section 107 -- the parsonage/housing allowance exclusion for ministers, a well-established and longstanding provision. Note (not independently re-verified in this specific research pass, based on well-established general knowledge): clergy are commonly treated as employees for federal income tax withholding purposes but as self-employed for Social Security/Medicare (SECA) tax purposes -- a dual-status arrangement genuinely unique to clergy compensation. Flag for a dedicated verification pass if this needs the same primary-source confirmation standard as the rest of this file."
+        ],
+        "Workers' Compensation Policy": [
+          "Tex. Labor Code Section 406.002 -- Texas is the only state in the country where workers' compensation coverage is elective, not mandatory, for most private employers. An employer who opts out ('non-subscriber') must notify the Texas Division of Workers' Compensation (Section 406.004) and notify employees (Section 406.005), and forfeits certain common-law defenses in the event of a workplace injury lawsuit. EXCEPTION: coverage is mandatory for government building/construction contracts under Section 406.096. Same citation already confirmed across every other entity file in this dataset."
+        ]
+      }
+    }
+  }
+}

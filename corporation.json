@@ -1,0 +1,124 @@
+{
+  "entities": {
+    "corporation": {
+      "categories": {
+        "identity": [
+          "Articles of Incorporation",
+          "Certificate of Formation",
+          "Corporate Bylaws",
+          "EIN Confirmation Letter (IRS)",
+          "Certificate of Good Standing",
+          "Amendments to Articles of Incorporation",
+          "Amendments to Bylaws",
+          "DBA / Assumed Name Filings",
+          "Stock Certificates",
+          "Shareholder Agreement"
+        ],
+        "governance": [
+          "Board Policies & Procedures",
+          "Board Code of Ethics",
+          "Board Resolution Log",
+          "Board of Directors Roster",
+          "Officer Appointments",
+          "Committee Charters",
+          "Committee Member Rosters",
+          "Annual Governance Calendar",
+          "Conflict of Interest Policy",
+          "Document Retention Policy",
+          "Stock Ledger / Ownership Records",
+          "Shareholder Voting Records"
+        ],
+        "financial": [
+          "Annual Budget",
+          "Annual Financial Statements",
+          "CPA Review / Audit Reports",
+          "Bank Account Verification",
+          "Investment Policy",
+          "Accounts Receivable / Collections Policy",
+          "Tax Filings (Federal + State)",
+          "Franchise Tax Filings",
+          "1099 Vendor Filings",
+          "W-2 / Payroll Tax Filings",
+          "Dividend Distribution Records",
+          "Capital Contribution Records"
+        ],
+        "insurance": [
+          "General Liability Policy",
+          "Directors & Officers (D&O) Policy",
+          "Property Insurance",
+          "Professional Liability / Errors & Omissions Policy",
+          "Workers' Compensation Policy",
+          "Umbrella Policy",
+          "Certificate of Insurance",
+          "Insurance Renewal Notices",
+          "Insurance Claims Log"
+        ],
+        "operations": [
+          "Employee Handbook",
+          "Standard Operating Procedures",
+          "Safety Policies",
+          "Vendor Contracts",
+          "Maintenance Logs",
+          "Emergency Response Plan",
+          "Security Policies",
+          "Data Privacy / Information Security Policy",
+          "Business Continuity Plan"
+        ],
+        "statutory": [
+          "State Business Organizations Code Compliance",
+          "Annual Report Filing (Secretary of State)",
+          "Registered Agent Designation",
+          "Foreign Qualification Filings (if operating in other states)",
+          "Industry-Specific Licensing Compliance",
+          "Public Posting Requirements",
+          "Statutory Policy Updates"
+        ],
+        "meetings_notices": [
+          "Annual Shareholder Meeting Notice",
+          "Annual Shareholder Meeting Agenda",
+          "Annual Shareholder Meeting Minutes",
+          "Board Meeting Notices",
+          "Board Meeting Agendas",
+          "Board Meeting Minutes",
+          "Special Meeting Notices",
+          "Special Meeting Minutes",
+          "Election/Appointment Notices",
+          "Proxy Forms",
+          "Quorum Verification Documents"
+        ],
+        "records_transparency": [
+          "Shareholder Ledger",
+          "Shareholder Contact List",
+          "Stock Transfer Documents",
+          "Disclosure Statements",
+          "Record Request Log",
+          "Record Request Responses",
+          "Document Retention Schedule"
+        ],
+        "vendor_contractual": [
+          "Vendor Master Service Agreements",
+          "Lease Agreements",
+          "Legal Services Agreement",
+          "Insurance Broker Agreement",
+          "Independent Contractor Agreements",
+          "Non-Disclosure Agreements",
+          "Licensing Agreements"
+        ],
+        "property_asset_management": [
+          "Facility Inspection Reports",
+          "Maintenance Schedules",
+          "Repair Work Orders",
+          "Asset Inventory List",
+          "Equipment Manuals",
+          "Safety Compliance Documents",
+          "Key / Access Control Logs"
+        ]
+      },
+      "document_citations": {
+        "Workers' Compensation Policy": [
+          "Tex. Labor Code Section 406.002 -- Texas is the only state in the country where workers' compensation coverage is elective, not mandatory, for most private employers. An employer who opts out ('non-subscriber') must notify the Texas Division of Workers' Compensation (Section 406.004) and notify employees (Section 406.005), and forfeits certain common-law defenses in the event of a workplace injury lawsuit. EXCEPTION: coverage is mandatory for government building/construction contracts under Section 406.096. CONFIRMED 2026-08-30 across multiple independent sources; added retroactively as a batch correction across all deployed entity-type files that list this document type."
+        ]
+      }
+    }
+  }
+}

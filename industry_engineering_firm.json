@@ -1,0 +1,49 @@
+{
+  "industries": {
+    "engineering_firm": {
+      "structure_note": "Engineering firm regulation in Texas follows a GENUINELY DIFFERENT model than medical_practice.json or industry_veterinary_practice.json. CONFIRMED 2026-08-30: Texas does NOT restrict engineering firm ownership to licensed engineers -- there is no equivalent of the Corporate Practice of Medicine doctrine or Tex. Occ. Code Section 801.506(a) here. Instead, Tex. Occ. Code Section 1001.405 and 22 TAC Section 137.77 require the FIRM ITSELF to register with the Texas Board of Professional Engineers and Land Surveyors (TBPELS) and to employ at least one full-time active Professional Engineer (PE) who performs or directly supervises all licensed engineering work -- ownership can be entirely non-engineer. This is exactly why 'engineer' does NOT appear on pa.json's restricted profession list (which covers only doctor of medicine, doctor of osteopathy, doctor of podiatry, dentist, chiropractor, optometrist, therapeutic optometrist, veterinarian, and licensed mental health professional) -- pair this industry with pc.json or pllc.json instead, both general-purpose professional-entity vehicles, not pa.json. A WATCH-ITEM: legislation passed in the 89th Legislature (2025, S.B. 681) extends firm/individual license and registration renewal terms from the historical 1-year cycle to a term of 'not less than two years' -- this file notes the change but has not independently confirmed the exact effective date for this specific bill; verify current renewal cadence against TBPELS's own site before relying on a specific term length.",
+      "categories": {
+        "licensing_practice_compliance": [
+          "Texas PE License (Professional Engineer)",
+          "Engineering Firm Certificate of Registration (TBPELS)",
+          "Full-Time Supervising PE Employment Verification",
+          "PDH (Professional Development Hour) / CE Records",
+          "PE Seal Registration & Approval Record"
+        ],
+        "document_seal_compliance": [
+          "Sealed Engineering Documents Log",
+          "Engineering Plan/Drawing Retention Records"
+        ],
+        "contracts_client_agreements": [
+          "Engineering Services Agreement",
+          "Subcontractor/Consultant Agreements",
+          "Public Works Project Compliance Records (if applicable)"
+        ],
+        "insurance_liability": [
+          "Professional Liability / Errors & Omissions Insurance",
+          "General Liability Policy"
+        ]
+      },
+      "document_citations": {
+        "Texas PE License (Professional Engineer)": [
+          "Tex. Occ. Code Section 1001.301 -- a person may not receive fee or compensation for engaging in the practice of engineering without a license. Any sole proprietorship, firm, partnership, association, or corporation offering or attempting to engage in such conduct is conclusively presumed to be engaged in the practice of engineering. CONFIRMED 2026-08-30 via Texas Legislature statute text."
+        ],
+        "Engineering Firm Certificate of Registration (TBPELS)": [
+          "Tex. Occ. Code Section 1001.405 (Practice by Business Entity; Registration) and 22 TAC Section 137.77 (Firm Registration Compliance) -- any firm or business entity offering engineering services to the public of Texas must hold a current certificate of registration with TBPELS, distinct from any individual PE's personal license. No engineering services may be offered or performed while a firm lacks a current certificate. Originally established by H.B. 1544 (76th Legislature), effective January 1, 2000. CONFIRMED 2026-08-30 directly against TBPELS's own rules and a PAO (public agency opinion) response letter -- TBPELS currently reports more than 11,000 Registered Engineering Firms."
+        ],
+        "Full-Time Supervising PE Employment Verification": [
+          "22 TAC Section 137.77(b)-(c) -- a registered firm must employ at least one full-time active PE license holder who performs or directly supervises all engineering work requiring a license across the firm's primary, branch, remote, and project offices. A sole-practitioner PE satisfies this requirement personally."
+        ],
+        "PDH (Professional Development Hour) / CE Records": [
+          "TBPELS requires 15 PDH (Professional Development Hour) credits per year for license renewal, with renewals historically processed on a quarterly, annual cycle. Legislation from the 89th Legislature (S.B. 681, 2025) extends the renewal term for both individual licenses/registrations (Section 1001.351(a)) and firm registrations (Section 1001.405(d)) to 'not less than two years' going forward -- this file has NOT independently confirmed the precise effective date of this specific change; verify current cycle length against TBPELS's own site."
+        ],
+        "PE Seal Registration & Approval Record": [
+          "TBPELS seal requirements: the physical or electronic seal must be no larger than two inches, with the engineer's name and license number clearly legible. A newly obtained seal must be submitted to and formally approved by the Board before use."
+        ],
+        "Professional Liability / Errors & Omissions Insurance": [
+          "No general mandate exists in Texas -- CONFIRMED 2026-08-30 directly against TBPELS's own enforcement FAQ: 'No, the Texas Engineering Practice Act and Rules does not require that a PE or engineering firm have insurance.' Same no-mandate pattern already confirmed for attorneys (industry_law_firm.json) and physicians (industry_medical_practice.json). Note: an unenacted 2003 bill (H.B. 3396, 78th Legislature) would have imposed a mandatory E&O insurance requirement on both architects and engineers, but current TBPELS guidance confirms no such requirement is in effect today."
+        ]
+      }
+    }
+  }
+}

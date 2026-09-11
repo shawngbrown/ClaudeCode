@@ -1,0 +1,59 @@
+{
+  "industries": {
+    "medical_practice": {
+      "structure_note": "The single most important structural fact for this industry: Texas has a strict Corporate Practice of Medicine (CPOM) doctrine (Tex. Occ. Code Chapter 151 et seq., the Medical Practice Act, reinforced by 22 TAC Section 177.17) that prohibits non-physician-owned business entities from practicing medicine, employing physicians to treat patients, or collecting fees for medical services. CONFIRMED 2026-08-30: ownership of a medical practice is generally restricted to physicians, with narrow additional exceptions for podiatrists, chiropractors, optometrists, and (in limited circumstances) physician assistants -- this maps directly onto pa.json's own profession-gating list. TMB-certified nonprofit health organizations (22 TAC Section 177.5), hospitals, and rural health clinics are also recognized exceptions. A tenant selecting this industry should generally be paired with pa.json or pc.json/pllc.json (physician-owned), not a generic corporation/llc, unless one of the narrow statutory exceptions genuinely applies. A SECOND important watch-item: TMB reorganized and RENUMBERED its medical records rules from 22 TAC Chapter 165 into 22 TAC Chapter 163 -- older guides and templates still cite the retired Chapter 165 numbers; this file uses the current Chapter 163 citations. A THIRD item: physicians are NOT required to carry malpractice insurance in Texas (CONFIRMED directly against the Texas Medical Board's own site), the same no-mandate pattern already confirmed for attorneys in industry_law_firm.json -- though many hospitals independently require it as a condition of clinical privileges.",
+      "categories": {
+        "licensing_practice_compliance": [
+          "Texas Medical Board (TMB) License (Physician)",
+          "DEA Registration (Controlled Substances, if applicable)",
+          "Corporate Practice of Medicine Compliance Certification",
+          "CME (Continuing Medical Education) Records",
+          "Physician Assistant / Nurse Practitioner Supervision Agreements (if applicable)"
+        ],
+        "patient_records_privacy": [
+          "Medical Record Retention Log",
+          "Medical Records Release Log",
+          "Practice Closure/Departure Patient Notification Records",
+          "HIPAA Privacy Policy",
+          "HIPAA Security Risk Assessment",
+          "HIPAA Breach Notification Log",
+          "Business Associate Agreements"
+        ],
+        "patient_consent_billing": [
+          "Informed Consent Forms",
+          "Notice of Privacy Practices",
+          "Billing Compliance Records (Anti-Kickback/Stark Law, if applicable)",
+          "Medicare/Medicaid Enrollment Records (if applicable)"
+        ],
+        "employment_noncompete": [
+          "Physician Employment Agreement (with Non-Compete Provisions)",
+          "Non-Compete Buyout Records",
+          "Professional Liability / Malpractice Insurance"
+        ]
+      },
+      "document_citations": {
+        "Texas Medical Board (TMB) License (Physician)": [
+          "Tex. Occ. Code Section 155.001 -- a person may not practice medicine in Texas without a license issued by the Texas Medical Board. CONFIRMED 2026-08-30 via the Texas Medical Association's own CPOM white paper and Texas Legislature statute text."
+        ],
+        "Corporate Practice of Medicine Compliance Certification": [
+          "Tex. Occ. Code Chapter 151 et seq. (Medical Practice Act) and 22 TAC Section 177.17 -- the CPOM doctrine, prohibiting non-physician-owned entities from practicing medicine, employing physicians to treat patients, or collecting medical fees. Recognized exceptions (22 TAC Section 177.5 for TMB-certified nonprofit health organizations, plus hospitals, rural health clinics, and specifically-named government hospitals) are narrow. Ownership is generally restricted to physicians, with limited additional exceptions for podiatrists, chiropractors, optometrists, and physician assistants in some circumstances. CONFIRMED 2026-08-30 across multiple sources including the Texas Medical Association and specialty healthcare law firms."
+        ],
+        "Medical Record Retention Log": [
+          "22 TAC Section 163.2 (renumbered from the retired Section 165.1 -- watch for outdated citations) -- standard retention is at least 7 years from the date of last treatment. For a patient under 18, retention runs until the patient turns 21 OR 7 years from last treatment, whichever is longer. CONFIRMED 2026-08-30 directly against Cornell Law/Justia's current statute text and the Texas Medical Board's own site."
+        ],
+        "Medical Records Release Log": [
+          "22 TAC Chapter 163 (medical records rules) -- upon written patient (or parent/guardian) consent, a physician must furnish records or a narrative summary within 15 business days of the request. TMB's reasonable-fee schedule: paper copies, $25 for the first 20 pages plus $0.50/page thereafter; electronic copies, $25 for 500 pages or less, $50 for more; up to $15 for an affidavit; no fee permitted for a request tied to a disability benefits claim."
+        ],
+        "Practice Closure/Departure Patient Notification Records": [
+          "22 TAC Section 163.4 -- a physician leaving or closing a practice must notify each patient seen in the preceding 2 years by letter or email, and post a notice in the office and on the practice website, at least 30 days before departure, closure, sale, or relocation. If the physician's license is surrendered or revoked rather than the practice simply closing, notice must be given immediately instead of 30 days in advance."
+        ],
+        "Professional Liability / Malpractice Insurance": [
+          "No general mandate exists in Texas -- physicians are not legally required to carry malpractice insurance (CONFIRMED 2026-08-30 directly against the Texas Medical Board's own site), the same no-mandate pattern already confirmed for attorneys. Many hospitals independently require it as a condition of granting clinical privileges, but this is a private/contractual requirement, not a state law."
+        ],
+        "Physician Employment Agreement (with Non-Compete Provisions)": [
+          "Tex. Bus. & Com. Code Section 15.50(b), substantially amended by S.B. 1318 (89th Legislature), effective September 1, 2025. A physician non-compete must not deny the physician access to a list of patients seen within the preceding year, must provide access to patients' medical records upon patient authorization (in the same format the records are maintained, absent mutual consent otherwise), and must allow the physician to continue treating a specific patient through an acute illness even after termination. CONFIRMED 2026-08-30, current as of this file's research: SB 1318 capped the mandatory buyout at the physician's total annual salary and wages at the time of termination (previously just a 'reasonable price,' arbitrator-determined if disputed) and added new Subsection (d): the covenant is VOID AND UNENFORCEABLE if the physician is involuntarily discharged without 'good cause' (a defined term tied to the physician's conduct, job performance, or employment record). SB 1318 also added Section 15.501, extending comparable protections to nurses, physician assistants, and dentists for the first time -- previously these protections applied to physicians only."
+        ]
+      }
+    }
+  }
+}

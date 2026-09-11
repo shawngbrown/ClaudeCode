@@ -1,0 +1,46 @@
+{
+  "industries": {
+    "church_methodist": {
+      "structure_note": "Methodist polity centers on CONNECTIONALISM -- described by the UMC's own Judicial Council as 'a bedrock principle of United Methodist constitutional polity, and the Trust Clause is its foundational element.' This produces two genuinely distinctive features not seen in any other denomination built so far. FIRST: the ITINERANT APPOINTMENT SYSTEM -- bishops appoint pastors to local churches on a rotating basis, historically with annual reappointment though modern practice often features longer multi-year tenures (well-established general knowledge, not independently re-verified with a fresh primary-source search in this specific pass, unlike the trust-clause/disaffiliation citations below). This is genuinely different from every polity built so far: Baptist and Lutheran congregations directly call their own pastor; Episcopal Rectors are called by the Vestry with the Bishop's institution; Catholic priests are assigned by the bishop but not on a routinely-rotating cycle the way Methodist itinerancy specifically features. SECOND, and CONFIRMED 2026-09-04 directly against the Book of Discipline's own published text (UMC.org): Paragraph 2501 states 'All properties of United Methodist local churches and other United Methodist agencies and institutions are held, in trust, for the benefit of the entire denomination' -- a provision in continuous effect since 1797, functioning similarly to (though considerably older and more explicitly codified than) industry_church_episcopal.json's 1979 Dennis Canon. The district superintendent must consent to any sale, lease, mortgage, or extensive renovation of local church property -- a real, specific consent requirement. A GENUINELY TIME-SENSITIVE FINDING, CONFIRMED 2026-09-04: Paragraph 2553, a temporary provision added by the 2019 Special General Conference, allowed a local church to disaffiliate from the UMC 'for reasons of conscience' related to the denomination's stance on homosexuality/same-sex ordination and marriage while RETAINING its property -- but this provision EXPIRED December 31, 2023 and has been affirmatively REMOVED from the Book of Discipline (confirmed via United Methodist Judicial Council Decision 1512, October 2024). There is currently NO active disaffiliation-with-property pathway under Paragraph 2553 -- do not assume the well-publicized 2019-2023 disaffiliation window is still open; it is not. A church now seeking to leave faces the much older, narrower Paragraph 2549 provision, which the Judicial Council has explicitly stated is not an appropriate mechanism for exiting with property the way Paragraph 2553 was. This matters directly for Texas: the Texas Annual Conference, Central Texas Conference, Northwest Texas Conference, and Rio Texas Conference all saw substantial disaffiliation activity during the 2019-2023 window, much of it now historical rather than an option still available to a current tenant. This file also flags, without building full separate content for, the 2022 formation of the Global Methodist Church (GMC) as a breakaway denomination from UMC, and the existence of long-standing, historically independent Black Methodist denominations (AME, AME Zion, CME) with their own distinct governance -- confirm which specific Methodist/Wesleyan body a tenant belongs to before assuming UMC's trust-clause specifics apply.",
+      "categories": {
+        "methodist_polity_variant_determination": [
+          "Denominational Body Determination (UMC vs. Global Methodist Church vs. AME/AME Zion/CME vs. other independent Methodist/Wesleyan body -- trust-clause and governance specifics differ)"
+        ],
+        "connectional_appointment_governance": [
+          "Itinerant Pastor Appointment Records (Bishop-Appointed, Rotating)",
+          "District Superintendent Relationship Documentation",
+          "Annual Conference Affiliation Records",
+          "Charge Conference / Church Conference Minutes",
+          "Board of Trustees Roster",
+          "Staff-Parish Relations Committee Roster"
+        ],
+        "umc_trust_clause_property": [
+          "Trust Clause Property Documentation (Book of Discipline Paragraph 2501)",
+          "District Superintendent Consent Records (required before sale/lease/mortgage/major renovation)",
+          "Disaffiliation Status Documentation (historical Paragraph 2553 pathway -- expired December 31, 2023)"
+        ],
+        "methodist_sacramental_records": [
+          "Baptism Register",
+          "Confirmation/Membership Records",
+          "Marriage Register",
+          "Funeral/Burial Register",
+          "Certificate Issuance Log"
+        ]
+      },
+      "document_citations": {
+        "Itinerant Pastor Appointment Records (Bishop-Appointed, Rotating)": [
+          "Well-established Methodist practice (general knowledge, not independently re-verified with a fresh primary-source search in this pass, unlike the trust-clause citations below): bishops appoint pastors to local churches on a rotating basis, distinct from every other polity built in this dataset -- Baptist/Lutheran congregations call their own pastor directly, Episcopal Rectors are called by the Vestry, and Catholic priests are assigned but not on a routinely-rotating cycle."
+        ],
+        "District Superintendent Consent Records (required before sale/lease/mortgage/major renovation)": [
+          "CONFIRMED 2026-09-04: the district superintendent must consent to any sale, lease, mortgage, or extensive renovation of local church property -- a real, specific consent mechanism required before major local property action, distinct from a merely advisory relationship."
+        ],
+        "Trust Clause Property Documentation (Book of Discipline Paragraph 2501)": [
+          "CONFIRMED 2026-09-04 directly against the Book of Discipline's own published text (UMC.org): Paragraph 2501 states 'All properties of United Methodist local churches and other United Methodist agencies and institutions are held, in trust, for the benefit of the entire denomination.' In continuous effect since 1797. Connectionalism is described by the UMC's own Judicial Council as 'a bedrock principle of United Methodist constitutional polity, and the Trust Clause is its foundational element.' Functions similarly to, though considerably older and more explicitly codified than, industry_church_episcopal.json's 1979 Dennis Canon."
+        ],
+        "Disaffiliation Status Documentation (historical Paragraph 2553 pathway -- expired December 31, 2023)": [
+          "CRITICALLY TIME-SENSITIVE, CONFIRMED 2026-09-04: Paragraph 2553 (added by the 2019 Special General Conference) allowed a local church to disaffiliate from the UMC 'for reasons of conscience' related to the denomination's stance on homosexuality/same-sex ordination and marriage while retaining its property, subject to a two-thirds supermajority vote of professing members present, annual conference ratification, and significant financial payments (50% of the property's assessed value, 12 months of unpaid apportionments, an additional 12 months of apportionments, and continued pension-plan obligations). Paragraph 2553 EXPIRED December 31, 2023 and has been affirmatively REMOVED from the Book of Discipline, confirmed via United Methodist Judicial Council Decision 1512 (October 2024), which held that the older Paragraph 2549 provision is NOT an appropriate mechanism for exiting with property the way Paragraph 2553 was. Do not assume this disaffiliation pathway remains open for a current tenant -- it does not."
+        ]
+      }
+    }
+  }
+}

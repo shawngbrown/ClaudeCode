@@ -1,0 +1,56 @@
+{
+  "industries": {
+    "real_estate_brokerage": {
+      "categories": {
+        "licensing_entity_registration": [
+          "Individual Broker License (TREC)",
+          "Business Entity Broker License (TREC)",
+          "Designated Broker Designation",
+          "Sales Agent Sponsorship Agreements",
+          "Evidence of Managing Authority (Operating Agreement or Meeting Minutes naming the broker as Manager/Officer)",
+          "Franchise Tax Account Status Certificate (Texas Comptroller)",
+          "Certificate of Insurance (E&O -- conditional on the designated broker's ownership percentage, see document_citations)"
+        ],
+        "client_disclosure_compliance": [
+          "Information About Brokerage Services (IABS) Form",
+          "Consumer Protection Notice",
+          "Seller's Disclosure Notice",
+          "Net Listing Agreement Justification (if applicable)",
+          "Advertising Name Registration (assumed business/team names)",
+          "Website Disclosure Link Compliance Record"
+        ],
+        "trust_account_escrow": [
+          "Trust/Escrow Account Records",
+          "Earnest Money Receipt and Disbursement Records",
+          "Trust Account Reconciliation Records",
+          "Authorized Signer Designation"
+        ],
+        "transaction_records": [
+          "Listing Agreements",
+          "Buyer Representation Agreements",
+          "Purchase and Sale Contracts",
+          "Closing Documents",
+          "Commission Agreements / Referral Fee Agreements"
+        ]
+      },
+      "document_citations": {
+        "Business Entity Broker License (TREC)": [
+          "Tex. Occ. Code Section 1101.002 (TRELA) -- all business entities engaged in real estate brokerage activity must be licensed as an entity, a distinct license from the individual designated broker's personal license. CONFIRMED 2026-08-30 via TREC's own published FAQ."
+        ],
+        "Certificate of Insurance (E&O -- conditional on the designated broker's ownership percentage, see document_citations)": [
+          "CONFIRMED 2026-08-30 via TREC's own REALM Portal broker resources and Certificate of Insurance form guidance: if the designated broker owns LESS THAN 10% of the business entity, the entity must maintain Errors and Omissions (E&O) insurance with a minimum limit of $1,000,000 per occurrence, evidenced by a TREC-promulgated Certificate of Insurance filed at license issuance and each renewal. If the broker owns 10% OR MORE, no proof of insurance is required for licensing purposes (though it remains recommended for asset protection). Check the actual ownership percentage before assuming this requirement applies -- do not treat it as universally mandatory or universally optional."
+        ],
+        "Information About Brokerage Services (IABS) Form": [
+          "Tex. Occ. Code Section 1101.558(b-1) (TRELA) -- a license holder must provide this written agency-disclosure notice at the time of first substantive communication with a party relating to a proposed transaction on specific real property. TREC publishes the required form (TREC No. IABS 1-0). TREC Rule 531.20(b) additionally requires a homepage website link in at least 10-point font. NOT required for: (1) a residential lease under one year where a sale is not being considered, or (2) a meeting with a party already known to be represented by another license holder. CONFIRMED 2026-08-30 via TREC's own published FAQ."
+        ],
+        "Trust/Escrow Account Records": [
+          "Tex. Occ. Code Section 1101.654 (Subchapter O -- prohibits commingling and conversion of escrow/trust funds) and TREC Rule 535.146 (trust account operational requirements: recordkeeping, authorized signers, reconciliation frequency). Trust account deposit/withdrawal records must be retained for FOUR YEARS. Violations can trigger administrative penalties up to $5,000 per violation under Section 1101.702, and license suspension or revocation for willful or repeated violations. CONFIRMED 2026-08-30."
+        ],
+        "Advertising Name Registration (assumed business/team names)": [
+          "TREC advertising rules (22 TAC Rule 531.20 area) -- any assumed business name, team name, or group name used in advertising must be registered with TREC before use. Separately, a broker's name (or licensed business entity name) must appear on any advertisement at a size at least half that of the largest contact information shown."
+        ]
+      },
+      "not_applicable_note": "The state-maintained Real Estate Recovery Trust Account (Tex. Occ. Code Sections 1101.601-1101.603) is a TREC-administered consumer protection fund, funded through license fees, that reimburses aggrieved parties who obtain a judgment against a license holder -- it is NOT something a brokerage itself files into or manages, and should not be listed as a brokerage document type. Included here only as context so it is not mistakenly added as a document requirement later."
+    }
+  }
+}

@@ -1,0 +1,162 @@
+{
+  "entities": {
+    "nonprofit": {
+      "structure_note": "This file has TWO layers, deliberately kept distinct. The 'baseline' categories below (identity through property_asset_management) apply to any Texas nonprofit corporation the moment its Certificate of Formation is filed with the Secretary of State (Tex. Bus. Orgs. Code Section 22.001(5)) -- this is a complete, valid legal status on its own. The 'federal_tax_exemption_conditional' category is SEPARATE and does not automatically apply: a Texas nonprofit corporation is not automatically exempt from federal or state tax, and many legally valid nonprofit corporations never pursue or receive IRS recognition. CONFIRMED 2026-08-30 directly against the Texas Secretary of State's own site (sos.texas.gov/corp/nonprofit_org.shtml): 'A Texas nonprofit corporation is not automatically exempt from federal or state taxes... Not all nonprofit corporations are entitled to exemption from state or federal taxes.' Treat the conditional category as applicable once a client is pursuing or holds IRS exemption, not as a default inclusion for every nonprofit entity type tenant. EXPANDED 2026-09-04 (Tier 4, '501(c)(3) Ongoing Compliance'): the federal_tax_exemption_conditional category originally covered only the one-time recognition steps (Form 1023, determination letter) plus a generic Form 990 reference. This expansion adds the genuinely distinct ONGOING annual-compliance content that recognition alone doesn't cover: which specific 990-series form applies based on size, the automatic-revocation risk for non-filing, unrelated business income tax, and excess benefit transaction rules for insider dealings -- deliberately built as an expansion of this existing category rather than a separate industry file, to avoid duplicating content that already lives here.",
+      "categories": {
+        "identity": [
+          "Certificate of Formation (Nonprofit Corporation)",
+          "Bylaws",
+          "EIN Confirmation Letter (IRS)",
+          "Certificate of Good Standing / Certificate of Status",
+          "Amendments to Certificate of Formation",
+          "Amendments to Bylaws",
+          "DBA / Assumed Name Filings",
+          "Initial Board of Directors List",
+          "Membership Structure Documentation (if the nonprofit has voting members; not required under Texas law)"
+        ],
+        "governance": [
+          "Board Policies & Procedures",
+          "Board Code of Ethics",
+          "Board Resolution Log",
+          "Board of Directors Roster",
+          "Officer Appointments",
+          "Committee Charters",
+          "Committee Member Rosters",
+          "Annual Governance Calendar",
+          "Conflict of Interest Policy",
+          "Document Retention Policy",
+          "Whistleblower Policy",
+          "Membership Roster (if applicable)"
+        ],
+        "financial": [
+          "Annual Budget",
+          "Annual Financial Statements",
+          "CPA Review / Audit Reports",
+          "Bank Account Verification",
+          "Investment Policy",
+          "Accounts Receivable / Collections Policy",
+          "State Tax Filings (Federal + State, if not exempt)",
+          "Franchise Tax Filings (if not exempt)",
+          "1099 Vendor Filings",
+          "W-2 / Payroll Tax Filings",
+          "Restricted Fund / Grant Accounting Records",
+          "Donor Contribution Records"
+        ],
+        "insurance": [
+          "General Liability Policy",
+          "Directors & Officers (D&O) Policy",
+          "Property Insurance",
+          "Professional Liability / Errors & Omissions Policy",
+          "Workers' Compensation Policy",
+          "Umbrella Policy",
+          "Certificate of Insurance",
+          "Insurance Renewal Notices",
+          "Insurance Claims Log"
+        ],
+        "operations": [
+          "Employee Handbook",
+          "Volunteer Policies & Procedures",
+          "Standard Operating Procedures",
+          "Safety Policies",
+          "Vendor Contracts",
+          "Maintenance Logs",
+          "Emergency Response Plan",
+          "Security Policies",
+          "Data Privacy / Information Security Policy",
+          "Business Continuity Plan"
+        ],
+        "statutory": [
+          "Texas Business Organizations Code Chapter 22 Compliance",
+          "Periodic Report (Form 802)",
+          "Registered Agent Designation",
+          "Foreign Qualification Filings (if operating in other states)",
+          "Industry-Specific Licensing Compliance",
+          "Statutory Policy Updates"
+        ],
+        "meetings_notices": [
+          "Annual Board Meeting Notice",
+          "Annual Board Meeting Agenda",
+          "Annual Board Meeting Minutes",
+          "Regular Board Meeting Notices",
+          "Regular Board Meeting Agendas",
+          "Regular Board Meeting Minutes",
+          "Special Meeting Notices",
+          "Special Meeting Minutes",
+          "Annual Membership Meeting Notice (if applicable)",
+          "Annual Membership Meeting Minutes (if applicable)",
+          "Quorum Verification Documents"
+        ],
+        "records_transparency": [
+          "Board Member Contact List",
+          "Membership Roster (if applicable)",
+          "Disclosure Statements",
+          "Record Request Log",
+          "Record Request Responses",
+          "Document Retention Schedule"
+        ],
+        "vendor_contractual": [
+          "Vendor Master Service Agreements",
+          "Lease Agreements",
+          "Legal Services Agreement",
+          "Insurance Broker Agreement",
+          "Independent Contractor Agreements",
+          "Non-Disclosure Agreements",
+          "Licensing Agreements",
+          "Grant Agreements (incoming, from foundations or government)"
+        ],
+        "property_asset_management": [
+          "Facility Inspection Reports",
+          "Maintenance Schedules",
+          "Repair Work Orders",
+          "Asset Inventory List",
+          "Equipment Manuals",
+          "Safety Compliance Documents",
+          "Key / Access Control Logs"
+        ],
+        "federal_tax_exemption_conditional": [
+          "IRS Form 1023 / Form 1023-EZ (Application for Recognition of Exemption)",
+          "IRS Determination Letter (501(c)(3) or other 501(c) status)",
+          "IRS Form 990 / 990-EZ / 990-N / 990-PF (Annual Information Return)",
+          "Form 990 Series Threshold Determination Log (990-N vs. 990-EZ vs. full 990 vs. 990-PF)",
+          "Automatic Revocation Risk Monitoring (3-Year Non-Filing Rule)",
+          "Unrelated Business Income Tax Records (Form 990-T, if applicable)",
+          "Excess Benefit Transaction / Intermediate Sanctions Compliance Records",
+          "Texas Comptroller Exemption Application (Form AP-204 or AP-205, depending on organization type)",
+          "Public Inspection Copies (Form 1023 and prior 3 years of Form 990)",
+          "Donor Acknowledgment Letters (required for donations over $250 to be deductible)",
+          "Dissolution / Asset Distribution Clause Documentation"
+        ]
+      },
+      "document_citations": {
+        "Certificate of Formation (Nonprofit Corporation)": [
+          "Tex. Bus. Orgs. Code Section 22.001(5) (definition of 'nonprofit corporation' -- a corporation no part of whose income is distributable to members, directors, or officers) and the Chapter 22 formation provisions generally. CONFIRMED 2026-08-30 via the Texas Secretary of State's own site and Justia."
+        ],
+        "Periodic Report (Form 802)": [
+          "Filed with the Texas Secretary of State, not the Comptroller -- distinct from the for-profit corporation/LLC PIR mechanism. CONFIRMED 2026-08-30, sourced from a client-supplied filing comparison table: due only upon SOS request, and only once every 4 years (not automatic/annual like the for-profit PIR). Failure to respond within 30 days of request risks involuntary termination or loss of the right to transact business in Texas."
+        ],
+        "IRS Form 1023 / Form 1023-EZ (Application for Recognition of Exemption)": [
+          "This entire document type, and the whole federal_tax_exemption_conditional category it sits in, is CONDITIONAL -- it applies only to nonprofit corporations pursuing or holding IRS tax-exempt recognition, not to every nonprofit entity-type tenant automatically. See the file-level structure_note for the full explanation and the primary-source confirmation behind this distinction."
+        ],
+        "Form 990 Series Threshold Determination Log (990-N vs. 990-EZ vs. full 990 vs. 990-PF)": [
+          "CONFIRMED 2026-09-04 across multiple independent sources including the IRS's own guidance: Form 990-N ('e-Postcard') applies if gross receipts are normally $50,000 or less (using a 3-year average once the organization has existed that long) -- filed entirely online, no paper alternative. Form 990-EZ applies only if BOTH gross receipts are under $200,000 AND total assets at year-end are under $500,000 -- both conditions must hold simultaneously. The full Form 990 is required above those thresholds. Form 990-PF is filed by private foundations regardless of size -- a private foundation is never eligible for 990-EZ or 990-N. Certain organizations (churches, certain church-affiliated entities under IRC Section 6033(a)(3)) are exempt from the 990-series filing requirement entirely."
+        ],
+        "Automatic Revocation Risk Monitoring (3-Year Non-Filing Rule)": [
+          "IRC Section 6033(j), enacted by the Pension Protection Act of 2006 -- CONFIRMED 2026-09-04 directly against IRS guidance: an organization that fails to file its required 990-series return (990, 990-EZ, 990-N, or 990-PF) for THREE CONSECUTIVE YEARS automatically loses tax-exempt status BY OPERATION OF LAW, effective on the original due date of the third missed return. No IRS warning letter precedes it, and there is no administrative appeal once it occurs -- the IRS publishes a monthly Auto-Revocation List rather than notifying organizations in advance. Reinstatement requires filing a brand-new exemption application under Rev. Proc. 2014-11 and is not guaranteed to be retroactive. Late-filing penalties before revocation occurs, per IRC Section 6652(c): commonly cited as $20/day (capped at the lesser of $10,000 or 5% of gross receipts) for organizations with gross receipts at or below $1,000,000, and $100/day (capped at $50,000) for larger organizations -- these figures are periodically adjusted by the IRS; confirm the current-year amount in the Form 990 instructions before quoting a specific dollar figure to a client."
+        ],
+        "Unrelated Business Income Tax Records (Form 990-T, if applicable)": [
+          "IRC Sections 511-514 -- CONFIRMED 2026-09-04: even a properly tax-exempt organization owes tax on income from a trade or business that is regularly carried on and NOT substantially related to its exempt purpose (e.g., certain advertising income or unrelated commercial sales). A specific $1,000 deduction applies before any tax is owed; if gross unrelated business taxable income is $1,000 or more, Form 990-T must be filed and any tax paid at the flat 21% corporate rate, due the same date as the main Form 990 (15th day of the 5th month after fiscal year-end). Estimated tax payments are required during the year if UBIT is expected to reach $500 or more. For a 501(c)(3), Form 990-T is itself subject to public disclosure, the same as the main Form 990. Common UBIT exemptions: qualified corporate sponsorship payments, royalties, and qualified convention/trade show income."
+        ],
+        "Excess Benefit Transaction / Intermediate Sanctions Compliance Records": [
+          "IRC Section 4958 ('intermediate sanctions') -- CONFIRMED 2026-09-04: applies when a 'disqualified person' (an officer, director, or other individual with substantial influence over the organization) receives an economic benefit exceeding the value of what they provided in return. This is a remedy targeting the INDIVIDUAL insider, alongside (not instead of) outright revocation. The disqualified person must correct/repay the excess benefit, plus an excise tax generally exceeding 200% of the excess benefit if not timely corrected; organization managers who knowingly approved the transaction face a separate penalty up to $10,000 per violation, jointly and severally liable among all approving managers. IMPORTANT DISTINCTION: Section 4958 applies to public charities and 501(c)(4) organizations -- a PRIVATE FOUNDATION is instead governed by the stricter self-dealing rules under IRC Section 4941, a genuinely different regime. Do not apply this Section 4958 citation to a private-foundation tenant; that case needs Section 4941 content instead, not yet built."
+        ],
+        "Public Inspection Copies (Form 1023 and prior 3 years of Form 990)": [
+          "IRS public disclosure requirement for organizations recognized as tax-exempt -- applies only within the conditional layer, same caveat as Form 1023 above."
+        ],
+        "Workers' Compensation Policy": [
+          "Tex. Labor Code Section 406.002 -- Texas is the only state in the country where workers' compensation coverage is elective, not mandatory, for most private employers. An employer who opts out ('non-subscriber') must notify the Texas Division of Workers' Compensation (Section 406.004) and notify employees (Section 406.005), and forfeits certain common-law defenses in the event of a workplace injury lawsuit. EXCEPTION: coverage is mandatory for government building/construction contracts under Section 406.096. CONFIRMED 2026-08-30 across multiple independent sources; added retroactively as a batch correction across all deployed entity-type files that list this document type."
+        ]
+      },
+      "charitable_solicitation_note": "Texas has NO general charitable solicitation registration requirement -- one of roughly 10-11 states without a blanket rule (CONFIRMED 2026-08-30 across multiple independent sources including the Texas Attorney General's own site and Ballotpedia). Registration is required only for three narrow categories, none of which apply to a typical nonprofit client: the Law Enforcement Telephone Solicitation Act (LETSA, filed with the OAG), the Public Safety Solicitation Act (PSSA, filed with the SOS), and the Veterans Solicitation Act (VSA, filed with the SOS). Do not add a general 'Charitable Solicitation Registration' document type to this file's categories -- it would misrepresent Texas law for the overwhelming majority of clients. If a specific tenant genuinely falls into one of the three narrow categories, that should be handled as tenant-specific data, not a baseline entity-type assumption."
+    }
+  }
+}

@@ -1,0 +1,149 @@
+{
+  "entities": {
+    "pllc": {
+      "structure_note": "A PLLC is a type of LLC (Tex. Bus. Orgs. Code Title 3, Chapter 101 applies generally) with an additional professional-licensing layer on top (Title 7, Chapters 301 and 304). Most categories below mirror llc.json directly since the base LLC governance/financial/operational mechanics are the same entity. The professional_licensing_compliance category is what's genuinely new and exclusive to PLLCs -- it exists because Tex. Bus. Orgs. Code Section 301.007 restricts PLLC ownership and management to individuals actually licensed in the profession the PLLC renders (or qualifying 'professional organizations' of similarly-licensed people), which has no equivalent in a plain LLC.",
+      "categories": {
+        "identity": [
+          "Certificate of Formation (Professional Limited Liability Company)",
+          "Company Agreement (Operating Agreement)",
+          "EIN Confirmation Letter (IRS)",
+          "Certificate of Good Standing / Certificate of Status",
+          "Amendments to Certificate of Formation",
+          "Amendments to Company Agreement",
+          "DBA / Assumed Name Filings",
+          "Membership Certificates (if issued)",
+          "Initial Members/Managers List"
+        ],
+        "governance": [
+          "Company Policies & Procedures",
+          "Code of Ethics",
+          "Manager/Member Resolution Log",
+          "Members Roster",
+          "Managers Roster (if manager-managed)",
+          "Committee Charters",
+          "Conflict of Interest Policy",
+          "Document Retention Policy",
+          "Membership Interest Ledger",
+          "Member Voting Records",
+          "Buy-Sell Agreement (Ownership Transfer Restricted to Licensed Professionals)"
+        ],
+        "financial": [
+          "Annual Budget",
+          "Annual Financial Statements",
+          "CPA Review / Audit Reports",
+          "Bank Account Verification",
+          "Investment Policy",
+          "Accounts Receivable / Collections Policy",
+          "Tax Filings (Federal + State)",
+          "Franchise Tax Filings",
+          "1099 Vendor Filings",
+          "W-2 / Payroll Tax Filings",
+          "Member Distribution Records",
+          "Capital Contribution Records"
+        ],
+        "insurance": [
+          "General Liability Policy",
+          "Management Liability Insurance (D&O-equivalent)",
+          "Professional Liability / Malpractice Insurance",
+          "Property Insurance",
+          "Workers' Compensation Policy",
+          "Umbrella Policy",
+          "Certificate of Insurance",
+          "Insurance Renewal Notices",
+          "Insurance Claims Log"
+        ],
+        "operations": [
+          "Employee Handbook",
+          "Standard Operating Procedures",
+          "Safety Policies",
+          "Vendor Contracts",
+          "Maintenance Logs",
+          "Emergency Response Plan",
+          "Security Policies",
+          "Data Privacy / Information Security Policy",
+          "Business Continuity Plan"
+        ],
+        "statutory": [
+          "Texas Business Organizations Code Chapters 301 and 304 Compliance",
+          "Texas Business Organizations Code Chapter 101 Compliance (base LLC provisions)",
+          "Texas Franchise Tax Public Information Report (PIR) Filing",
+          "Registered Agent Designation",
+          "Foreign Qualification Filings (if operating in other states)",
+          "Public Posting Requirements",
+          "Statutory Policy Updates"
+        ],
+        "meetings_notices": [
+          "Annual Member Meeting Notice",
+          "Annual Member Meeting Agenda",
+          "Annual Member Meeting Minutes",
+          "Manager Meeting Notices",
+          "Manager Meeting Agendas",
+          "Manager Meeting Minutes",
+          "Special Meeting Notices",
+          "Special Meeting Minutes",
+          "Election/Appointment Notices",
+          "Proxy Forms",
+          "Quorum Verification Documents"
+        ],
+        "records_transparency": [
+          "Membership Ledger",
+          "Member Contact List",
+          "Membership Interest Transfer Documents",
+          "Disclosure Statements",
+          "Record Request Log",
+          "Record Request Responses",
+          "Document Retention Schedule"
+        ],
+        "vendor_contractual": [
+          "Vendor Master Service Agreements",
+          "Lease Agreements",
+          "Legal Services Agreement",
+          "Insurance Broker Agreement",
+          "Independent Contractor Agreements",
+          "Non-Disclosure Agreements",
+          "Licensing Agreements"
+        ],
+        "property_asset_management": [
+          "Facility Inspection Reports",
+          "Maintenance Schedules",
+          "Repair Work Orders",
+          "Asset Inventory List",
+          "Equipment Manuals",
+          "Safety Compliance Documents",
+          "Key / Access Control Logs"
+        ],
+        "professional_licensing_compliance": [
+          "Individual Professional License Verification (Members)",
+          "Individual Professional License Verification (Managers, if manager-managed)",
+          "Individual Professional License Verification (Officers)",
+          "Professional Organization Ownership Documentation (if an owner is itself a qualifying professional organization rather than an individual)",
+          "Entity Name Compliance Certification (PLLC designator and governing-profession ethics-rule check)",
+          "State Licensing Board Registration (the specific board depends on the profession -- e.g. TSBPA for a CPA-owned PLLC, Texas Medical Board for a physician-owned PLLC, State Bar of Texas for an attorney-owned PLLC)"
+        ]
+      },
+      "document_citations": {
+        "Certificate of Formation (Professional Limited Liability Company)": [
+          "Tex. Bus. Orgs. Code Title 1, Chapter 3, Subchapter A (general formation provisions) and Title 7, Chapter 304 (PLLC-specific formation rules) -- filed via Secretary of State Form 206, a distinct form from the plain-LLC Form 205. CONFIRMED 2026-08-30 directly against the Texas Secretary of State's own Form 206 instructions."
+        ],
+        "Company Agreement (Operating Agreement)": [
+          "Tex. Bus. Orgs. Code Section 101.001(1) and Section 101.052 -- the base LLC company-agreement provisions apply to a PLLC the same way they apply to a plain LLC, since a PLLC is a type of LLC under Title 3."
+        ],
+        "Texas Business Organizations Code Chapters 301 and 304 Compliance": [
+          "Tex. Bus. Orgs. Code Title 7: Chapter 301 establishes ownership/management restrictions -- only a licensed professional individual or a qualifying 'professional organization' may be an owner or manager, and only a professional individual may be an officer (Section 301.007). Chapter 304 sets the PLLC-specific formation and operation rules. CONFIRMED 2026-08-30 directly against the Texas Secretary of State's own Form 206 instructions."
+        ],
+        "Individual Professional License Verification (Members)": [
+          "Tex. Bus. Orgs. Code Section 301.007 -- an individual may be a governing person, member, or officer of a PLLC only if licensed (in Texas or another jurisdiction) to provide the same professional service the PLLC renders. This is the core compliance fact this category exists to track; it has no equivalent in the plain-LLC entity file."
+        ],
+        "Entity Name Compliance Certification (PLLC designator and governing-profession ethics-rule check)": [
+          "Tex. Bus. Orgs. Code Section 5.059 (entity name must contain the phrase 'professional limited liability company' or an abbreviation such as 'PLLC') and Section 5.060 (the name also cannot conflict with any law or ethics rule governing the profession rendered through the PLLC)."
+        ],
+        "Registered Agent Designation": [
+          "Standard Texas registered-agent requirement, same as a plain LLC -- but the Texas Secretary of State's own Form 206 instructions specifically flag an elevated consequence for a PLLC: failure to maintain a registered agent and registered office may result in involuntary termination of the professional entity."
+        ],
+        "Workers' Compensation Policy": [
+          "Tex. Labor Code Section 406.002 -- Texas is the only state in the country where workers' compensation coverage is elective, not mandatory, for most private employers. An employer who opts out ('non-subscriber') must notify the Texas Division of Workers' Compensation (Section 406.004) and notify employees (Section 406.005), and forfeits certain common-law defenses in the event of a workplace injury lawsuit. EXCEPTION: coverage is mandatory for government building/construction contracts under Section 406.096. CONFIRMED 2026-08-30 across multiple independent sources; added retroactively as a batch correction across all deployed entity-type files that list this document type."
+        ]
+      }
+    }
+  }
+}

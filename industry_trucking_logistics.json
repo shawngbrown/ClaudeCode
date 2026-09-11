@@ -1,0 +1,60 @@
+{
+  "industries": {
+    "trucking_logistics": {
+      "structure_note": "Trucking/logistics has a genuinely layered federal-plus-state structure, different in shape from the financial advisory AUM-threshold split -- here, BOTH layers commonly apply simultaneously rather than one replacing the other. CONFIRMED 2026-08-30 directly against TxDMV's own site: a USDOT Number (FMCSA, federal) is required for both interstate AND intrastate carriers meeting specific thresholds -- gross vehicle weight/rating exceeding 26,000 lbs, transporting hazardous materials requiring placarding, farm vehicles at or above 48,000 lbs, or vehicles designed to carry 15+ passengers. On top of that federal identifier, the ACTUAL operating authority differs by scope: crossing state lines requires Interstate Operating Authority (an MC Number from FMCSA); staying entirely within Texas requires Intrastate Operating Authority (a TxDMV certificate, formerly called a 'TxDOT number'); a carrier doing both kinds of work needs both kinds of authority. A carrier operating exclusively within Texas should register with FMCSA as INTRAstate, not INTERstate -- getting this designation wrong affects which downstream requirements (like UCR) actually apply. UCR (Unified Carrier Registration) is required annually, but only for carriers operating in interstate or international commerce -- a purely intrastate carrier does not need it. CONFIRMED 2026-08-30: the 2026 UCR registration cycle opened October 1, 2025, with enforcement beginning January 1, 2026 -- current cycle timing as of this file's research. Motor transportation BROKERS operating solely within Texas are a distinct case: they need a surety bond with TxDMV approval, but do NOT need Intrastate Operating Authority themselves just to arrange point-to-point transportation.",
+      "categories": {
+        "federal_registration_authority": [
+          "USDOT Number Registration (FMCSA)",
+          "MCS-150 Biennial Update Record",
+          "Interstate Operating Authority (MC Number, if applicable)",
+          "Unified Carrier Registration (UCR) Annual Filing (interstate/international carriers only)",
+          "BOC-3 Process Agent Designation (if operating interstate)"
+        ],
+        "texas_state_registration": [
+          "TxDMV Motor Carrier Registration (Intrastate Operating Authority)",
+          "International Registration Plan (IRP) Apportioned Registration (if multi-state)",
+          "International Fuel Tax Agreement (IFTA) Registration (if multi-state, over 26,000 lbs)",
+          "Oversize/Overweight (OS/OW) Permit Records (if applicable)"
+        ],
+        "driver_safety_compliance": [
+          "Commercial Driver's License (CDL) Verification Records",
+          "Drug and Alcohol Testing Program Certification (TxDMV)",
+          "FMCSA Clearinghouse Registration",
+          "Hours of Service (HOS) Compliance Records",
+          "New Entrant Safety Audit Records (within 18 months of new authority)"
+        ],
+        "insurance_cargo_liability": [
+          "Motor Carrier Liability Insurance (minimum varies by cargo type)",
+          "Cargo Insurance",
+          "Broker Surety Bond (if operating as a broker, not a carrier)"
+        ]
+      },
+      "document_citations": {
+        "USDOT Number Registration (FMCSA)": [
+          "Required for both interstate and intrastate carriers meeting specific thresholds: gross vehicle weight/registered weight/GVWR exceeding 26,000 lbs; transporting hazardous materials in a quantity requiring placarding; operating a farm vehicle at or above 48,000 lbs; or operating a vehicle designed to transport 15 or more passengers including the driver. CONFIRMED 2026-08-30 directly against TxDMV's own site and FAQ."
+        ],
+        "MCS-150 Biennial Update Record": [
+          "FMCSA requires the Motor Carrier Identification Report (Form MCS-150) to be updated every 2 years to keep a USDOT Number active."
+        ],
+        "Interstate Operating Authority (MC Number, if applicable)": [
+          "Required from FMCSA for any carrier crossing state lines. A carrier operating exclusively within Texas should instead register as INTRAstate with FMCSA and pursue Intrastate Operating Authority (a TxDMV certificate) rather than an MC Number -- a carrier doing both interstate and intrastate work needs both authorities simultaneously."
+        ],
+        "Unified Carrier Registration (UCR) Annual Filing (interstate/international carriers only)": [
+          "Required annually only for carriers operating in interstate or international commerce -- not required for a purely intrastate carrier. Filed through the National Registration System at ucr.gov (not the older Indiana-hosted system). CONFIRMED 2026-08-30: the 2026 UCR cycle opened October 1, 2025, with enforcement beginning January 1, 2026. The UCR fee is based on the number of motor vehicles (excluding trailers) most recently reported to FMCSA."
+        ],
+        "TxDMV Motor Carrier Registration (Intrastate Operating Authority)": [
+          "Required for any motor carrier operating intrastate commercial motor vehicles on a Texas road or highway. Registration terms available: 7 days, 90 days, 1 year, or 2 years; a certificate of registration is non-transferable between carriers. ALL TxDMV-registered motor carriers must certify compliance with FMCSA drug-testing requirements, identify their drug-testing consortium or facility, and report drug-testing results to the Texas Department of Public Safety (DPS) in the manner DPS requires. CONFIRMED 2026-08-30 directly against TxDMV's own site."
+        ],
+        "International Registration Plan (IRP) Apportioned Registration (if multi-state)": [
+          "TxDMV requires an IRP applicant to provide proof of current UCR registration as part of the apportioned-registration application, if applicable -- IRP and UCR are cross-linked systems, not independent processes, the same pattern already seen between TABC and the Comptroller's Sales Tax Permit for restaurants."
+        ],
+        "Motor Carrier Liability Insurance (minimum varies by cargo type)": [
+          "Insurance minimums vary meaningfully by what is hauled: General Freight is commonly cited at a $750,000 minimum liability limit for interstate operations (intrastate minimums differ and were not independently pinned to a specific dollar figure in this research pass); Hazardous Materials commonly ranges from $1,000,000 to $5,000,000 depending on hazmat classification. Verify the specific figure applicable to a given tenant's cargo type and interstate/intrastate status before relying on a single number."
+        ],
+        "Broker Surety Bond (if operating as a broker, not a carrier)": [
+          "A motor transportation broker operating solely within Texas must obtain a bond and receive TxDMV bond approval, but is NOT required to obtain Intrastate Operating Authority (a TxDMV Number) simply to arrange point-to-point transportation within the state -- brokers and carriers face genuinely different registration obligations."
+        ]
+      }
+    }
+  }
+}

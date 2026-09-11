@@ -1,0 +1,204 @@
+{
+  "entities": {
+    "hoa_poa": {
+      "categories": {
+        "identity": [
+          "Declaration of Covenants, Conditions & Restrictions (CC&Rs)",
+          "Bylaws",
+          "Articles of Incorporation",
+          "Certificate of Formation",
+          "Amendments to CC&Rs",
+          "Amendments to Bylaws",
+          "Rules and Regulations",
+          "Architectural Guidelines"
+        ],
+        "governance": [
+          "Board Policies & Procedures",
+          "Board Code of Ethics",
+          "Board Resolution Log",
+          "Board Member Roster",
+          "Committee Charters",
+          "Committee Member Rosters",
+          "Annual Governance Calendar",
+          "Conflict of Interest Policy",
+          "Document Retention Policy"
+        ],
+        "financial": [
+          "Annual Budget",
+          "Annual Financial Statements",
+          "Reserve Study",
+          "CPA Review / Audit Reports",
+          "Bank Account Verification",
+          "Investment Policy",
+          "Delinquency / Collections Policy",
+          "Tax Filings"
+        ],
+        "insurance": [
+          "General Liability Policy",
+          "Directors & Officers (D&O) Policy",
+          "Property Insurance",
+          "Fidelity Bond",
+          "Umbrella Policy",
+          "Certificate of Insurance",
+          "Insurance Renewal Notices",
+          "Insurance Claims Log"
+        ],
+        "operations": [
+          "Vendor Contracts",
+          "Maintenance Logs",
+          "Emergency Response Plan",
+          "Security Policies",
+          "Amenity Use Policies",
+          "Community Website / Communication Policy"
+        ],
+        "statutory": [
+          "Management Certificate (Texas Property Code Sec. 209.004)",
+          "Periodic Report (Form 802) -- Secretary of State, board of directors/officer information",
+          "Public Posting Requirements",
+          "Statutory Policy Updates"
+        ],
+        "meetings_notices": [
+          "Annual Meeting Notice",
+          "Annual Meeting Agenda",
+          "Annual Meeting Minutes",
+          "Board Meeting Notices",
+          "Board Meeting Agendas",
+          "Board Meeting Minutes",
+          "Special Meeting Notices",
+          "Special Meeting Minutes",
+          "Election Notices",
+          "Ballot Tabulation Records",
+          "Quorum Verification Documents"
+        ],
+        "architectural_control": [
+          "Architectural Review Application",
+          "Architectural Approval Letter",
+          "Architectural Denial Letter",
+          "Architectural Appeal Documents"
+        ],
+        "records_transparency": [
+          "Owner Contact List",
+          "Owner Complaint Log",
+          "Record Request Log",
+          "Record Request Responses",
+          "Document Retention Schedule"
+        ],
+        "vendor_contractual": [
+          "Management Company Contract",
+          "Landscaping Contracts",
+          "Maintenance/Repair Contracts",
+          "Security Service Contracts",
+          "Trash & Utility Service Agreements",
+          "Reserve Study Vendor Agreements"
+        ],
+        "property_asset_management": [
+          "Facility Inspection Reports",
+          "Maintenance Schedules",
+          "Repair Work Orders",
+          "Asset Inventory List",
+          "Equipment Manuals",
+          "Safety Compliance Documents"
+        ],
+        "legal_enforcement": {
+          "assessment": [
+            "Assessment Statement",
+            "Delinquency Notice",
+            "Payment Plan Agreement",
+            "Assessment Lien Filing"
+          ],
+          "fines": [
+            "Violation Notice",
+            "Violation Reminder Notice",
+            "Fine Schedule",
+            "Fine Assessment Notice",
+            "Notice of Right to Hearing",
+            "Hearing Request Form",
+            "Hearing Outcome Letter",
+            "Enforcement Policy",
+            "Appeal Procedures",
+            "Appeal Outcome Letter"
+          ],
+          "fees": [
+            "Transfer Fee Notice",
+            "Resale Certificate Fee Notice",
+            "Late Fee Schedule"
+          ],
+          "towing": [
+            "Towing Policy",
+            "Towing Notice",
+            "Towing Signage Compliance Record"
+          ],
+          "attorney": [
+            "Attorney Engagement Letter",
+            "Attorney Demand Letters",
+            "Attorney Collection Notices",
+            "Attorney Hearing Notices",
+            "Attorney Lien Notices",
+            "Attorney Foreclosure Notices",
+            "Legal Opinion Letters",
+            "Settlement Agreements",
+            "Mediation Documents",
+            "Court Filings"
+          ],
+          "statutory_due_process": [
+            "Notice and Cure Period Documentation",
+            "Certified Mail Return Receipts",
+            "Due Process Compliance Checklist"
+          ],
+          "owner_rights": [
+            "Owner Rights Disclosure",
+            "Alternative Dispute Resolution Documents",
+            "Mediation Agreements",
+            "Arbitration Agreements"
+          ]
+        }
+      },
+      "document_citations": {
+        "Violation Notice": [
+          "Texas Property Code Sec. 209.006 (Notice Required Before Enforcement Action)"
+        ],
+        "Violation Reminder Notice": [
+          "Texas Property Code Sec. 209.006 (Notice Required Before Enforcement Action)"
+        ],
+        "Fine Assessment Notice": [
+          "Texas Property Code Sec. 209.006 (Notice Required Before Enforcement Action)",
+          "Texas Property Code Sec. 209.0051(h)(1) (Open Meeting Required for Board Vote on Fines)"
+        ],
+        "Notice of Right to Hearing": [
+          "Texas Property Code Sec. 209.006(b)(2)(B) (right to request a hearing under Sec. 209.007)"
+        ],
+        "Hearing Request Form": [
+          "Texas Property Code Sec. 209.007(a) (Hearing Before Board; Alternative Dispute Resolution)"
+        ],
+        "Hearing Outcome Letter": [
+          "Texas Property Code Sec. 209.007 (Hearing Before Board; Alternative Dispute Resolution)"
+        ],
+        "Appeal Procedures": [
+          "Texas Property Code Sec. 209.007 (Hearing Before Board; Alternative Dispute Resolution)"
+        ],
+        "Appeal Outcome Letter": [
+          "Texas Property Code Sec. 209.007 (Hearing Before Board; Alternative Dispute Resolution)"
+        ],
+        "Attorney Engagement Letter": [
+          "Texas Property Code Sec. 209.0051(h)(4) (Open Meeting Required for Board Vote on Initiating Enforcement Actions)"
+        ],
+        "Attorney Hearing Notices": [
+          "Texas Property Code Sec. 209.007 (Hearing Before Board; Alternative Dispute Resolution)"
+        ],
+        "Mediation Documents": [
+          "Texas Property Code Sec. 209.007(d) (Alternative Dispute Resolution)"
+        ],
+        "Attorney Lien Notices": [
+          "Texas Property Code Sec. 209.0094 (Assessment Lien Filing)"
+        ],
+        "Attorney Foreclosure Notices": [
+          "Texas Property Code Sec. 209.0092 (Judicial Foreclosure Required)",
+          "Texas Property Code Sec. 209.0091 (Prerequisites to Foreclosure: Notice and Opportunity to Cure for Certain Other Lienholders)"
+        ],
+        "Periodic Report (Form 802) -- Secretary of State, board of directors/officer information": [
+          "CORRECTED 2026-08-30 -- replaces the previously ambiguous, uncited 'State Registration Filings' entry. This is the correct and only mechanism for board-of-directors/officer identification, distinct from the Management Certificate. Neither the POA Management Certificate (Property Code Sec. 209.004) nor the condo Management Certificate (Sec. 82.116) requires naming the board of directors -- both require only a single managing agent or designated representative's contact information. Board/officer identification, when the Secretary of State requests it, happens through the Tex. Bus. Orgs. Code Chapter 22 nonprofit Periodic Report mechanism (Form 802) -- filed only once every 4 years, and only upon SOS request, not annually. Do not conflate this with an annual franchise tax/PIR filing, which is the for-profit/taxable-entity mechanism, not the nonprofit one -- a properly tax-exempt POA does not file an annual PIR the way a for-profit corporation does."
+        ]
+      }
+    }
+  }
+}

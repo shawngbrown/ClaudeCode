@@ -1,0 +1,101 @@
+{
+  "entities": {
+    "partnership": {
+      "structure_note": "A general partnership, like a sole proprietorship, is NOT a separately-filed legal entity in Texas -- it forms automatically whenever two or more persons carry on a business for profit as owners, whether or not they intend to create a partnership or call it one (Tex. Bus. Orgs. Code Section 152.051). No Certificate of Formation is filed with the Secretary of State. CONFIRMED 2026-08-30, three structural facts drive most of this file's shape: (1) LIABILITY: all partners are jointly and severally liable for partnership obligations (Section 152.304) -- a creditor can pursue any single partner for the full debt, not just their proportionate share, though partnership assets generally must be exhausted first (Section 152.306). This is the general-partnership version of the same no-liability-shield theme as sole_proprietorship.json, multiplied across multiple people. (2) FRANCHISE TAX IS CONDITIONAL: a general partnership is NOT a taxable entity under Tex. Tax Code Section 171.0002(b)(2) only if its direct ownership is composed ENTIRELY of natural persons. If even one partner is itself a legal entity (an LLC, a corporation, etc. -- 'persons' under Section 152.051 is not limited to individuals), the partnership becomes a taxable entity subject to franchise tax. This is a real gating fact, not a default assumption -- check actual partner composition before assuming exemption. (3) LLP IS AN OPTIONAL UPGRADE, NOT A DIFFERENT STARTING POINT: any general partnership may elect to register as a Limited Liability Partnership (Section 152.801) to gain liability protection. This file assumes that election has NOT been made; llp.json is the file for a partnership that has registered.",
+      "categories": {
+        "identity_registration": [
+          "Partnership Agreement",
+          "Assumed Name Certificate / DBA (County Clerk -- required unless the partnership operates strictly under the partners' own combined legal names)",
+          "EIN Confirmation Letter (IRS)",
+          "Initial Partners List",
+          "Amendments to Partnership Agreement",
+          "Assumed Name Certificate Renewal",
+          "Certificate of Abandonment (if the assumed name is discontinued)"
+        ],
+        "governance": [
+          "Partner Meeting Minutes / Records of Partner Decisions",
+          "Partner Voting Records",
+          "Partner Admission Records",
+          "Partner Withdrawal Records",
+          "Conflict of Interest Policy",
+          "Document Retention Policy",
+          "Partnership Interest Ledger (capital accounts / ownership percentages)"
+        ],
+        "financial": [
+          "Annual Budget",
+          "Annual Financial Statements",
+          "CPA Review / Audit Reports",
+          "Bank Account Verification",
+          "Federal Partnership Tax Return (Form 1065) and Partner K-1s",
+          "Franchise Tax Filings (conditional -- see structure_note)",
+          "1099 Vendor Filings",
+          "W-2 / Payroll Tax Filings",
+          "Partner Capital Account Records",
+          "Partner Distribution Records"
+        ],
+        "insurance": [
+          "General Liability Policy",
+          "Professional Liability / Errors & Omissions Policy",
+          "Property Insurance",
+          "Workers' Compensation Policy",
+          "Umbrella Policy",
+          "Certificate of Insurance",
+          "Insurance Renewal Notices",
+          "Insurance Claims Log"
+        ],
+        "operations": [
+          "Employee Handbook",
+          "Standard Operating Procedures",
+          "Safety Policies",
+          "Vendor Contracts",
+          "Maintenance Logs",
+          "Emergency Response Plan",
+          "Data Privacy / Information Security Policy",
+          "Business Continuity Plan"
+        ],
+        "statutory": [
+          "Texas Business Organizations Code Chapter 152 Compliance",
+          "Franchise Tax Entity-Status Determination (conditional on partner composition -- see structure_note)",
+          "Assumed Name Filing Compliance",
+          "Industry-Specific Licensing Compliance",
+          "LLP Registration Consideration (Section 152.801 -- optional election, not required; tracked as a decision point, not a default filing)"
+        ],
+        "vendor_contractual": [
+          "Vendor Agreements",
+          "Lease Agreements",
+          "Legal Services Agreement",
+          "Insurance Broker Agreement",
+          "Independent Contractor Agreements",
+          "Non-Disclosure Agreements"
+        ],
+        "property_asset_management": [
+          "Equipment / Asset Inventory List",
+          "Equipment Manuals",
+          "Maintenance Logs",
+          "Safety Compliance Documents",
+          "Facility Inspection Reports"
+        ]
+      },
+      "document_citations": {
+        "Partnership Agreement": [
+          "Tex. Bus. Orgs. Code Section 152.051 -- a general partnership forms whenever two or more persons carry on a business for profit as owners, regardless of intent to form a partnership or the presence of a written agreement. A written agreement is not legally required but is the single most important document for a real partnership, since it displaces the statutory default rules (including Chapter 11's default winding-up rules) that otherwise apply when the partners haven't agreed otherwise."
+        ],
+        "Assumed Name Certificate / DBA (County Clerk -- required unless the partnership operates strictly under the partners' own combined legal names)": [
+          "Tex. Bus. & Com. Code Chapter 71 -- same county-level filing basis as sole_proprietorship.json. A general partnership's own business name is treated as an assumed name in nearly all practical cases, making this filing more consistently applicable for partnerships than for sole proprietors operating under their own single legal name."
+        ],
+        "Partner Voting Records": [
+          "Tex. Bus. Orgs. Code Section 152.302 (Binding Effect of Partner's Action) -- absent a restriction the counterparty knew about, each partner generally has authority to bind the partnership, which is why documenting actual partner decisions and any agreed voting/authority limits matters more here than in a single-owner sole proprietorship."
+        ],
+        "Franchise Tax Entity-Status Determination (conditional on partner composition -- see structure_note)": [
+          "Tex. Tax Code Section 171.0002(b)(2): a general partnership is excluded from the definition of 'taxable entity' only if its direct ownership is composed entirely of natural persons. CONFIRMED 2026-08-30 via the Texas Comptroller's own franchise tax overview and taxable-entities FAQ. If any partner is itself a legal entity, or if the partnership has registered as an LLP, this exemption does not apply and franchise tax filings are required the same as for a taxable entity."
+        ],
+        "LLP Registration Consideration (Section 152.801 -- optional election, not required; tracked as a decision point, not a default filing)": [
+          "Tex. Bus. Orgs. Code Section 152.801 (election to register) and Section 152.802 (registration filing with the Secretary of State, including a required brief statement of the partnership's business and partner count). If this election is made, the partnership becomes subject to llp.json's requirements instead of this file's, including a registered agent requirement that a plain general partnership does not have."
+        ],
+        "Workers' Compensation Policy": [
+          "Tex. Labor Code Section 406.002 -- Texas is the only state in the country where workers' compensation coverage is elective, not mandatory, for most private employers. An employer who opts out ('non-subscriber') must notify the Texas Division of Workers' Compensation (Section 406.004) and notify employees (Section 406.005), and forfeits certain common-law defenses in the event of a workplace injury lawsuit. EXCEPTION: coverage is mandatory for government building/construction contracts under Section 406.096."
+        ]
+      }
+    }
+  }
+}

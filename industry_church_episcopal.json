@@ -1,0 +1,47 @@
+{
+  "industries": {
+    "church_episcopal": {
+      "structure_note": "Episcopal/Anglican polity sits genuinely between church_baptist.json's full congregational autonomy and industry_church_catholic.json's full hierarchical assignment -- a real third structural shape, not a blend of the other two. CONFIRMED 2026-09-04 directly against Texas Supreme Court and Texas Court of Appeals case law (Masterson v. Diocese of Northwest Texas; the Episcopal Diocese of Fort Worth litigation -- both genuinely Episcopal cases, not Catholic, though the same case law surfaced during this dataset's Catholic property research): The Episcopal Church (TEC) is organized in three tiers -- General Convention (national, bicameral: House of Bishops and House of Deputies, meets roughly every 3 years), Diocesan Convention (regional, its own constitution and canons), and local parishes/missions, which adopt both the diocese's and General Convention's constitution and canons. A local Episcopal congregation's clergy relationship is a real middle ground: a RECTOR (a self-supporting parish's settled priest) is typically CALLED by the parish's own Vestry -- with the Bishop's institution/consent -- giving Rectors meaningful security of tenure; a VICAR (a diocesan-supported mission's priest) instead serves at the Bishop's pleasure without the same tenure protection. TEC'S PROPERTY DOCTRINE: the 1979 'Dennis Canon' states that all real and personal property held by or for the benefit of any Parish, Mission, or Congregation is held in trust for the national Church and its Diocese. CRITICALLY, Texas's 'neutral principles of law' doctrine (the same one confirmed for industry_church_catholic.json) means this canon's trust claim is NOT automatically given civil effect in Texas -- actual ownership depends on the real civil documents (articles of incorporation, deed language, express trust formation under Tex. Prop. Code Section 112.004). In the actual Masterson case, a Texas nonprofit corporation was formed specifically AS A CONDITION of the parish's acceptance into union with the diocese -- when the congregation later voted to leave TEC, they amended THAT SAME CORPORATION'S own articles and bylaws, and the corporation (now controlled by the withdrawing faction) retained the property under Texas's neutral-principles analysis. A genuinely distinct consent mechanism also confirmed: in at least one diocese's own governing documents (Fort Worth), the diocesan corporation holding parish property in trust could NOT convey, lease, or encumber that property WITHOUT the consent of the parish's own Rector, Wardens, and Vestry -- a real check running in the OPPOSITE direction from Catholic canon law's diocesan-consent-for-parish-transactions model. Sacramental theology varies meaningfully across the wide range within Anglicanism (Anglo-Catholic to Evangelical wings) -- this file does not assert one single rigid framework; Baptism and the Eucharist are broadly treated as the two primary 'sacraments of the Gospel,' with Confirmation, Ordination, Matrimony, Reconciliation, and Anointing commonly described as 'sacramental rites' rather than full sacraments, though this framing is not universally identical across all Anglican/Episcopal bodies.",
+      "categories": {
+        "diocesan_hierarchical_governance": [
+          "Diocesan Affiliation / Union Agreement (Parish's Corporate Formation as a Condition of Diocesan Union)",
+          "Bishop's Consent to Parish/Mission Establishment",
+          "Rector Call Letter (called by Vestry, instituted by Bishop) or Vicar Appointment Letter (appointed by Bishop, mission status)",
+          "Vestry Roster (Senior Warden, Junior Warden, Vestry Members)",
+          "Diocesan Convention Delegate Records",
+          "General Convention Deputy Records (if applicable)",
+          "Diocesan Financial Reporting Records"
+        ],
+        "canon_law_property_administration": [
+          "Parish Civil Incorporation Documents (Tex. Bus. Orgs. Code Chapter 22, formed as a condition of diocesan union)",
+          "Parish Property Trust/Ownership Documentation (Dennis Canon claim vs. Texas neutral-principles civil review)",
+          "Diocesan Corporation Consent Records (Rector/Wardens/Vestry consent required before diocesan corporation may convey/encumber parish property)",
+          "Express Trust Instrument (if a civil-law trust in favor of the diocese was properly established under Texas trust law)"
+        ],
+        "episcopal_sacramental_records": [
+          "Baptism Register",
+          "Confirmation Register",
+          "Marriage Register",
+          "Burial Register",
+          "Certificate Issuance Log (Baptism/Confirmation/Marriage Certificates)"
+        ],
+        "episcopal_clergy_credentialing": [
+          "Ordination Records (Bishop-Administered, Diocesan)",
+          "Rector/Vicar/Deacon Role Documentation",
+          "Letters Dimissory (clergy transfer between dioceses)"
+        ]
+      },
+      "document_citations": {
+        "Rector Call Letter (called by Vestry, instituted by Bishop) or Vicar Appointment Letter (appointed by Bishop, mission status)": [
+          "CONFIRMED 2026-09-04 across the Masterson and Fort Worth Diocese case law: a Rector (settled priest of a self-supporting parish) is typically called by the parish's own Vestry, with the Bishop's institution/consent, giving Rectors meaningful security of tenure. A Vicar (priest of a diocesan-supported mission) instead serves at the Bishop's pleasure, without the same tenure protection. This is a genuine structural middle ground between church_baptist.json's fully local calling and industry_church_catholic.json's fully bishop-directed assignment."
+        ],
+        "Parish Property Trust/Ownership Documentation (Dennis Canon claim vs. Texas neutral-principles civil review)": [
+          "CONFIRMED 2026-09-04 directly against Texas Supreme Court case law (Masterson v. Diocese of Northwest Texas): TEC's 1979 'Dennis Canon' asserts that all parish/mission/congregation property is held in trust for the national Church and Diocese. However, Texas applies the 'neutral principles of law' doctrine (one of only seven states plus the 8th Circuit) -- actual civil ownership depends on the real civil documents (articles of incorporation, deed language, express trust formation under Tex. Prop. Code Section 112.004 and the statute of frauds at Tex. Bus. & Com. Code Section 26.01), not automatic deference to the Dennis Canon's trust assertion. In the actual Masterson case, the Texas nonprofit corporation formed as a condition of diocesan union was later amended by the withdrawing congregation, and retained the property under this neutral-principles analysis."
+        ],
+        "Diocesan Corporation Consent Records (Rector/Wardens/Vestry consent required before diocesan corporation may convey/encumber parish property)": [
+          "CONFIRMED 2026-09-04 directly against the Episcopal Diocese of Fort Worth's own governing constitution, quoted in Texas Supreme Court case law: property held by the Diocesan Corporation 'in trust for the use and benefit of' a particular parish or mission may NOT be conveyed, leased, or encumbered by the Diocesan Corporation without the consent of the Rector, Wardens, and Vestry of that parish or mission -- a real consent mechanism running in the opposite direction from Catholic canon law's diocesan-consent-for-parish-transactions model."
+        ]
+      }
+    }
+  }
+}

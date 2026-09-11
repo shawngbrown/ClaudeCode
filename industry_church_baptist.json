@@ -1,0 +1,48 @@
+{
+  "industries": {
+    "church_baptist": {
+      "structure_note": "CONFIRMED 2026-09-04 across multiple independent sources (SBC.net's own governance page, Baptist Press, the Baptist Faith & Message): Baptist churches operate under CONGREGATIONAL POLITY -- the local church is fully autonomous and self-governing. No convention, association, or denominational body (Southern Baptist Convention, state conventions like the Baptist General Convention of Texas, National Baptist Convention USA, American Baptist Churches USA, or local associations) has binding legal or ecclesiastical authority over a local church's internal decisions. Direct quote from Baptist Press: 'The Southern Baptist Convention can exercise absolutely zero authority over a local church.' Cooperation with any convention is entirely voluntary -- a church is under no compulsion to give financially, send messengers, or participate in convention activity, and the Baptist Faith & Message itself describes such bodies as 'voluntary and advisory,' not governing. This is the single most important structural difference from a hierarchical tradition (Catholic, Episcopal/Anglican, many Lutheran and Methodist bodies), where a bishop, diocese, or synod DOES hold binding authority over local congregations -- pair this industry with church.json knowing that the entity file's generic clergy/governance language should be read through this fully-autonomous lens for a Baptist tenant. ALSO IMPORTANT: Baptists practice believer's baptism by immersion, NOT infant baptism, and use the term 'ordinance' rather than 'sacrament' for baptism and the Lord's Supper -- church.json's generic baseline 'Baptism/Dedication Register' should be understood, for a Baptist tenant, as covering adult/believer baptism only; this file's more specific registers are what actually applies in practice. Real variance exists among specific Baptist bodies (SBC, American Baptist Churches USA, National Baptist Convention, independent/unaffiliated churches) -- this file represents the general, widely-shared congregational-polity pattern, not a claim of total uniformity across every Baptist body.",
+      "categories": {
+        "congregational_polity_governance": [
+          "Congregational Autonomy Confirmation (No Binding External Denominational Authority)",
+          "Deacon Board Roster",
+          "Trustee Roster (Property/Legal Matters, if applicable)",
+          "Church Covenant",
+          "Statement of Faith / Confession of Faith",
+          "Ordination Council Records (Local Church Ordination of Pastor/Deacons)"
+        ],
+        "voluntary_convention_affiliation": [
+          "Convention/Association Affiliation Records (e.g. SBC, BGCT, National Baptist Convention, American Baptist Churches USA -- voluntary, non-binding)",
+          "Annual Church Profile Report (if affiliated with SBC/BGCT)",
+          "Cooperative Program Giving Records (if applicable)"
+        ],
+        "baptist_ordinances_records": [
+          "Believer's Baptism Register (by immersion)",
+          "Baby Dedication Register (non-baptismal blessing ceremony, distinct from baptism)",
+          "Lord's Supper/Communion Observance Log",
+          "Letter of Transfer / Letter of Recommendation Records (member moving between churches)"
+        ]
+      },
+      "document_citations": {
+        "Congregational Autonomy Confirmation (No Binding External Denominational Authority)": [
+          "CONFIRMED 2026-09-04 across multiple independent sources including SBC.net's own governance page and Baptist Press: Baptist churches operate under congregational polity -- the local church is fully autonomous and self-governing. No convention, association, or denominational body has binding legal or ecclesiastical authority over a local church's internal decisions. Direct quote: 'The Southern Baptist Convention can exercise absolutely zero authority over a local church.' Cooperation (financial giving, sending messengers, convention participation) is entirely voluntary."
+        ],
+        "Deacon Board Roster": [
+          "Common Baptist governance structure: Pastor plus a Deacon Board handling spiritual/ministry oversight. CONFIRMED 2026-09-04: local Baptist churches own their own property directly and conduct business independent of denominational control -- unlike traditions where church property is held by a diocese or synod rather than the local congregation."
+        ],
+        "Ordination Council Records (Local Church Ordination of Pastor/Deacons)": [
+          "CONFIRMED 2026-09-04: Baptist churches typically call and ordain their own pastors and deacons directly, often through a local ordination council (the congregation itself, sometimes joined by invited area pastors), rather than through credentials issued by a denominational hierarchy -- distinct from traditions requiring ordination by a bishop or higher ecclesiastical authority."
+        ],
+        "Convention/Association Affiliation Records (e.g. SBC, BGCT, National Baptist Convention, American Baptist Churches USA -- voluntary, non-binding)": [
+          "CONFIRMED 2026-09-04: affiliation with a Baptist convention is voluntary and advisory only. The Baptist Faith & Message (the SBC's own confession) describes such bodies as 'voluntary and advisory bodies designed to elicit, combine, and direct the energies of our people' -- not governing authorities over local churches."
+        ],
+        "Believer's Baptism Register (by immersion)": [
+          "Well-established Baptist doctrine (general knowledge, not independently re-verified with a fresh primary-source search in this pass, unlike the polity citations above): Baptist churches practice believer's baptism by immersion, reserved for those old enough to make a personal profession of faith, rather than infant baptism. Flag for a dedicated verification pass if this specific doctrinal point needs the same primary-source confirmation standard as the polity citations."
+        ],
+        "Baby Dedication Register (non-baptismal blessing ceremony, distinct from baptism)": [
+          "Many Baptist churches practice a separate, non-baptismal dedication/blessing ceremony for infants in which parents publicly commit to raising the child in the faith -- theologically and administratively distinct from baptism itself, which in Baptist practice is reserved for believers old enough to profess faith personally."
+        ]
+      }
+    }
+  }
+}

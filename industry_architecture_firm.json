@@ -1,0 +1,45 @@
+{
+  "industries": {
+    "architecture_firm": {
+      "structure_note": "Architecture firm regulation in Texas closely mirrors industry_engineering_firm.json's model, not the CPOM-style ownership restriction used for medicine/veterinary medicine. CONFIRMED 2026-08-30: Tex. Occ. Code Chapter 1051 permits a firm, partnership, corporation, or association to engage in the practice of architecture and use 'architect'/'architecture' in its name ONLY IF the actual architectural work is performed by or through a person registered as an architect -- there is no requirement that the firm be OWNED by architects. The statute explicitly extends this same rule to engineering firms practicing architecture under Section 1001.405, showing the two professions share a common regulatory logic in Texas. TBAE also requires firm-level registration (Section 1051.306), separate from individual architect registration (Section 1051.701). Pair this industry with pc.json or pllc.json -- architecture is not on pa.json's restricted profession list. CONFIRMED 2026-08-30: TBAE does not require architects to carry professional liability insurance as a condition of registration or renewal -- the same no-mandate pattern already confirmed for attorneys, physicians, and engineers. A 2003 bill (H.B. 3396) would have imposed a mandatory E&O requirement on both architects and engineers, but current guidance for both professions confirms no such requirement is in effect. One genuine difference from engineering: architecture CE renewal remains an ANNUAL cycle (Section 1051.351) with specific mandatory sub-topics, whereas engineering is transitioning toward a 2-year cycle under recent legislation -- do not assume the two professions share a renewal cadence.",
+      "categories": {
+        "licensing_practice_compliance": [
+          "Texas Architect Registration (TBAE)",
+          "Architecture Firm Registration (TBAE, if applicable)",
+          "CEPH (Continuing Education Program Hours) Records",
+          "Architect's Seal Registration & Approval Record"
+        ],
+        "document_seal_compliance": [
+          "Sealed Architectural Drawings/Specifications Log",
+          "Drawing/Specification Retention Records"
+        ],
+        "contracts_client_agreements": [
+          "Architectural Services Agreement",
+          "Subconsultant Agreements",
+          "Public Buildings/Schools Project Compliance Records (if applicable)"
+        ],
+        "insurance_liability": [
+          "Professional Liability / Errors & Omissions Insurance",
+          "General Liability Policy"
+        ]
+      },
+      "document_citations": {
+        "Texas Architect Registration (TBAE)": [
+          "Tex. Occ. Code Section 1051.701 -- a person may not engage in, or offer or attempt to engage in, the practice of architecture as defined by Section 1051.001(7)(A), (B), or (C) unless registered as an architect. CONFIRMED 2026-08-30 via Texas Legislature statute text."
+        ],
+        "Architecture Firm Registration (TBAE, if applicable)": [
+          "Tex. Occ. Code Section 1051.306 (Firm Registration), read together with the rule that a firm, partnership, corporation, or association -- including one practicing engineering under Section 1001.405 -- may engage in the practice of architecture, or represent itself as offering architectural services, or use 'architect'/'architecture' in its name, only if the actual architectural work is performed by or through a registered architect. No ownership restriction applies -- structurally parallel to industry_engineering_firm.json's supervising-PE model, not a CPOM-style restriction."
+        ],
+        "CEPH (Continuing Education Program Hours) Records": [
+          "Tex. Occ. Code Section 1051.356 -- all active registrants must complete at least 12 Continuing Education Program Hours (CEPH) each calendar year (January 1 - December 31), including a minimum of 1 hour relating to Barrier-Free Design and 1 hour relating to Sustainable or Energy-Efficient Design. A course generally cannot be repeated for credit within 3 years (with an exception for the Texas Accessibility Academy or similar TDLR-offered courses). Renewal is ANNUAL under Section 1051.351 -- unlike engineering's shift toward a 2-year cycle, do not assume the same cadence applies here. CONFIRMED 2026-08-30 directly against TBAE's own published CE requirements."
+        ],
+        "Architect's Seal Registration & Approval Record": [
+          "Tex. Occ. Code Sections 1051.654 (Design and Approval of Architect's Seal) and 1051.702 (Use of Architect's Seal) -- an architect must maintain a Board-approved seal and stamp or impress it on each drawing or specification issued from the architect's office for use in Texas."
+        ],
+        "Professional Liability / Errors & Omissions Insurance": [
+          "No general mandate exists in Texas -- CONFIRMED 2026-08-30: the Texas Board of Architectural Examiners does not currently require architects to carry professional liability insurance as a condition of registration or license renewal. Same no-mandate pattern already confirmed for attorneys, physicians, and engineers elsewhere in this dataset. A 2003 bill (H.B. 3396, 78th Legislature) would have added a mandatory E&O requirement for architects (proposed Section 1051.211) alongside the identical proposal for engineers (Section 1001.214) -- current guidance for both professions confirms neither requirement is in effect today."
+        ]
+      }
+    }
+  }
+}

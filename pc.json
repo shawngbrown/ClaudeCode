@@ -1,0 +1,146 @@
+{
+  "entities": {
+    "pc": {
+      "structure_note": "A Professional Corporation (PC) is a true corporation -- genuinely distinct from a Professional Association (PA), which is not (see pa.json's structure_note). A PC uses real shareholders and stock, with statutory share-transfer restrictions (Tex. Bus. Orgs. Code Section 303.003) not present in a plain for-profit corporation. Unlike a PA, a PC is not restricted to a narrow enumerated list of professions -- it is the general-purpose professional-corporation vehicle used across most licensed professions (attorneys, CPAs, engineers, architects, and others not on the PA-specific medical/health list). Most categories below mirror corporation.json directly since the base corporate governance/financial/operational mechanics are the same entity; the professional_licensing_compliance category is the genuinely new layer, driven by Tex. Bus. Orgs. Code Chapter 301's ownership/licensing restrictions, which apply to a PC the same way they apply to a PLLC or PA.",
+      "categories": {
+        "identity": [
+          "Certificate of Formation (Professional Corporation)",
+          "Corporate Bylaws",
+          "EIN Confirmation Letter (IRS)",
+          "Certificate of Good Standing / Certificate of Status",
+          "Amendments to Certificate of Formation",
+          "Amendments to Bylaws",
+          "DBA / Assumed Name Filings",
+          "Stock Certificates",
+          "Shareholder Agreement (with Professional Ownership Transfer Restrictions)"
+        ],
+        "governance": [
+          "Board Policies & Procedures",
+          "Board Code of Ethics",
+          "Board Resolution Log",
+          "Board of Directors Roster",
+          "Officer Appointments",
+          "Committee Charters",
+          "Committee Member Rosters",
+          "Annual Governance Calendar",
+          "Conflict of Interest Policy",
+          "Document Retention Policy",
+          "Stock Ledger / Ownership Records",
+          "Shareholder Voting Records"
+        ],
+        "financial": [
+          "Annual Budget",
+          "Annual Financial Statements",
+          "CPA Review / Audit Reports",
+          "Bank Account Verification",
+          "Investment Policy",
+          "Accounts Receivable / Collections Policy",
+          "Tax Filings (Federal + State)",
+          "Franchise Tax Filings",
+          "1099 Vendor Filings",
+          "W-2 / Payroll Tax Filings",
+          "Dividend Distribution Records",
+          "Capital Contribution Records"
+        ],
+        "insurance": [
+          "General Liability Policy",
+          "Directors & Officers (D&O) Policy",
+          "Professional Liability / Malpractice Insurance",
+          "Property Insurance",
+          "Workers' Compensation Policy",
+          "Umbrella Policy",
+          "Certificate of Insurance",
+          "Insurance Renewal Notices",
+          "Insurance Claims Log"
+        ],
+        "operations": [
+          "Employee Handbook",
+          "Standard Operating Procedures",
+          "Safety Policies",
+          "Vendor Contracts",
+          "Maintenance Logs",
+          "Emergency Response Plan",
+          "Security Policies",
+          "Data Privacy / Information Security Policy",
+          "Business Continuity Plan"
+        ],
+        "statutory": [
+          "Texas Business Organizations Code Chapter 303 Compliance",
+          "Texas Business Organizations Code Chapter 301 Compliance (professional-entity ownership/licensing restrictions)",
+          "Texas Franchise Tax Public Information Report (PIR) Filing",
+          "Registered Agent Designation",
+          "Foreign Qualification Filings (if operating in other states)",
+          "Statutory Policy Updates"
+        ],
+        "meetings_notices": [
+          "Annual Shareholder Meeting Notice",
+          "Annual Shareholder Meeting Agenda",
+          "Annual Shareholder Meeting Minutes",
+          "Board Meeting Notices",
+          "Board Meeting Agendas",
+          "Board Meeting Minutes",
+          "Special Meeting Notices",
+          "Special Meeting Minutes",
+          "Election/Appointment Notices",
+          "Proxy Forms",
+          "Quorum Verification Documents"
+        ],
+        "records_transparency": [
+          "Shareholder Ledger",
+          "Shareholder Contact List",
+          "Stock Transfer Documents (subject to Section 303.003 restrictions)",
+          "Disclosure Statements",
+          "Record Request Log",
+          "Record Request Responses",
+          "Document Retention Schedule"
+        ],
+        "vendor_contractual": [
+          "Vendor Master Service Agreements",
+          "Lease Agreements",
+          "Legal Services Agreement",
+          "Insurance Broker Agreement",
+          "Independent Contractor Agreements",
+          "Non-Disclosure Agreements",
+          "Licensing Agreements"
+        ],
+        "property_asset_management": [
+          "Facility Inspection Reports",
+          "Maintenance Schedules",
+          "Repair Work Orders",
+          "Asset Inventory List",
+          "Equipment Manuals",
+          "Safety Compliance Documents",
+          "Key / Access Control Logs"
+        ],
+        "professional_licensing_compliance": [
+          "Individual Professional License Verification (Shareholders)",
+          "Individual Professional License Verification (Directors)",
+          "Individual Professional License Verification (Officers)",
+          "Professional Organization Ownership Documentation (if an owner is itself a qualifying professional organization rather than an individual)",
+          "Entity Name Compliance Certification (professional designator and governing-profession ethics-rule check)",
+          "State Licensing Board Registration (the specific board depends on the profession -- e.g. TSBPA for a CPA-owned PC, State Bar of Texas for an attorney-owned PC, TBPELS for an engineer-owned PC)"
+        ]
+      },
+      "document_citations": {
+        "Certificate of Formation (Professional Corporation)": [
+          "Tex. Bus. Orgs. Code Title 1, Chapter 3, Subchapter A (general formation), Title 2, Chapters 20 and 21 (for-profit corporation provisions), and Title 7, Chapter 303 (PC-specific provisions) -- filed via Secretary of State Form 203, distinct from the PA Form 204 and PLLC Form 206. CONFIRMED 2026-08-30 directly against the Texas Secretary of State's own Form 203 instructions."
+        ],
+        "Stock Certificates": [
+          "Tex. Bus. Orgs. Code Section 303.002 (Authority and Liability of Shareholder) and Section 303.003 (Notice of Restriction on Transfer of Shares) -- PC shares carry statutory transfer restrictions tied to professional-licensing eligibility that plain for-profit corporation shares do not."
+        ],
+        "Shareholder Agreement (with Professional Ownership Transfer Restrictions)": [
+          "Tex. Bus. Orgs. Code Section 303.003 (transfer restriction notice requirement) and Section 303.004 (redemption of shares, price and terms) -- these govern what happens when a shareholder loses professional eligibility (e.g. license lapse, death, disqualification) and must divest."
+        ],
+        "Texas Business Organizations Code Chapter 303 Compliance": [
+          "Tex. Bus. Orgs. Code Title 7, Chapter 303, applying Title 2 Chapters 20/21 (for-profit corporation provisions) alongside PC-specific rules. CONFIRMED 2026-08-30 directly against the Texas Secretary of State's own Form 203 instructions."
+        ],
+        "Texas Business Organizations Code Chapter 301 Compliance (professional-entity ownership/licensing restrictions)": [
+          "Tex. Bus. Orgs. Code Section 301.001(a) confirms Title 7 (including Chapter 301's ownership/licensing restrictions) applies to professional corporations, professional associations, and PLLCs alike -- explicitly excluding partnerships and LLPs (Section 301.001(c)). Section 301.007's individual-licensing requirement for owners/officers, already used in pllc.json, applies here the same way."
+        ],
+        "Workers' Compensation Policy": [
+          "Tex. Labor Code Section 406.002 -- Texas is the only state in the country where workers' compensation coverage is elective, not mandatory, for most private employers. An employer who opts out ('non-subscriber') must notify the Texas Division of Workers' Compensation (Section 406.004) and notify employees (Section 406.005), and forfeits certain common-law defenses in the event of a workplace injury lawsuit. EXCEPTION: coverage is mandatory for government building/construction contracts under Section 406.096. CONFIRMED 2026-08-30 across multiple independent sources; added retroactively as a batch correction across all deployed entity-type files that list this document type."
+        ]
+      }
+    }
+  }
+}

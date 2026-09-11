@@ -1,0 +1,62 @@
+{
+  "industries": {
+    "insurance_agency": {
+      "structure_note": "Insurance agency regulation in Texas uses a THIRD distinct ownership/licensing model, different from both the CPOM-style restriction (medicine/veterinary medicine) and the supervising-professional model (engineering). CONFIRMED 2026-08-30: Tex. Ins. Code Section 4001.253 (Restriction on Acquisition of Ownership Interest in Entity Licensed as Agent) is NOT a blanket rule that only licensed agents may own an agency -- it is a change-of-control DISCLOSURE requirement. A person acquiring an ownership interest that puts them in control of a licensed agent entity must file with TDI: a biographical form, a certification of no disciplinary history with a financial/insurance regulator, and a certification that the entity will still satisfy licensing requirements after the change. Separately, Section 4001.106(b)(2) requires a corporate or partnership agency to have at least one individually-licensed officer or partner -- structurally similar to engineering_firm.json's supervising-PE requirement (a licensed person must be embedded in the entity), not a full ownership restriction the way pa.json's profession list works. Pair this industry with pc.json, pllc.json, or llc.json depending on the specific agency's structure -- insurance is not on pa.json's restricted profession list. A distinctive concept unique to this industry: AGENT APPOINTMENT (Section 4001.201) -- holding a TDI license alone is not sufficient; an agent must also be individually appointed to represent each specific insurer whose products they sell, a layer with no direct parallel in the other Tier 2 industries built so far. E&O/FINANCIAL RESPONSIBILITY, fully resolved 2026-08-30: individual agents are NOT statutorily required to carry personal E&O insurance to hold a license (matching the no-mandate pattern already confirmed for attorneys, physicians, and engineers) -- but CORPORATE/PARTNERSHIP resident agencies specifically ARE required to provide proof of financial responsibility under Section 4001.106, satisfied by either a $250,000 E&O policy (10% max deductible) or a $25,000 surety bond, with the policy/bond name required to exactly match the entity's Secretary-of-State-registered legal name. This is a genuine, confirmed structural distinction between individual-agent and agency-entity obligations -- do not apply the individual no-mandate finding to a corporate/partnership agency, and do not apply the agency-level mandate to an individual agent.",
+      "categories": {
+        "licensing_appointment_compliance": [
+          "TDI Agent License (Individual)",
+          "Agency Entity License (Corporation/Partnership, if applicable)",
+          "Insurer Appointment Records",
+          "Individually-Licensed Officer/Partner Verification (entity-level)",
+          "Change-of-Control Disclosure Filing (if applicable)"
+        ],
+        "continuing_education": [
+          "CE Hour Records",
+          "Product-Specific Training Certifications (Annuity/LTC/Flood/Medicare, if applicable)"
+        ],
+        "recordkeeping_client_files": [
+          "Insurance Records Segregation Log",
+          "Customer Complaint Records",
+          "Policy/Client File Records"
+        ],
+        "insurance_liability": [
+          "Proof of Financial Responsibility (E&O Policy or Surety Bond -- corporate/partnership agencies)",
+          "Professional Liability / Errors & Omissions Insurance (individual agents -- see document_citations)",
+          "General Liability Policy"
+        ]
+      },
+      "document_citations": {
+        "TDI Agent License (Individual)": [
+          "Tex. Ins. Code Section 4001.101 -- a person may not solicit or receive an application for insurance, or aid in the transaction of an insurer's business, without a license or certificate of authority issued by the Texas Department of Insurance. CONFIRMED 2026-08-30 via Texas Legislature statute text."
+        ],
+        "Agency Entity License (Corporation/Partnership, if applicable)": [
+          "Tex. Ins. Code Section 4001.106 -- a license may be issued to a corporation or partnership, distinct from an individual agent's personal license."
+        ],
+        "Insurer Appointment Records": [
+          "Tex. Ins. Code Section 4001.201 -- a licensed person may not engage in business as an agent unless appointed to act as an agent by a specific insurer authorized to do business in Texas. This appointment layer is separate from, and in addition to, the underlying TDI license -- a distinctive concept with no direct parallel elsewhere in this dataset's Tier 2 industries."
+        ],
+        "Individually-Licensed Officer/Partner Verification (entity-level)": [
+          "Tex. Ins. Code Section 4001.106(b)(2) -- TDI's requirement that a corporate or partnership agency have at least one individually-licensed officer or partner. This requirement is not stated as a standalone rule in the statute's plain text but is TDI's own settled interpretation, per insurance-law practitioner commentary. Structurally parallel to the supervising-PE requirement in industry_engineering_firm.json."
+        ],
+        "Change-of-Control Disclosure Filing (if applicable)": [
+          "Tex. Ins. Code Section 4001.253 -- a person acquiring an ownership interest that would place them in control of a licensed agent entity must file under oath: a biographical form for each person by or on whose behalf the acquisition is effected; a certification that no acquiring person has been subject to disciplinary action by a financial or insurance regulator; and a certification that the entity will satisfy licensing requirements for each line of insurance immediately after the change. CONFIRMED 2026-08-30 directly against Texas Legislature statute text. This is a disclosure/review trigger tied to CONTROL, not a blanket restriction on who may own an agency."
+        ],
+        "CE Hour Records": [
+          "Tex. Ins. Code Chapter 4004 and 28 TAC Section 19.1003 -- most Texas-resident agents (general lines Life/Accident/Health and Property/Casualty) must complete 24 hours of TDI-certified continuing education every 2-year renewal period, including at least 3 ethics hours and at least 12 classroom/classroom-equivalent hours. Limited-lines and county mutual agents owe 10 hours (also including 3 ethics); funeral prearrangement agents owe none. License renewal falls on the last day of the licensee's birth month every 2 years. CONFIRMED 2026-08-30 across multiple independent sources."
+        ],
+        "Product-Specific Training Certifications (Annuity/LTC/Flood/Medicare, if applicable)": [
+          "Additional one-time-plus-ongoing training applies only to agents selling specific product lines: Annuity Best Interest (one-time 4-hour course, then 8 ongoing CE hours per renewal term); Long-Term Care Partnership (one-time 8-hour certification, then 4 ongoing hours per renewal term, NOT waived by the 20-year CE exemption); Flood Insurance (one-time 3-hour course); Medicare-related products (one-time 8-hour certification, then 4 ongoing hours per renewal cycle, also not waived by the 20-year exemption)."
+        ],
+        "Insurance Records Segregation Log": [
+          "Tex. Ins. Code Section 4001.255 -- an agent must maintain all insurance records, including records relating to customer complaints, separate from the records of any other business the agent is engaged in. This is a segregation requirement -- a specific numeric retention PERIOD was not independently confirmed in this research pass and should not be assumed; verify against current TDI rules before citing a specific number of years."
+        ],
+        "Proof of Financial Responsibility (E&O Policy or Surety Bond -- corporate/partnership agencies)": [
+          "Tex. Ins. Code Section 4001.106 -- RESOLVED 2026-08-30, confirmed directly against the statute text and TDI's own current page (tdi.texas.gov, last updated 3/18/2024): a corporation or partnership applying for a resident agency license must provide proof of financial responsibility, satisfied by EITHER (1) an Errors and Omissions policy of at least $250,000, with a deductible of no more than 10% of the full policy amount, issued by a Texas-authorized insurer (or a surplus lines insurer under Chapter 981 if unavailable otherwise); OR (2) a surety bond in the principal amount of $25,000, payable to TDI for the benefit of the agency's customers. Whichever option is used, the name on the policy or bond must exactly match the entity's full legal name as registered with the Texas Secretary of State. This requirement applies at the AGENCY (entity) level, not to every individual agent."
+        ],
+        "Professional Liability / Errors & Omissions Insurance (individual agents -- see document_citations)": [
+          "RESOLVED 2026-08-30: individual, independent, and sole-proprietor general lines agents are NOT statutorily required to carry personal E&O insurance simply to hold a license -- this matches the no-mandate pattern already confirmed for attorneys, physicians, and engineers elsewhere in this dataset. However, this is frequently a de facto requirement in practice: most insurance carriers, general agencies, and distribution networks require active E&O coverage as a contractual condition of appointment (see Insurer Appointment Records above) -- so while not a state mandate, it is commonly unavoidable for an agent who wants active appointments."
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "industries": {
+    "tax_prep": {
+      "categories": {
+        "client_onboarding_engagement": [
+          "Engagement Letter",
+          "Disengagement Letter",
+          "Non-Engagement / Declination Letter",
+          "IRS Form 2848 (Power of Attorney)",
+          "IRS Form 8821 (Tax Information Authorization)",
+          "Conflict of Interest Waiver",
+          "IRC Section 7216 Consent Form"
+        ],
+        "tax_practice": [
+          "IRS Form 8879 (e-file Signature Authorization)",
+          "Tax Return Workpapers",
+          "Extension Filings",
+          "Tax Planning Memoranda",
+          "Client Tax Organizer",
+          "Texas Comptroller Form 01-137 (Limited Power of Attorney)",
+          "Texas Franchise Tax Public/Ownership Information Report",
+          "FinCEN Form 114 (FBAR) / Form 114a",
+          "Offer in Compromise (IRS Form 656 / Form 433-A/B)",
+          "K-1 Transmittal & Basis Worksheets"
+        ],
+        "accounting_bookkeeping": [
+          "Client Organizer / Questionnaire",
+          "Year-End Adjusting Journal Entries (AJEs)"
+        ],
+        "statutory_regulatory_records": [
+          "Document Delivery Receipts",
+          "FinCEN Beneficial Ownership Filings"
+        ]
+      },
+      "document_citations": {
+        "IRS Form 2848 (Power of Attorney)": [
+          "31 C.F.R. Part 10 (Circular 230). CONFIRMED 2026-08-29 via IRS.gov: unlimited representation rights before the IRS are limited to attorneys, CPAs, and Enrolled Agents (EAs). A plain PTIN-only preparer without AFSP completion generally cannot use this form for full representation -- verify the preparer's EA credential before enabling this document type for a given tenant."
+        ],
+        "Offer in Compromise (IRS Form 656 / Form 433-A/B)": [
+          "Same Circular 230 representation-rights caution as IRS Form 2848 -- verify credential before enabling."
+        ],
+        "IRC Section 7216 Consent Form": [
+          "26 U.S.C. Section 7216 -- applies to any paid tax return preparer regardless of credential."
+        ],
+        "IRS Form 8879 (e-file Signature Authorization)": [
+          "IRS Form 8879 Instructions (electronic signature required for e-file authorization)"
+        ],
+        "FinCEN Form 114 (FBAR) / Form 114a": [
+          "31 U.S.C. Section 5314 (Bank Secrecy Act) -- FinCEN Form 114"
+        ],
+        "Document Delivery Receipts": [
+          "31 C.F.R. Section 10.28(a) (Circular 230, Return of Client's Records). CONFIRMED 2026-08-29 via eCFR/Cornell Law. Applies only if the preparer is an actual Circular 230 'practitioner' (CPA, attorney, EA, or AFSP-completion preparer acting within that limited scope) -- a plain PTIN-only preparer with no EA/AFSP status is likely not covered. Do not apply blindly; check the specific preparer's credential first."
+        ],
+        "FinCEN Beneficial Ownership Filings": [
+          "31 U.S.C. Section 5336 (Corporate Transparency Act). IMPORTANT, confirmed 2026-08-29: a March 2025 FinCEN Interim Final Rule exempted domestic reporting companies from BOI filing entirely -- only foreign-formed entities registered to do business in the US remain subject to reporting. Verify current applicability before presenting this to a client."
+        ]
+      }
+    }
+  }
+}

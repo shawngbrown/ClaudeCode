@@ -1,0 +1,68 @@
+{
+  "industries": {
+    "law_firm": {
+      "structure_note": "CONFIRMED 2026-08-30: Texas does NOT license law firms as business entities. Unlike real_estate_brokerage.json (which requires both an individual license AND a separate TREC business-entity broker license), Texas licenses only individual attorneys through the State Bar of Texas (Tex. Gov't Code Chapter 81, the State Bar Act) -- there is no equivalent 'firm license.' A law firm can be organized as a PLLC, PC, LLP, plain LLC, or sole proprietorship; the firm's entity-type file governs formation, and this industry layer governs the attorney-specific practice obligations that apply regardless of which entity wraps the practice. MALPRACTICE INSURANCE, fully resolved 2026-08-30 after tracing the historical record: (1) Texas has never adopted a mandatory disclosure rule for insurance status. A November 2009 Texas Bar Journal Pro/Con piece documents that the State Bar's own task force voted 6-5 AGAINST recommending a disclosure rule, with a Board of Directors vote pending for January 2010; current sources confirm the Texas Supreme Court has still never adopted one -- the 'con' position prevailed. (2) A genuine LLP-specific insurance requirement DID exist in Texas before 2011 -- the same 2009 article confirms this directly ('some other states, such as Texas, require certain limited-liability entities (e.g., L.L.P.s) to carry professional liability insurance'), consistent with Tex. Bus. Orgs. Code Section 152.804, which was repealed by Acts 2011, 82nd Leg., R.S., Ch. 139, Sec. 66(2), eff. September 1, 2011 (confirmed directly against the current, live statute text). Several still-circulating sources, including some State Bar of Texas practice-management blog content, continue to describe the pre-2011 LLP insurance rule as current law -- it is not. Do not add either a disclosure requirement or an LLP insurance minimum to this file.",
+      "categories": {
+        "licensing_bar_compliance": [
+          "State Bar of Texas License (individual attorney)",
+          "MCLE Annual Verification Report",
+          "MCLE Hour Records (15 hours/year, 3 ethics)",
+          "Guide to the Basics of Law Practice Completion Record (newly admitted attorneys, within 1 year of licensure)",
+          "Bar Card / Good Standing Verification"
+        ],
+        "client_trust_accounting": [
+          "IOLTA / Client Trust Account Records",
+          "Individual Client Ledger",
+          "Trust Account Monthly Reconciliation Records",
+          "Disputed Funds Holding Records",
+          "Texas Access to Justice Foundation (TAJF) Annual IOLTA Compliance Report"
+        ],
+        "client_engagement_conflicts": [
+          "Engagement Letter / Fee Agreement",
+          "Conflict of Interest Check Records",
+          "Conflict Waiver (Informed Consent)",
+          "Client File",
+          "Non-Engagement / Declination Letter",
+          "Disengagement / Termination Letter"
+        ],
+        "professional_liability_advertising": [
+          "Professional Liability / Malpractice Insurance",
+          "Attorney Advertising Compliance Records",
+          "Solicitation Communication Records (if applicable)"
+        ]
+      },
+      "document_citations": {
+        "State Bar of Texas License (individual attorney)": [
+          "Tex. Gov't Code Chapter 81 (State Bar Act). CONFIRMED 2026-08-30: Texas licenses individual attorneys only -- there is no separate business-entity law license the way TREC requires for real estate brokerages."
+        ],
+        "MCLE Hour Records (15 hours/year, 3 ethics)": [
+          "State Bar of Texas MCLE Regulations, Article XII Section 6A -- every active member must complete 15 hours of continuing legal education per compliance year, at least 3 of which must be legal ethics/professional responsibility, with at least 12 of the 15 hours completed as accredited CLE (the remainder via self-study, capped). Compliance year runs from the first day of the attorney's birth month. CONFIRMED 2026-08-30 directly against the State Bar of Texas's own site."
+        ],
+        "Guide to the Basics of Law Practice Completion Record (newly admitted attorneys, within 1 year of licensure)": [
+          "A 4-hour course administered by the Texas Center for Legal Ethics and Professionalism, required within one year of licensure for newly admitted attorneys. This is a bar admission requirement, not itself an MCLE requirement, though credit for it applies toward the standard 15-hour MCLE total. Newly licensed attorneys get an initial 24-month MCLE compliance period rather than the standard 12 months."
+        ],
+        "IOLTA / Client Trust Account Records": [
+          "Tex. Disciplinary R. Prof'l Conduct 1.14 (Safekeeping of Property, commonly called the 'trust account rule') -- an absolute, non-waivable duty to keep client funds entirely separate from the lawyer's own property, held in a designated trust/escrow account at an eligible financial institution. Nominal or short-term client funds must be held in a pooled IOLTA account, administered by the Texas Access to Justice Foundation (TAJF), a 501(c)(3) created by the Texas Supreme Court in 1984. CONFIRMED 2026-08-30 directly against the State Bar of Texas's own published guide."
+        ],
+        "Trust Account Monthly Reconciliation Records": [
+          "Not a strict rule requirement by itself, but State Bar of Texas guidance strongly recommends monthly reconciliation against bank statements as the single most effective way to avoid the trust-account errors that most commonly trigger disciplinary complaints."
+        ],
+        "Disputed Funds Holding Records": [
+          "Tex. Disciplinary R. Prof'l Conduct 1.14(c) -- when there is a dispute over entitlement to funds, the lawyer must hold the disputed portion in trust until the dispute is resolved."
+        ],
+        "Texas Access to Justice Foundation (TAJF) Annual IOLTA Compliance Report": [
+          "Attorneys receiving or handling client funds must report IOLTA compliance annually to TAJF, commonly satisfied through the State Bar of Texas annual membership dues statement."
+        ],
+        "Client File": [
+          "Tex. Disciplinary R. Prof'l Conduct 1.14 requires trust account records specifically to be preserved for 5 years after termination of representation, even if funds are later treated as abandoned property under the Texas Property Code. CONFIRMED 2026-08-30. General client file retention (beyond trust account records specifically) is governed more by professional judgment and case type than a single fixed statutory period -- do not assert a universal retention number for the full client file beyond what is confirmed for trust records."
+        ],
+        "Attorney Advertising Compliance Records": [
+          "Tex. Disciplinary R. Prof'l Conduct Part 7 (Information About Legal Services) governs attorney advertising and solicitation. Specific sub-rule requirements have not had a dedicated verification pass in this file -- treat this citation as a general pointer to the correct Part, not a confirmed detailed compliance checklist."
+        ],
+        "Professional Liability / Malpractice Insurance": [
+          "No general mandate exists in Texas -- lawyers may practice without malpractice insurance and are not required to disclose insured/uninsured status to clients or the State Bar (CONFIRMED 2026-08-30). A pre-2011 exception for LLP-structured firms (Tex. Bus. Orgs. Code Section 152.804, a $100,000 minimum) was repealed effective September 1, 2011, and does not apply today, despite still circulating in some outdated secondary sources. See structure_note for the full historical trace, including a November 2009 Texas Bar Journal Pro/Con piece confirming both the pre-2011 LLP requirement's existence and the State Bar task force's 6-5 vote against a general disclosure rule."
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "industries": {
+    "retail_general_merchant": {
+      "structure_note": "DELIBERATELY SCOPED SHALLOW, per a 2026-09-01 scoping discussion: this file covers traditional, locally-owned general merchandise retail -- hardware stores, clothing (new and used), gift and specialty shops, and similar small-proprietor operations. It explicitly does NOT cover: (1) food/grocery retail -- Tex. Health & Safety Code Chapter 437 already covers 'Retail Food Stores' under the same statute as industry_restaurant_food_service.json, so a grocery-format retailer belongs there, not here; (2) pharmacy operations -- a wholly separate, heavily regulated profession (Texas State Board of Pharmacy) not yet built as its own industry file; (3) alcohol sales -- TABC permitting (off-premise Package Store permits are a different permit category than the Mixed Beverage Permit already built for restaurants). A genuine big-box, multi-department retailer (grocery + pharmacy + alcohol + general merchandise under one roof) needs content from several industry files simultaneously -- but DDV_Compliance_Library::get_compliance_data() currently accepts only ONE industry parameter per tenant, so that kind of combined checklist isn't supportable without a future multi-industry-select architecture change. This file assumes the traditional, single-category small-shop model, not that larger format. A GENUINE SCOPE FINDING on used-goods resale, CONFIRMED 2026-09-01: ordinary used clothing, furniture, and general secondhand merchandise resale has NO dedicated Texas state-level dealer registration beyond the standard sales tax permit -- the only state-level secondhand-goods registration (Tex. Occ. Code Chapter 1956, administered by OCCC) applies narrowly to dealers specifically buying/selling jewelry, silverware, or other items made of precious metal, not general used merchandise. Many Texas municipalities do impose their own LOCAL secondhand-dealer or pawnshop-adjacent reporting ordinances independent of state law -- these vary by city and were not researched city-by-city in this pass.",
+      "categories": {
+        "licensing_tax_registration": [
+          "Sales and Use Tax Permit (Texas Comptroller)",
+          "DBA / Assumed Name Filing (if applicable)",
+          "Crafted Precious Metal Dealer Registration (OCCC -- only if dealing in jewelry/precious-metal items, not general used goods)",
+          "Local Business/Occupancy Permit (if required by city or county)"
+        ],
+        "consumer_protection_compliance": [
+          "DTPA (Deceptive Trade Practices Act) Compliance Policy",
+          "Pricing/Advertising Compliance Records",
+          "Return/Refund Policy",
+          "Warranty Disclosure Records (if applicable)"
+        ],
+        "used_goods_resale_compliance": [
+          "Secondhand General Merchandise Records (no dedicated state registration for ordinary used clothing/general merchandise)",
+          "Precious Metal/Jewelry Purchase Records (if applicable -- see licensing_tax_registration)",
+          "Local Secondhand/Resale Ordinance Compliance (if applicable -- varies by municipality)"
+        ],
+        "operations_inventory": [
+          "Inventory Management Records",
+          "Vendor/Supplier Agreements",
+          "Employee Training Records"
+        ]
+      },
+      "document_citations": {
+        "Sales and Use Tax Permit (Texas Comptroller)": [
+          "Tex. Tax Code Chapter 151, 'tangible personal property' defined at Section 151.009 -- required for any individual, partnership, corporation, or other legal entity engaged in business in Texas selling or leasing tangible personal property or taxable services to Texas customers. No permit fee, though a security bond may be required. A return must be filed for every period, even if there were no taxable sales to report. CONFIRMED 2026-09-01 directly against the Texas Comptroller's own site."
+        ],
+        "Crafted Precious Metal Dealer Registration (OCCC -- only if dealing in jewelry/precious-metal items, not general used goods)": [
+          "Tex. Occ. Code Chapter 1956, administered by the Office of Consumer Credit Commissioner (OCCC), NOT TDLR and NOT the Comptroller. CONFIRMED 2026-09-01: this registration applies narrowly to dealers specifically buying and selling jewelry, silverware, art objects, or other items made wholly or partly of precious metal (gold, silver, platinum, palladium, iridium, rhodium, osmium, ruthenium) intended for personal, family, or household use -- it does NOT apply to general used clothing, furniture, or ordinary secondhand merchandise. A 'jewelry store' is separately defined (Section 1956.051(5-a)) as an establishment deriving 75% or more of its annual revenue from precious-metal personal-adornment sales. A dealer may not purchase crafted precious metal from a person under 18 without a written parental/guardian consent statement (Section 1956.066). Records must generally be retained for 3 years, and violations carry criminal penalties (Class B misdemeanor, escalating to Class A on a repeat conviction within 36 months, per Section 1956.069)."
+        ],
+        "Secondhand General Merchandise Records (no dedicated state registration for ordinary used clothing/general merchandise)": [
+          "CONFIRMED 2026-09-01: ordinary secondhand goods dealing (used clothing, furniture, general merchandise -- as opposed to precious metal items) has no dedicated Texas state-level registration requirement beyond the standard sales tax permit. This is a genuine scope finding, not an oversight -- do not assume a thrift, resale, or consignment shop needs a special state dealer license the way a jewelry/precious-metal dealer does."
+        ],
+        "Local Secondhand/Resale Ordinance Compliance (if applicable -- varies by municipality)": [
+          "Many Texas cities and counties impose their own local secondhand-dealer reporting ordinances (e.g. police-department transaction reporting, holding periods before resale) independent of state law -- these vary significantly by municipality and were not researched jurisdiction-by-jurisdiction in this pass. Verify the specific city/county's ordinance before assuming none applies."
+        ],
+        "DTPA (Deceptive Trade Practices Act) Compliance Policy": [
+          "Tex. Bus. & Com. Code Chapter 17 (Deceptive Trade Practices-Consumer Protection Act) -- prohibits false, misleading, or deceptive acts or practices in the conduct of trade or commerce. Applies broadly across all retail regardless of the type of goods sold."
+        ]
+      }
+    }
+  }
+}

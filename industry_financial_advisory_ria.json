@@ -1,0 +1,53 @@
+{
+  "industries": {
+    "financial_advisory_ria": {
+      "structure_note": "This industry has a structural feature unlike anything else built in this dataset so far: a FEDERAL/STATE JURISDICTIONAL SPLIT based on assets under management (AUM), not a single state regulator. CONFIRMED 2026-08-30 directly against the Texas State Securities Board's (TSSB) own FAQ: an adviser with AUM under $100 million generally registers with TSSB under the Texas Securities Act; an adviser whose AUM grows to $100 million or more must apply for SEC registration within 90 days of filing an annual Form ADV amendment reporting that threshold (SEC Rule 203A-1, 17 CFR Section 275.203A-1). A genuinely easy-to-miss nuance: SEC registration does NOT eliminate all Texas-level obligations -- an SEC-registered adviser with Texas clients must still make a Texas NOTICE FILING and pay applicable fees. Private fund advisers with less than $25 million AUM can instead file as Exempt Reporting Advisers (ERA) in Texas without full registration. Filings run through the IARD (Investment Adviser Registration Depository) system for the firm-level Form ADV, and the CRD system for individual Investment Adviser Representative (IAR) Form U4 filings -- FINRA operates this technical infrastructure but has no regulatory authority over investment advisers itself; TSSB or the SEC is the actual regulator depending on which jurisdiction applies. This file has NOT independently pinned an exact Texas-specific books-and-records rule citation (TSSB generally follows a 'substantially similar' standard to the federal Rule 204-2, per NASAA's Model Rule 203(a)-2, but the precise Texas Administrative Code section was not confirmed in this research pass) -- verify against current TSSB rules before treating a specific Texas citation as confirmed the way the federal Rule 204-2 citation is.",
+      "categories": {
+        "registration_jurisdiction_compliance": [
+          "Form ADV (Parts 1 & 2) -- TSSB or SEC Filing",
+          "IARD Account & Filing Records",
+          "Texas Notice Filing (if SEC-registered with Texas clients)",
+          "Investment Adviser Representative Registration (Form U4, CRD)",
+          "IAR Examination/Competency Record (e.g. Series 65 or equivalent, exemptions may apply)"
+        ],
+        "fiduciary_client_agreements": [
+          "Investment Advisory Agreement",
+          "Form ADV Part 2 (Brochure) -- Fiduciary Duty Disclosure",
+          "Fee Schedule Disclosure"
+        ],
+        "custody_recordkeeping": [
+          "Custody Rule Compliance Records (if applicable)",
+          "Books and Records Retention Log",
+          "Client Account Statements",
+          "Trade Blotter / Order Records"
+        ],
+        "compliance_program": [
+          "Written Supervisory & Compliance Procedures",
+          "Annual Compliance Review Records",
+          "Code of Ethics / Personal Trading Records",
+          "Professional Liability / Errors & Omissions Insurance"
+        ]
+      },
+      "document_citations": {
+        "Form ADV (Parts 1 & 2) -- TSSB or SEC Filing": [
+          "Jurisdictional split CONFIRMED 2026-08-30 directly against TSSB's own FAQ: advisers with AUM under $100 million generally register with TSSB (Texas Securities Act); advisers with AUM of $100 million or more must apply for SEC registration within 90 days of filing an annual Form ADV amendment reporting that threshold (SEC Rule 203A-1, 17 CFR Section 275.203A-1). Private fund advisers under $25 million AUM may instead file as an Exempt Reporting Adviser (ERA) in Texas."
+        ],
+        "Texas Notice Filing (if SEC-registered with Texas clients)": [
+          "CONFIRMED 2026-08-30 directly against TSSB's own FAQ: an investment adviser already registered with, or seeking registration with, the SEC must still make a notice filing in Texas and pay applicable fees if it has Texas clients -- SEC registration does not eliminate this state-level obligation."
+        ],
+        "Investment Adviser Representative Registration (Form U4, CRD)": [
+          "Individual Investment Adviser Representatives (IARs) register via Form U4, filed electronically through the CRD system -- a separate system from IARD, which handles the firm-level Form ADV."
+        ],
+        "Books and Records Retention Log": [
+          "For SEC-registered advisers: SEC Rule 204-2 (17 CFR Section 275.204-2) under the Investment Advisers Act of 1940. Most records must be retained for at least 5 years from the end of the fiscal year in which the record was created, with the most recent 2 years immediately accessible at the firm's principal office. Corporate/organizational records (partnership agreements, charters, minute books) must be retained for the life of the entity plus 3 years after dissolution. CONFIRMED 2026-08-30 across multiple independent sources. For state-registered (TSSB) advisers, requirements are generally 'substantially similar' per NASAA's Model Rule 203(a)-2, but this file has NOT independently confirmed the precise Texas Administrative Code citation -- verify before relying on a specific Texas-only figure."
+        ],
+        "Annual Compliance Review Records": [
+          "SEC Rule 206(4)-7 (the 'Compliance Rule') under the Investment Advisers Act of 1940 -- requires SEC-registered advisers to adopt and implement written policies and procedures reasonably designed to prevent violations, and to review those policies and procedures at least annually."
+        ],
+        "Custody Rule Compliance Records (if applicable)": [
+          "Applies only when the adviser has custody of client funds or securities (e.g. direct fee deduction with certain safeguards, or actual possession of client assets) -- triggers additional safeguarding, surprise-examination, and qualified-custodian requirements under the SEC's Custody Rule (17 CFR Section 275.206(4)-2). Not every adviser has custody; verify the specific tenant's actual practices before assuming this category applies."
+        ]
+      }
+    }
+  }
+}

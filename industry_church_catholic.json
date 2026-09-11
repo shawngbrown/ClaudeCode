@@ -1,0 +1,60 @@
+{
+  "industries": {
+    "church_catholic": {
+      "structure_note": "Catholic parish structure is a genuine reversal of church_baptist.json's congregational-autonomy model. CONFIRMED 2026-09-04: Catholic parishes operate under HIERARCHICAL polity -- the parish is subject to the authority of a bishop and diocese, governed internally by the 1983 Code of Canon Law, which operates alongside (not instead of) Texas civil law. Under canon law, a parish is its own distinct 'public juridic person' (a canonical corporate personality separate from the diocese), administered day-to-day by the pastor (Canon 532), but subject to diocesan oversight and consent requirements for major transactions (e.g. alienation of significant property) -- this is a real nuance, not simply 'the diocese owns everything, the parish owns nothing.' A GENUINE, TEXAS-SPECIFIC FINDING worth flagging prominently: Texas is one of only seven states (plus the 8th Circuit) that applies the 'neutral principles of law' doctrine to hierarchical-church property disputes, confirmed directly in Texas Supreme Court case law (Masterson v. Diocese of Northwest Texas). Under this doctrine, actual CIVIL ownership of parish property in Texas depends on the actual civil documents -- articles of incorporation, deed language, and whether an express trust in favor of the diocese was properly established under Texas trust law (Tex. Prop. Code Section 112.004, Tex. Bus. & Com. Code Section 26.01's statute of frauds) -- NOT automatic deference to the diocese's canonical authority the way some other states' courts apply. RESOLVED 2026-09-04 (previously flagged as unconfirmed): Texas does NOT authorize or recognize 'corporation sole' as a civil legal status at all -- the Texas Business Organizations Code requires a domestic nonprofit corporation organized for religious purposes to have a governing board of at least three directors, with the same person barred from serving as both president and secretary, which is structurally incompatible with corporation sole's single-person-vests-all-authority model. As a result, Texas Catholic dioceses structure as ORDINARY Chapter 22 nonprofit corporations, satisfying the three-director requirement by seating other diocesan officials (commonly the Vicar General and Chancellor) on the board alongside the Bishop. The term 'corporation sole' can still surface in Texas filings because an OUT-OF-STATE corporation sole (California and Washington explicitly authorize the form by statute) may register as a FOREIGN entity to do business or hold property in Texas -- this is a foreign-registration scenario, not a domestic Texas entity type. Canon law's own recognition of the bishop as a 'one-person juridical entity' (an ecclesiastical corporation sole) is purely an internal ecclesiastical concept -- Texas civil courts look only to the state's business statutes to determine actual legal structure and liability, not to canon law's parallel characterization. Clergy are ASSIGNED to a parish BY THE BISHOP -- the complete reverse of church_baptist.json's locally-called, locally-ordained model. The sacramental recordkeeping content below reflects Catholic parishes' permanent-register tradition, including the annotation practice where later sacraments (confirmation, marriage, ordination) are noted directly on a person's original baptismal record -- sourced from a client-supplied document on sacramental recordkeeping practices.",
+      "categories": {
+        "diocesan_hierarchical_governance": [
+          "Diocesan Affiliation / Canonical Erection Documentation",
+          "Bishop's Decree of Parish Establishment",
+          "Pastor Appointment Letter (from Bishop/Diocese)",
+          "Diocesan Corporate Board Composition Records (Bishop, Vicar General, Chancellor -- satisfying the 3-director Texas requirement)",
+          "Parish Pastoral Council Roster",
+          "Parish Finance Council Roster",
+          "Diocesan Financial Reporting Records"
+        ],
+        "canon_law_property_administration": [
+          "Parish Civil Incorporation Documents (Tex. Bus. Orgs. Code Chapter 22, reflecting canonical public-juridic-person status)",
+          "Parish Property Trust/Ownership Documentation (civil deed and trust-language review)",
+          "Diocesan Consent Records (for major property transactions per canon law)",
+          "Express Trust Instrument (if the diocese holds a civil-law trust interest in parish property)"
+        ],
+        "catholic_sacramental_records": [
+          "Baptism Register (Permanent)",
+          "Confirmation Register (Permanent)",
+          "First Communion Records",
+          "Marriage Register (Permanent)",
+          "Death/Funeral Register (Permanent)",
+          "Sacramental Annotation Log (later sacraments noted on original Baptism Register entry)",
+          "Baptism Certificate Issuance Log",
+          "Confirmation Certificate Issuance Log",
+          "Marriage Certificate Issuance Log"
+        ],
+        "clergy_appointment_records": [
+          "Ordination Records (Diocesan/Seminary Credentialing, Bishop-Administered)",
+          "Priest Faculties Documentation (authorization to hear confessions, witness marriages, etc.)",
+          "Clergy Assignment/Transfer History"
+        ]
+      },
+      "document_citations": {
+        "Diocesan Affiliation / Canonical Erection Documentation": [
+          "1983 Code of Canon Law -- a Catholic parish is canonically 'erected' (formally established) by decree of the diocesan bishop, and exists as its own 'public juridic person' distinct from, but subject to the authority of, the diocese. CONFIRMED 2026-09-04."
+        ],
+        "Pastor Appointment Letter (from Bishop/Diocese)": [
+          "Canon 515 and related canons -- a parish's pastor is appointed by the bishop, not called or elected by the parish congregation -- the direct reverse of church_baptist.json's locally-called, locally-ordained model."
+        ],
+        "Diocesan Corporate Board Composition Records (Bishop, Vicar General, Chancellor -- satisfying the 3-director Texas requirement)": [
+          "RESOLVED 2026-09-04, directly against the Texas Secretary of State's own formation FAQ: the Texas Business Organizations Code requires a domestic nonprofit corporation organized for religious purposes to have a governing board of at least three directors, and bars the same person from serving as both president and secretary -- structurally incompatible with 'corporation sole' (a single-person-vests-all-authority entity). Texas does NOT authorize corporation sole domestically. Texas Catholic dioceses instead structure as ordinary Chapter 22 nonprofit corporations, satisfying the three-director requirement by seating other diocesan officials -- commonly the Vicar General and Chancellor -- on the board alongside the Bishop. An out-of-state corporation sole (California and Washington explicitly authorize the form) may still register as a FOREIGN entity to do business or hold property in Texas, which is why the term occasionally surfaces in Texas filings despite not being a domestic Texas entity type. Canon law's own characterization of the bishop as a 'one-person juridical entity' is a purely ecclesiastical concept -- Texas civil courts look only to the state's business statutes, not to canon law, to determine actual civil legal structure."
+        ],
+        "Parish Property Trust/Ownership Documentation (civil deed and trust-language review)": [
+          "CONFIRMED 2026-09-04 directly against Texas Supreme Court case law (Masterson v. Diocese of Northwest Texas, and related Episcopal Diocese of Fort Worth litigation): Texas is one of only seven states (plus the 8th Circuit) applying the 'neutral principles of law' doctrine to hierarchical-church property disputes -- civil ownership depends on the actual civil documents (articles of incorporation, deed language, express trust provisions under Tex. Prop. Code Section 112.004 and the statute of frauds at Tex. Bus. & Com. Code Section 26.01), not automatic deference to the diocese's canonical authority. This is a genuinely different rule than some other states use, and directly affects how ownership disputes involving Texas Catholic (or other hierarchical-church) parish property actually get decided in Texas courts."
+        ],
+        "Baptism Register (Permanent)": [
+          "Sourced from a client-supplied document on sacramental recordkeeping practices, 2026-09-04: Catholic (along with Orthodox, Anglican/Episcopal, Lutheran, and some Methodist) parishes typically retain baptismal registers PERMANENTLY -- the baptismal entry functions as the lifelong sacramental record of the individual, with later sacraments annotated onto it rather than recorded as wholly separate, disconnected entries."
+        ],
+        "Sacramental Annotation Log (later sacraments noted on original Baptism Register entry)": [
+          "Sourced from a client-supplied document on sacramental recordkeeping practices, 2026-09-04: when a person later receives Confirmation, Marriage, Holy Orders, or makes a religious profession, an annotation is commonly added directly to their original baptismal entry -- a distinctive Catholic recordkeeping practice not present in church_baptist.json's model, where believer's baptism is a standalone adult event with no analogous annotation system."
+        ]
+      }
+    }
+  }
+}

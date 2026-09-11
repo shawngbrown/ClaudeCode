@@ -1,0 +1,134 @@
+{
+  "entities": {
+    "llc": {
+      "categories": {
+        "identity": [
+          "Certificate of Formation",
+          "Company Agreement (Operating Agreement)",
+          "EIN Confirmation Letter (IRS)",
+          "Certificate of Good Standing / Certificate of Status",
+          "Amendments to Certificate of Formation",
+          "Amendments to Company Agreement",
+          "DBA / Assumed Name Filings",
+          "Membership Certificates (if issued)",
+          "Initial Members/Managers List"
+        ],
+        "governance": [
+          "Company Policies & Procedures",
+          "Code of Ethics",
+          "Manager/Member Resolution Log",
+          "Members Roster",
+          "Managers Roster (if manager-managed)",
+          "Committee Charters",
+          "Conflict of Interest Policy",
+          "Document Retention Policy",
+          "Membership Interest Ledger",
+          "Member Voting Records",
+          "Buy-Sell Agreement"
+        ],
+        "financial": [
+          "Annual Budget",
+          "Annual Financial Statements",
+          "CPA Review / Audit Reports",
+          "Bank Account Verification",
+          "Investment Policy",
+          "Accounts Receivable / Collections Policy",
+          "Tax Filings (Federal + State)",
+          "Franchise Tax Filings",
+          "1099 Vendor Filings",
+          "W-2 / Payroll Tax Filings",
+          "Member Distribution Records",
+          "Capital Contribution Records"
+        ],
+        "insurance": [
+          "General Liability Policy",
+          "Management Liability Insurance (D&O-equivalent)",
+          "Property Insurance",
+          "Professional Liability / Errors & Omissions Policy",
+          "Workers' Compensation Policy",
+          "Umbrella Policy",
+          "Certificate of Insurance",
+          "Insurance Renewal Notices",
+          "Insurance Claims Log"
+        ],
+        "operations": [
+          "Employee Handbook",
+          "Standard Operating Procedures",
+          "Safety Policies",
+          "Vendor Contracts",
+          "Maintenance Logs",
+          "Emergency Response Plan",
+          "Security Policies",
+          "Data Privacy / Information Security Policy",
+          "Business Continuity Plan"
+        ],
+        "statutory": [
+          "Texas Business Organizations Code Chapter 101 Compliance",
+          "Texas Franchise Tax Public Information Report (PIR) Filing",
+          "Registered Agent Designation",
+          "Foreign Qualification Filings (if operating in other states)",
+          "Industry-Specific Licensing Compliance",
+          "Public Posting Requirements",
+          "Statutory Policy Updates"
+        ],
+        "meetings_notices": [
+          "Annual Member Meeting Notice",
+          "Annual Member Meeting Agenda",
+          "Annual Member Meeting Minutes",
+          "Manager Meeting Notices",
+          "Manager Meeting Agendas",
+          "Manager Meeting Minutes",
+          "Special Meeting Notices",
+          "Special Meeting Minutes",
+          "Election/Appointment Notices",
+          "Proxy Forms",
+          "Quorum Verification Documents"
+        ],
+        "records_transparency": [
+          "Membership Ledger",
+          "Member Contact List",
+          "Membership Interest Transfer Documents",
+          "Disclosure Statements",
+          "Record Request Log",
+          "Record Request Responses",
+          "Document Retention Schedule"
+        ],
+        "vendor_contractual": [
+          "Vendor Master Service Agreements",
+          "Lease Agreements",
+          "Legal Services Agreement",
+          "Insurance Broker Agreement",
+          "Independent Contractor Agreements",
+          "Non-Disclosure Agreements",
+          "Licensing Agreements"
+        ],
+        "property_asset_management": [
+          "Facility Inspection Reports",
+          "Maintenance Schedules",
+          "Repair Work Orders",
+          "Asset Inventory List",
+          "Equipment Manuals",
+          "Safety Compliance Documents",
+          "Key / Access Control Logs"
+        ]
+      },
+      "document_citations": {
+        "Certificate of Formation": [
+          "Tex. Bus. Orgs. Code Section 101.051 (Certain Provisions Contained in Certificate of Formation), read with Chapter 3, Subchapter C (general formation filing requirements applicable to all Texas entity types). CONFIRMED 2026-08-30 via Justia/Texas Legislature statute text."
+        ],
+        "Company Agreement (Operating Agreement)": [
+          "Tex. Bus. Orgs. Code Section 101.001(1) (definition of 'company agreement') and Section 101.052 (Company Agreement -- governs relations among members, managers, officers, and the company itself). CONFIRMED 2026-08-30 via Texas Legislature statute text (statutes.capitol.texas.gov)."
+        ],
+        "Texas Business Organizations Code Chapter 101 Compliance": [
+          "Tex. Bus. Orgs. Code Title 3, Chapter 101 (Limited Liability Companies) -- the LLC-specific chapter, distinct from Chapter 21 (For-Profit Corporations) used for the corporation entity-type file."
+        ],
+        "Texas Franchise Tax Public Information Report (PIR) Filing": [
+          "Tex. Tax Code Section 171.203 (Public Information Report requirement), filed with the Texas Comptroller of Public Accounts on Form 05-102 -- NOT a Secretary of State filing. CONFIRMED 2026-08-30 via the Comptroller's own site (comptroller.texas.gov) and multiple cross-checked secondary sources: Texas does not require a traditional Secretary-of-State annual report for LLCs or corporations; the PIR/franchise tax system is how that obligation is actually met. This corrects the framing used in the existing corporation.json's 'Annual Report Filing (Secretary of State)' entry, which was not updated as part of this file -- flagged separately for review, not changed here. IMPORTANT ADDITION 2026-08-30: an LLC only actually owes franchise tax once its annualized total revenue crosses the state's 'no tax due' threshold (currently $2.65 million). Below that threshold, no tax is owed, but the PIR must still be filed annually to keep the LLC in good standing -- filing and owing are two separate obligations, and this entry covers both."
+        ],
+        "Workers' Compensation Policy": [
+          "Tex. Labor Code Section 406.002 -- Texas is the only state in the country where workers' compensation coverage is elective, not mandatory, for most private employers. An employer who opts out ('non-subscriber') must notify the Texas Division of Workers' Compensation (Section 406.004) and notify employees (Section 406.005), and forfeits certain common-law defenses in the event of a workplace injury lawsuit. EXCEPTION: coverage is mandatory for government building/construction contracts under Section 406.096. CONFIRMED 2026-08-30 across multiple independent sources; added retroactively as a batch correction across all deployed entity-type files that list this document type."
+        ]
+      }
+    }
+  }
+}

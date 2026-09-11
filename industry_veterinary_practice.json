@@ -1,0 +1,53 @@
+{
+  "industries": {
+    "veterinary_practice": {
+      "structure_note": "Veterinary medicine has its own ownership-restriction doctrine, structurally parallel to the Corporate Practice of Medicine doctrine in medical_practice.json but under a separate statute: Tex. Occ. Code Section 801.506(a) -- 'A sole proprietorship, partnership or corporation may not engage in veterinary medicine unless the owner, each partner, or each shareholder, as appropriate, holds a license to practice veterinary medicine.' CONFIRMED 2026-08-30. This is exactly why veterinarian is on pa.json's enumerated profession list -- pair this industry with pa.json (or a veterinarian-owned pc.json/pllc.json), not a generic corporation/llc. A GENUINELY RECENT AND IMPORTANT CHANGE: S.B. 1442 (89th Legislature), effective September 1, 2025, reversed the prior rule on establishing a veterinarian-client-patient relationship (VCPR) by telemedicine. The PRIOR text of Section 801.351(c) stated a VCPR 'may NOT be established solely by telephone or electronic means.' The amended text removes both 'not' and 'solely' -- a VCPR may now be established via telemedicine. This is recent enough that many still-circulating sources likely describe the old (now-reversed) prohibition -- do not assume telemedicine VCPR is barred. FINALLY: Texas veterinary practices are NOT subject to HIPAA (animal patients are not covered by federal health privacy law) -- this is a genuine, confirmed contrast with medical_practice.json's HIPAA-heavy content, not an oversight if HIPAA items are absent here.",
+      "categories": {
+        "licensing_practice_compliance": [
+          "TBVME License (Veterinarian)",
+          "DEA Registration (Controlled Substances, if applicable)",
+          "Corporate Practice of Veterinary Medicine Ownership Certification",
+          "CE (Continuing Education) Records",
+          "Licensed Veterinary Technician Supervision Records (if applicable)"
+        ],
+        "veterinarian_client_patient_relationship": [
+          "VCPR Establishment Records",
+          "Telemedicine VCPR Compliance Documentation",
+          "Mercantile Establishment / Leased-Space Practice Compliance Records (if applicable)"
+        ],
+        "patient_records_prescriptions": [
+          "Veterinary Medical Record Retention Log",
+          "Prescription / Controlled Substance Dispensing Records",
+          "CE Documentation Retention Log"
+        ],
+        "employment_insurance": [
+          "Professional Liability / Malpractice Insurance",
+          "Employment Agreements"
+        ]
+      },
+      "document_citations": {
+        "TBVME License (Veterinarian)": [
+          "Tex. Occ. Code Section 801.251 -- a person may not practice or offer to practice veterinary medicine without a license issued by the State Board of Veterinary Medical Examiners, except as provided by Section 801.004 (see the owner exemption discussed under CE/Employment below). CONFIRMED 2026-08-30 via Texas Legislature statute text."
+        ],
+        "Corporate Practice of Veterinary Medicine Ownership Certification": [
+          "Tex. Occ. Code Section 801.506(a) -- a sole proprietorship, partnership, or corporation may not engage in veterinary medicine unless the owner, each partner, or each shareholder holds a Texas veterinary license. CONFIRMED 2026-08-30 directly against Texas Legislature statute text and a TBVME licensing-exam study source."
+        ],
+        "VCPR Establishment Records": [
+          "Tex. Occ. Code Section 801.351 -- a person may not practice veterinary medicine unless a veterinarian-client-patient relationship (VCPR) exists, as defined by the statute's specific criteria."
+        ],
+        "Telemedicine VCPR Compliance Documentation": [
+          "Tex. Occ. Code Section 801.351(c), AS AMENDED by S.B. 1442 (89th Legislature), effective September 1, 2025. CONFIRMED 2026-08-30 directly against the bill text: the prior rule (a VCPR 'may NOT be established solely by telephone or electronic means') was reversed -- the amended text permits establishing a VCPR via telemedicine. This is a genuinely recent reversal; verify any older template or guidance describing telemedicine VCPR as prohibited is updated before relying on it."
+        ],
+        "Mercantile Establishment / Leased-Space Practice Compliance Records (if applicable)": [
+          "Tex. Occ. Code Sections 801.355-801.356 -- a veterinary practice operating from leased space within a mercantile establishment (e.g. a clinic inside a retail pet store) must still be owned by a veterinarian and kept under the veterinarian's exclusive control; patient and business records remain the veterinarian's sole property, not the mercantile establishment's; and signage/advertising must clearly indicate the practice is independent, not owned or controlled by the mercantile establishment. Separately, Section 801.3541 confirms that OWNERSHIP OF THE PREMISES (the building/real estate) may belong to a non-veterinarian -- this is distinct from ownership of the practice itself, which Section 801.506(a) restricts to licensed veterinarians."
+        ],
+        "Veterinary Medical Record Retention Log": [
+          "Commonly cited as 5 years from the anniversary of the date of last treatment, per secondary compliance sources -- this specific figure has NOT been independently traced to a pinpoint TBVME rule citation in this research pass (unlike the 22 TAC Section 163.2 citation confirmed for physicians in medical_practice.json). Verify against the TBVME's own current rule text before treating this as a confirmed pinpoint citation the way other entries in this dataset are."
+        ],
+        "CE Documentation Retention Log": [
+          "TBVME's own published CE requirements: veterinarians must maintain documentation of their continuing education activities for 4 years and provide proof if requested by TBVME investigators. CONFIRMED 2026-08-30 directly against the Texas Board of Veterinary Medical Examiners' own site."
+        ]
+      }
+    }
+  }
+}

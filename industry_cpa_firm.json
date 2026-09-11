@@ -1,0 +1,94 @@
+{
+  "industries": {
+    "cpa_firm": {
+      "categories": {
+        "client_onboarding_engagement": [
+          "Engagement Letter",
+          "Client Acceptance / Independence Checklist",
+          "IRS Form 2848 (Power of Attorney)",
+          "IRS Form 8821 (Tax Information Authorization)",
+          "Disengagement Letter",
+          "Non-Engagement / Declination Letter",
+          "Conflict of Interest Waiver",
+          "IRC Section 7216 Consent Form"
+        ],
+        "tax_practice": [
+          "IRS Form 8879 (e-file Signature Authorization)",
+          "Tax Return Workpapers",
+          "Extension Filings",
+          "Tax Planning Memoranda",
+          "Client Tax Organizer",
+          "Texas Comptroller Form 01-137 (Limited Power of Attorney)",
+          "Texas Franchise Tax Public/Ownership Information Report",
+          "FinCEN Form 114 (FBAR) / Form 114a",
+          "Offer in Compromise (IRS Form 656 / Form 433-A/B)",
+          "K-1 Transmittal & Basis Worksheets"
+        ],
+        "attest_audit_assurance": [
+          "Management Representation Letter",
+          "Legal Inquiry Letter",
+          "Attorney Response Letter",
+          "Audit Working Papers",
+          "Independence Documentation",
+          "Bank / Debt / AR Confirmation Request",
+          "Management Letter / Internal Control Deficiency Letter",
+          "Comfort Letter / Third-Party Verification Letter",
+          "Agreed-Upon Procedures (AUP) Report"
+        ],
+        "accounting_bookkeeping": [
+          "Compilation Report",
+          "Review Report",
+          "Financial Statement Workpapers",
+          "Bank Reconciliations",
+          "Client Organizer / Questionnaire",
+          "Year-End Adjusting Journal Entries (AJEs)",
+          "Expert Witness Report (TRE 702 / FRCP 26)",
+          "Calculations of Value / Valuation Reports"
+        ],
+        "statutory_regulatory_records": [
+          "TSBPA License Renewal",
+          "CPE (Continuing Professional Education) Records",
+          "Peer Review Report",
+          "FinCEN Beneficial Ownership Filings",
+          "Document Delivery Receipts",
+          "Subpoena / Court Order Disclosure Log"
+        ]
+      },
+      "document_citations": {
+        "IRS Form 8879 (e-file Signature Authorization)": [
+          "IRS Form 8879 Instructions (electronic signature required for e-file authorization)"
+        ],
+        "TSBPA License Renewal": [
+          "Texas Occupations Code Ch. 901 (Texas Public Accountancy Act)"
+        ],
+        "CPE (Continuing Professional Education) Records": [
+          "22 TAC (Texas Administrative Code) -- TSBPA Continuing Professional Education Rules"
+        ],
+        "Peer Review Report": [
+          "22 TAC -- TSBPA Peer Review Program Rules"
+        ],
+        "Conflict of Interest Waiver": [
+          "22 TAC Section 501.73 (TSBPA Rule 501.73 -- Integrity and Objectivity). CONFIRMED 2026-08-29 via TSBPA's own published FAQ, which quotes Rule 501.73(b) directly on conflict of interest."
+        ],
+        "Document Delivery Receipts": [
+          "22 TAC Section 501.76(a)(1) (TSBPA Rule 501.76 -- 10-business-day record return requirement). CONFIRMED 2026-08-29 via TSBPA's own FAQ and the Texas Administrative Code directly (Justia, Cornell Law) -- exact wording: 'promptly, not to exceed 10 business days.'"
+        ],
+        "Audit Working Papers": [
+          "22 TAC Section 501.76(e) (TSBPA Rule 501.76 -- minimum 5-year attest workpaper retention). CONFIRMED 2026-08-29 via TSBPA's own FAQ. The Board has not established retention rules for non-attest services."
+        ],
+        "Subpoena / Court Order Disclosure Log": [
+          "22 TAC Section 501.75 (TSBPA Rule 501.75 -- Confidential Client Communications). CONFIRMED 2026-08-29 via the Texas Register's own rule-adoption record."
+        ],
+        "IRC Section 7216 Consent Form": [
+          "26 U.S.C. Section 7216"
+        ],
+        "FinCEN Form 114 (FBAR) / Form 114a": [
+          "31 U.S.C. Section 5314 (Bank Secrecy Act) -- FinCEN Form 114"
+        ],
+        "FinCEN Beneficial Ownership Filings": [
+          "31 U.S.C. Section 5336 (Corporate Transparency Act). IMPORTANT, confirmed 2026-08-29: a March 2025 FinCEN Interim Final Rule exempted domestic reporting companies from BOI filing entirely -- only foreign-formed entities registered to do business in the US remain subject to reporting. This citation was previously present in the live file with no explanatory note; verify current applicability before presenting this document type to a client."
+        ]
+      }
+    }
+  }
+}
