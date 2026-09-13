@@ -86,14 +86,15 @@
         "Partner Voting Records": [
           "Tex. Bus. Orgs. Code Section 152.302 (Binding Effect of Partner's Action) -- absent a restriction the counterparty knew about, each partner generally has authority to bind the partnership, which is why documenting actual partner decisions and any agreed voting/authority limits matters more here than in a single-owner sole proprietorship."
         ],
-        "Franchise Tax Entity-Status Determination (conditional on partner composition -- see structure_note)": [
-          "Tex. Tax Code Section 171.0002(b)(2): a general partnership is excluded from the definition of 'taxable entity' only if its direct ownership is composed entirely of natural persons. CONFIRMED 2026-08-30 via the Texas Comptroller's own franchise tax overview and taxable-entities FAQ. If any partner is itself a legal entity, or if the partnership has registered as an LLP, this exemption does not apply and franchise tax filings are required the same as for a taxable entity."
-        ],
         "LLP Registration Consideration (Section 152.801 -- optional election, not required; tracked as a decision point, not a default filing)": [
           "Tex. Bus. Orgs. Code Section 152.801 (election to register) and Section 152.802 (registration filing with the Secretary of State, including a required brief statement of the partnership's business and partner count). If this election is made, the partnership becomes subject to llp.json's requirements instead of this file's, including a registered agent requirement that a plain general partnership does not have."
         ],
         "Workers' Compensation Policy": [
           "ref:tex-labor-code-406-002-workers-comp-elective"
+        ],
+        "Franchise Tax Filings": [
+          "ref:tex-tax-code-171-0002-taxable-entity",
+          "Sec. 171.0002(b)(2): whether this general partnership owes franchise tax depends on partner composition -- exempt only if directly owned entirely by natural persons and not registered as an LLP; otherwise taxable the same as any other entity. CONFIRMED 2026-08-30 via the Texas Comptroller's own franchise tax overview and taxable-entities FAQ."
         ]
       }
     }

@@ -52,7 +52,7 @@
           "31 C.F.R. Section 10.28(a) (Circular 230, Return of Client's Records). CONFIRMED 2026-08-29 via eCFR/Cornell Law. Applies only if the preparer is an actual Circular 230 'practitioner' (CPA, attorney, EA, or AFSP-completion preparer acting within that limited scope) -- a plain PTIN-only preparer with no EA/AFSP status is likely not covered. Do not apply blindly; check the specific preparer's credential first."
         ],
         "FinCEN Beneficial Ownership Filings": [
-          "31 U.S.C. Section 5336 (Corporate Transparency Act). IMPORTANT, confirmed 2026-08-29: a March 2025 FinCEN Interim Final Rule exempted domestic reporting companies from BOI filing entirely -- only foreign-formed entities registered to do business in the US remain subject to reporting. Verify current applicability before presenting this to a client."
+          "ref:us-code-31-5336-cta-beneficial-ownership"
         ]
       }
     }

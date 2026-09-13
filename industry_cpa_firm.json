@@ -86,7 +86,7 @@
           "31 U.S.C. Section 5314 (Bank Secrecy Act) -- FinCEN Form 114"
         ],
         "FinCEN Beneficial Ownership Filings": [
-          "31 U.S.C. Section 5336 (Corporate Transparency Act). IMPORTANT, confirmed 2026-08-29: a March 2025 FinCEN Interim Final Rule exempted domestic reporting companies from BOI filing entirely -- only foreign-formed entities registered to do business in the US remain subject to reporting. This citation was previously present in the live file with no explanatory note; verify current applicability before presenting this document type to a client."
+          "ref:us-code-31-5336-cta-beneficial-ownership"
         ]
       }
     }

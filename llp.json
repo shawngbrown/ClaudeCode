@@ -94,11 +94,12 @@
         "General Liability Policy": [
           "CORRECTED 2026-08-30: no state-level insurance minimum applies to LLP status in Texas. S.B. 748 (82nd Legislature, effective September 1, 2011) repealed Section 152.804 (Insurance or Financial Responsibility), which used to require at least $100,000 in liability insurance or an equivalent segregated fund. That requirement no longer exists. General/professional liability coverage remains good practice and may be independently required by a specific licensing board or industry, but it is not a generic LLP-status requirement the way it was before 2011."
         ],
-        "Franchise Tax Filings": [
-          "Tex. Tax Code Section 171.0002(b)(2) explicitly excludes limited liability partnerships from the general-partnership natural-person-ownership exemption. Unlike partnership.json's conditional treatment, an LLP is always a taxable entity regardless of partner composition. CONFIRMED 2026-08-30 via the Texas Comptroller's own franchise tax publications."
-        ],
         "Workers' Compensation Policy": [
           "ref:tex-labor-code-406-002-workers-comp-elective"
+        ],
+        "Franchise Tax Filings": [
+          "ref:tex-tax-code-171-0002-taxable-entity",
+          "Sec. 171.0002(b)(2) explicitly excludes limited liability partnerships from the general-partnership natural-person-ownership exemption -- an LLP is always a taxable entity regardless of partner composition. CONFIRMED 2026-08-30 via the Texas Comptroller's own franchise tax publications."
         ]
       }
     }

@@ -21,7 +21,7 @@
           "General best-practice record-return documentation -- no TSBPA or Circular 230 basis at this tier, since pure bookkeeping does not constitute 'practice before the IRS.'"
         ],
         "FinCEN Beneficial Ownership Filings": [
-          "31 U.S.C. Section 5336 (Corporate Transparency Act). IMPORTANT, confirmed 2026-08-29: a March 2025 FinCEN Interim Final Rule exempted domestic reporting companies from BOI filing entirely -- only foreign-formed entities registered to do business in the US remain subject to reporting. Verify current applicability before presenting this to a client; it is likely NOT applicable for most Texas-domestic small business clients as of this writing."
+          "ref:us-code-31-5336-cta-beneficial-ownership"
         ]
       }
     }

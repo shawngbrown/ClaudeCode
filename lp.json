@@ -115,9 +115,6 @@
         "Limited Partner Safe-Harbor Activity Log (documents which activities a limited partner has undertaken, to preserve liability protection)": [
           "Tex. Bus. Orgs. Code Section 153.102 (a limited partner is not liable for LP obligations unless also a general partner or participating in control of the business) and Section 153.103 (a lengthy, non-exclusive statutory list of activities -- including serving as an employee, agent, or contractor of the LP or a general partner; consulting/advising; voting on specified fundamental matters; guaranteeing obligations; and others -- that do NOT count as 'participating in control')."
         ],
-        "Franchise Tax Filings": [
-          "Tex. Tax Code Section 171.0002(a) explicitly lists 'limited partnership' as a taxable entity. Unlike a general partnership (which is exempt if owned entirely by natural persons, per Section 171.0002(b)(2)), an LP has no such exception -- franchise tax and PIR filings apply regardless of partner composition. CONFIRMED 2026-08-30 via the Texas Comptroller's own franchise tax publications."
-        ],
         "LLLP Election Consideration (optional LLP registration stacked on top of the LP -- triggers an additional June 1 annual report to the Secretary of State)": [
           "Tex. Bus. Orgs. Code Section 152.801/152.802 (LLP registration, applied to an LP by reference) and Section 152.806 (a Texas LP that also registers as an LLP must file an additional annual report with the Secretary of State no later than June 1 each year -- on top of, not instead of, the standard PIR filed with the Comptroller). CONFIRMED 2026-08-30 directly against the Texas Secretary of State's own Form 207 instructions."
         ],
@@ -126,6 +123,10 @@
         ],
         "Workers' Compensation Policy": [
           "ref:tex-labor-code-406-002-workers-comp-elective"
+        ],
+        "Franchise Tax Filings": [
+          "ref:tex-tax-code-171-0002-taxable-entity",
+          "Sec. 171.0002(a) explicitly lists 'limited partnership' as a taxable entity with no natural-person-ownership exception -- franchise tax and PIR filings apply regardless of partner composition. CONFIRMED 2026-08-30 via the Texas Comptroller's own franchise tax publications."
         ]
       }
     }
