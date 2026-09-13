@@ -98,7 +98,24 @@ class DDV_Client_Onboarding {
         ] );
 
         if ( ! is_wp_error( $client_post_id ) ) {
-            DDV_Vault_Connector::provision_client_folder( $tenant_id, $client_post_id );
+            $folder_provisioned = DDV_Vault_Connector::provision_client_folder( $tenant_id, $client_post_id );
+
+            if ( ! $folder_provisioned ) {
+                // Provisioning failed (bad/missing Nextcloud credentials, connection
+                // failure, etc. -- provision_client_folder() already error_log'd the
+                // specific cause). Client onboarding itself still succeeded -- the
+                // Client Workspace record is real and shouldn't be blocked or
+                // duplicated by a storage-layer failure -- but this can no longer be
+                // swallowed silently. Same flag-and-proceed pattern already used for
+                // needs_entity_review above.
+                //
+                // NOTE: as of this writing, DDV_Reconciliation does not yet sweep for
+                // needs_entity_review either -- so this flag, like that one, is
+                // currently discoverable only by direct query, not auto-retried.
+                // Building that sweep is a separate, still-open piece of work.
+                update_post_meta( $client_post_id, 'needs_folder_provisioning', true );
+                error_log( "DDV_Client_Onboarding: client {$client_post_id} (tenant {$tenant_id}) onboarded successfully but Nextcloud folder provisioning FAILED -- flagged needs_folder_provisioning for retry." );
+            }
         }
 
         return $client_post_id;
